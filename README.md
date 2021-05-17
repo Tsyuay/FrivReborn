@@ -1,2 +1,12 @@
 # FrivReborn
-Welcome to my nostalgia static copy of the OG friv! If you are asking, i will host this forever! for nostalgia and archival purposes only.
+
+![alt text](https://tsyuay.github.io/MYIMGS/frivclassicheroes.png)
+
+
+WE ARE THE FRIV CLASSIC HEROEEEEEEEEEEEEEEEEES!!!
+
+Playing now the classic friv menu is now possible!!
+ 
+# Credits
+
+- @Tsyuay (Restoring and archiving files) 
