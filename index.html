@@ -1,0 +1,326 @@
+<!-- **FAIR USE**
+
+Copyright Disclaimer under section 107 of the Copyright Act 1976, allowance is made for “fair use” for purposes such as criticism, comment, news reporting, teaching, scholarship, education and research.
+
+Fair use is a use permitted by copyright statute that might otherwise be infringing. 
+
+Non-profit, educational or personal use tips the balance in favor of fair use.  -->
+
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+    <link href=favicon.ico rel="shortcut icon">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="Click to play great flash games at tsyuay.github.io/FrivReborn/classic.html" name=description>
+    <title>Friv Classic Reborn!</title>
+
+    <style>
+       @font-face {
+            font-family: frivFont;
+            font-display: fallback;
+            src: url(https://www.frivclassic.org/assets/fonts/frivFont.woff);
+        }
+
+        body {
+            margin: 0;
+            padding-top: 100vh;
+            background-image: linear-gradient(indigo, dodgerblue, indigo);
+            overflow: hidden;
+            cursor: pointer;
+            animation: backColor 10s infinite alternate;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 10px;
+            color: rgba(0, 0, 0, .5);
+            font-family: frivFont, arial, helvetica, sans-serif;
+            font-size: 5vw;
+            color: #fff;
+            text-shadow: 6px 6px 0 rgba(0, 0, 0, .3);
+            opacity: 0;
+            animation: textFadeIn 2s 1s forwards;
+        }
+        
+        @keyframes textFadeIn {
+            to {
+                opacity: 1;
+            }
+        }
+
+        #outerContainer {
+            height: 100%;
+            background-color: lime;
+        }
+
+        #innerContainer {
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            animation: colourShift 10s 20s alternate infinite;
+        }
+
+        @keyframes colourShift {        
+            80% {
+                filter: hue-rotate(360deg);
+            }
+            100% {
+                filter: hue-rotate(360deg);
+            }
+        }
+
+        #logo {
+            width: 100vw;
+            height: 70vh;
+            max-height: 70vh;
+            background-size: contain;
+            background-position: center center;
+            background-repeat: no-repeat;
+            animation: brightFlash 0.2s 3s steps(1), brightFlash 0.2s 10s steps(1), brightFlash 0.2s 20s steps(1);
+        }
+
+        @keyframes brightFlash {
+
+            0%,
+            40%,
+            80% {
+                filter: brightness(0) invert(1);
+            }
+
+            20%,
+            60%,
+            100% {
+                filter: none;
+            }
+        }
+
+        #shape1 {
+            z-index: -10;
+            margin-left: 0;
+            margin-top: -100vh;
+            position: fixed;
+            opacity: 0.03;
+            animation: shape1Rotate 70s ease-in-out infinite alternate;
+        }
+
+        @keyframes shape1Rotate {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        #shape2 {
+            z-index: -20;
+            margin-left: -50vw;
+            margin-top: -130vh;
+            position: fixed;
+            opacity: 0.05;
+            animation: shape2Rotate 40s ease-in-out infinite alternate;
+        }
+
+        @keyframes shape2Rotate {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        #shape3 {
+            z-index: -10;
+            margin-left: -60vw;
+            margin-top: -100vh;
+            position: fixed;
+            opacity: 0.05;
+            animation: shape3Rotate 30s ease-in-out infinite alternate;
+        }
+
+        @keyframes shape3Rotate {
+            to {
+                transform: rotate(-360deg);
+            }
+        }
+
+        #bottom,
+        #left,
+        #right,
+        #top {
+            background: rgba(0, 0, 0, .2);
+            position: fixed;
+        }
+
+        #left,
+        #right {
+            top: 0;
+            bottom: 0;
+            width: 3vmin
+        }
+
+        #left {
+            left: 0;
+        }
+
+        #right {
+            right: 0;
+        }
+
+        #bottom,
+        #top {
+            left: 0;
+            right: 0;
+            height: 3vmin;
+        }
+
+        #top {
+            top: 0;
+        }
+
+        #bottom {
+            bottom: 0;
+        }
+
+    </style>
+
+    <script async src="https://www.googletagmanager.com/gtag/js"></script>
+
+</head>
+
+<body>
+
+    <div id=outerContainer>
+        <div id=innerContainer>
+            <div id=logo></div>
+            <h1 id=clickText>&nbsp;</h1>
+        </div>
+    </div>
+
+    <svg height=2048 id=shape1 width=2048>
+        <circle cx=400 cy=400 fill=white r=300 /></svg>
+    <svg height=2048 id=shape2 width=2048>
+        <polygon points="1000,100 400,1980 1900,780 100,780 1600,1980" style=fill:#fff /></svg>
+    <svg height=2048 id=shape3 width=2048>
+        <circle cx=400 cy=400 fill=white r=300 /></svg>
+    <div id=left></div>
+    <div id=right></div>
+    <div id=top></div>
+    <div id=bottom></div>
+
+    <script>
+        var lang = navigator.language.toLowerCase();
+
+        if (lang == "pt-br") {
+            lang = "br"
+        };
+        if (lang == "fil") {
+            lang = "xx"
+        };
+        //lang = "hu";
+        var shortLang = lang.slice(0, 2);
+        //http://www.lingoes.net/en/translator/langcode.htm
+
+        var clickMessage = "";
+
+        switch (shortLang) {
+            case "bg":
+                clickMessage = "ЩРАКНЕТЕ ВЪРХУ ЛОГОТО ЗА ДА ПРОДЪЛЖИТЕ";
+                break;
+            case "br":
+                clickMessage = "CLIQUE NO LOGO PARA JOGAR";
+                break;
+            case "cs": //cs-cz
+                clickMessage = "PRO HRU KLIKNĚTE NA LOGO";
+                break;
+            case "de":
+                clickMessage = "UM DAS SPIEL ZU STARTEN, KLICKE AUF DAS LOGO!";
+                break;
+            case "da": //da-dk
+                clickMessage = "KLIK PÅ LOGOET FOR AT SPILLE";
+                break;
+            case "et": //et-ee
+                clickMessage = "VAJUTA LOGOLE MÄNGU ALUSTAMISEKS";
+                break;
+            case "es":
+                clickMessage = "HAS CLIC EN EL LOGO PARA JUGAR";
+                break;
+            case "fr":
+                clickMessage = "CLIQUEZ SUR LE LOGO POUR JOUER";
+                break;
+            case "fi":
+                clickMessage = "NAPAUTA LOGOA ALOITTAAKSESI PELIN";
+                break;
+            case "el": //el-gr
+                clickMessage = "ΚΑΝΕ ΚΛΙΚ ΠΑΝΩ ΣΤΟ ΛΟΓΟΤΥΠΟ ΓΙΑ ΝΑ ΠΑΙΞΕΙΣ";
+                break;
+            case "hr":
+                clickMessage = "KLIKNITE NA LOGO ZA POČETAK";
+                break;
+            case "hu":
+                clickMessage = "KATTINTS A LOGÓRA A JÁTÉK INDÍTÁSÁHOZ!";
+                break;
+            case "it":
+                clickMessage = "PER GIOCARE CLICCATE SUL LOGO";
+                break;
+            case "lt":
+                clickMessage = "NUSPAUSKITE LOGOTIPĄ KAD PRADĖTI";
+                break;
+            case "lv":
+                clickMessage = "Nospiediet uz LOGO lai uzspēlētu";
+                break;
+            case "nl":
+                clickMessage = "Klik op het logo om te spelen";
+                break;
+            case "nb": //nb-no
+                clickMessage = "KLIKK PÅ LOGOEN FOR Å SPILLE!";
+                break;
+            case "pl":
+                clickMessage = "Kliknij w logo, żeby zacząć";
+                break;
+            case "pt":
+                clickMessage = "CARREGA NO LOGOTIPO PARA JOGAR";
+                break;
+            case "ro":
+                clickMessage = "APASA PE EMBLEMA PENTRU A INCEPE";
+                break;
+            case "ru":
+                clickMessage = "Нажмите на картинку чтобы поиграть";
+                break;
+            case "sv": //sv-se
+                clickMessage = "KLICKA PÅ LOGGAN FÖR ATT SPELA";
+                break;
+            case "sl": //sl-si
+                clickMessage = "PRITISNITE NA LOGOTIP ZA ZAČETEK";
+                break;
+            case "tr":
+                clickMessage = "OYNAMAK İÇİN LOGOYA TIKLAYIN";
+                break;
+            case "uk": //uk-ua
+                clickMessage = "Натисни на логотип щоб грати";
+                break;
+            default:
+                clickMessage = "CLICK ON THE LOGO TO PLAY!!!";
+        }
+        clickText.innerHTML = clickMessage;
+
+        //var logos = ['Paradise', 'Emerald', 'Aliens', 'PacManTribute', 'Pride', 'Desert'];
+        //var randomLogo = Math.floor(Math.random() * logos.length);
+        //var logoURL = "url('assets/img/frivLogo" + logos[randomLogo] + "Min.svg')";
+        //logo.style.backgroundImage = logoURL;
+
+        logo.style.backgroundImage = "url('assets/img/frivLogoParadiseMin.svg')";
+
+        //click out
+        document.onclick = function() {
+            window.open("http://tsyuay.github.io/FrivReborn/classic.html", "_top")
+        }
+
+        //analytics
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-124684579-1');
+
+    </script>
