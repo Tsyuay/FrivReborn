@@ -1,0 +1,67 @@
+<script src="//archive.org/includes/analytics.js?v=cf34f82" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app200.us.archive.org';v.server_ms=495;archive_analytics.send_pageview({});});</script><script type="text/javascript" src="/_static/js/playback.bundle.js?v=xTFGO54E" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=i68pdzR-" charset="utf-8"></script>
+<script type="text/javascript">
+  __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://www.friv4school.com/menu/zeropage.html?it=normal","20190512064326","https://web.archive.org/","web","/_static/",
+	      "1557643406");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=omkqRugM" />
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=qtvMKcIJ" />
+<!-- End Wayback Rewrite JS Include -->
+<meta content="text/html;charset=utf-8" http-equiv="Content-Type"><meta content="noindex,follow" name="robots"><script src="menu/friv.js"></script><style>body{background-color:#600090;color:#FFFFFF;font-family:arial,helvetica,sans-serif;font-size:medium;text-align:left;}
+a{color:#BB00DD;text-decoration:none}
+a:visited{color:#BB00DD;}
+a:active{color:#BB00DD;}
+a:hover{color:#DD00EE;}
+</style><title></title><body><form action="" name="hf"><input name="gd" type="hidden"></form>
+<script>var locate=window.location;document.hf.gd.value=locate;var tx=document.hf.gd.value;var it=tx.substring(tx.indexOf("=")+1,tx.length);if((location.href.toLowerCase()).indexOf("school")!=-1)it="school";var track=false;var sid="234567";if(it=="normal"&&(Math.random()<0.000066))track=true;if(it=="normal"&&(Math.random()<0.01))WAU_classic('eo13ecc3rv14');if(((it.indexOf("promo")==0)||it=="school")&&(Math.random()<0.01)){track=true;}
+if(it=="promo1"){sid="200001";WAU_classic('kmwpwzryrwna');}
+if(it=="promo2"){sid="200002";WAU_classic('ml8man365pgu');}
+if(it=="promo3"){sid="200003";WAU_classic('l0h82u65t9so');}
+if(it=="promo4"){sid="200004";WAU_classic('ikxntxmjp1ng');}
+if(it=="promo5"){sid="200005";WAU_classic('ur6mzm35vvej');}
+if(it=="promo6"){sid="200046";WAU_classic('kks91vyh8d17');}
+if(it=="promo7"){sid="200007";WAU_classic('nm79rie6mu21');}
+if(it=="promo8"){sid="200018";WAU_classic('1flnfm20fbzi');}
+if(it=="promo9"){sid="200009";WAU_classic('360oedfwq499');}
+if(it=="promo10"){sid="200010";WAU_classic('7sqso9grsymj');}
+if(it=="promo11"){sid="200021";WAU_classic('xixugi7xvyle');}
+if(it=="promo12"){sid="200032";WAU_classic('yw5yx4jide5u');}
+if(it=="promo13"){sid="200043";WAU_classic('ss96mcol2uf8');}
+if(it=="promo14"){sid="200024";WAU_classic('t3gc4bcqijsk');}
+if(it=="promo15"){sid="200035";WAU_classic('mzk7n552pdar');}
+if(it=="promo16"){sid="200026";WAU_classic('i1w0qg2xpbkl');}
+if(it=="promo17"){sid="200047";WAU_classic('mro0m3ifx4k7');}
+if(it=="promo18"){sid="200049";WAU_classic('msfolka2w002');}
+if(it=="promo19"){sid="200050";WAU_classic('m2g5ahwv73i7');}
+if(it=="promo20"){sid="200051";WAU_classic('j445vdp2ejc6');}
+if(it=="chrome"){sid="200052";WAU_classic('mxp9onj28wos');}
+if(it=="puzzle"){sid="200053";WAU_classic('7c9ywo8nmts4');}
+if(it=="school"){sid="200054";WAU_classic('kttcqkv3xk1x');}
+if(it=="action"){sid="200055";WAU_classic('zebr0ct7lqw4');}
+if(it=="juegos"){sid="200057";WAU_classic('yb7jbhgr8lgy');}
+function OneStat(){var d=document;var conSec="";var osp_URL=d.URL;var osp_Title=d.title;var t=new Date();var p="https://web.archive.org/web/20190512064326/http://stat.onestat.com/stat.aspx?tagver=2&sid="+sid;p+="&url="+escape(osp_URL);p+="&ti="+escape(osp_Title);p+="&section="+escape(conSec);p+="&rf="+escape(document.referrer);p+="&tz="+escape(t.getTimezoneOffset());p+="&ch="+escape(t.getHours());p+="&js=1";p+="&ul="+escape(navigator.appName=="Netscape"?navigator.language:navigator.userLanguage);if(typeof(screen)=="object"){p+="&sr="+screen.width+"x"+screen.height;p+="&cd="+screen.colorDepth;p+="&jo="+(navigator.javaEnabled()?"Yes":"No");}d.write('<img src="'+p+'">');}if(track){OneStat();}</script>
+<!--
+     FILE ARCHIVED ON 06:43:26 May 12, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:48:13 May 19, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 343.234
+  exclusion.robots: 196.409
+  exclusion.robots.policy: 196.395
+  xauthn.identify: 142.931
+  xauthn.chkprivs: 53.164
+  RedisCDXSource: 6.726
+  esindex: 0.011
+  LoadShardBlock: 119.202 (3)
+  PetaboxLoader3.datanode: 212.626 (4)
+  CDXLines.iter: 17.455 (3)
+  load_resource: 148.036
+  PetaboxLoader3.resolve: 25.198
+-->
