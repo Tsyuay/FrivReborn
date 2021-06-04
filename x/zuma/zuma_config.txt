@@ -1,0 +1,9 @@
+//game config options
+
+//turn on the zone api
+
+&zone_api=false&
+
+//all loaded - this config info must be present
+
+&configloaded=true&
