@@ -1,0 +1,106 @@
+<bffgame>
+	<application>
+		<params
+			
+		/>
+	</application>
+
+
+	<draggableItems>
+		<draggableItem id="extra_pegs" hasAnimation="true" snapperType="wall" />
+		<draggableItem id="extra_teddybear" hasAnimation="true" snapperType="" />
+		<draggableItem id="extra_poster" hasAnimation="true" snapperType="wall" />
+		<draggableItem id="extra_plant" hasAnimation="true" snapperType="floor" />
+		<draggableItem id="extra_flowers" hasAnimation="true" snapperType="" />
+		<draggableItem id="extra_flowers_green" hasAnimation="true" snapperType="" />
+		<draggableItem id="extra_sconce" hasAnimation="true" snapperType="wall" />
+		<draggableItem id="extra_lamp_fringe" hasAnimation="true" snapperType="" />
+		<draggableItem id="extra_lamp" hasAnimation="true" snapperType="" />
+		<draggableItem id="extra_desklamp" hasAnimation="true" snapperType="" />
+		<draggableItem id="extra_rug_pink" hasAnimation="false" snapperType="floor" />
+		<draggableItem id="extra_rug_blue" hasAnimation="false" snapperType="floor" />
+		<draggableItem id="extra_towel_pink" hasAnimation="false" snapperType="wall" />
+		<draggableItem id="extra_towel_green" hasAnimation="false" snapperType="wall" />
+		<draggableItem id="extra_towel_blue" hasAnimation="false" snapperType="wall" />
+		<draggableItem id="extra_curtain_yellow" hasAnimation="false" snapperType="wall" />
+		<draggableItem id="extra_curtain_purple" hasAnimation="false" snapperType="wall" />
+		<draggableItem id="extra_curtain_blue" hasAnimation="false" snapperType="wall" />
+		<draggableItem id="extra_microwave" hasAnimation="true" snapperType="floor" />
+		<draggableItem id="extra_pictureframe" hasAnimation="false" snapperType="wall" />
+		<draggableItem id="extra_picture" hasAnimation="false" snapperType="wall" />
+		<draggableItem id="extra_pictureframe_small" hasAnimation="false" snapperType="wall" />
+		<draggableItem id="extra_guitar" hasAnimation="true" snapperType="floor" />
+		<draggableItem id="extra_photoholder" hasAnimation="true" snapperType="wall" />
+		<draggableItem id="extra_computer" hasAnimation="true" snapperType="floor" />
+		<draggableItem id="extra_laptop" hasAnimation="true" snapperType="floor" />
+		<draggableItem id="extra_printer" hasAnimation="true" snapperType="floor" />
+		<draggableItem id="extra_toaster" hasAnimation="true" snapperType="" />
+		<draggableItem id="extra_teakettle" hasAnimation="true" snapperType="" />
+		<draggableItem id="extra_clock" hasAnimation="true" snapperType="wall" />
+		<draggableItem id="extra_sink" hasAnimation="true" snapperType="" />
+		<draggableItem id="extra_pillow" hasAnimation="false" snapperType="" />
+		<draggableItem id="extra_pillow_ruffle" hasAnimation="false" snapperType="" />
+		<draggableItem id="extra_pillow_blue" hasAnimation="false" snapperType="" />
+		<draggableItem id="extra_pillow_tassel" hasAnimation="false" snapperType="" />
+		<draggableItem id="extra_pillow_tan" hasAnimation="false" snapperType="" />
+		<draggableItem id="extra_pillow_pink" hasAnimation="false" snapperType="" />
+		<draggableItem id="furniture_toilet" hasAnimation="false" snapperType="floor" />
+		<draggableItem id="furniture_piano" hasAnimation="true" snapperType="floor" />
+		<draggableItem id="furniture_couch_green" hasAnimation="false" snapperType="floor" />
+		<draggableItem id="furniture_couch_pink" hasAnimation="false" snapperType="floor" />
+		<draggableItem id="furniture_shelf" hasAnimation="false" snapperType="wall" />
+		<draggableItem id="furniture_coffeetable" hasAnimation="false" snapperType="floor" />
+		<draggableItem id="furniture_loveseat_green" hasAnimation="false" snapperType="floor" />
+		<draggableItem id="furniture_loveseat_blue" hasAnimation="false" snapperType="floor" />
+		<draggableItem id="furniture_loveseat_yellow" hasAnimation="false" snapperType="floor" />
+		<draggableItem id="furniture_loveseat_red" hasAnimation="false" snapperType="floor" />
+		<draggableItem id="furniture_wingchair_red" hasAnimation="false" snapperType="floor" />
+		<draggableItem id="furniture_wingchair_pink" hasAnimation="false" snapperType="floor" />
+		<draggableItem id="furniture_armoire_white" hasAnimation="false" snapperType="floor" />
+		<draggableItem id="furniture_armoire_wood" hasAnimation="false" snapperType="floor" />
+		<draggableItem id="furniture_bed" hasAnimation="false" snapperType="floor" />
+		<draggableItem id="furniture_fridge" hasAnimation="false" snapperType="floor" />
+		<draggableItem id="furniture_desk" hasAnimation="false" snapperType="floor" />
+		<draggableItem id="furniture_sink_blue" hasAnimation="true" snapperType="floor" />
+		<draggableItem id="furniture_sink_white" hasAnimation="true" snapperType="floor" />
+		<draggableItem id="furniture_bathtub" hasAnimation="true" snapperType="floor" />
+		<draggableItem id="furniture_dinette" hasAnimation="false" snapperType="floor" />
+		<draggableItem id="furniture_chair_dots" hasAnimation="false" snapperType="floor" />
+		<draggableItem id="furniture_chair" hasAnimation="false" snapperType="floor" />
+		<draggableItem id="furniture_deskchair" hasAnimation="false" snapperType="floor" />
+		<draggableItem id="furniture_endtable" hasAnimation="false" snapperType="floor" />
+		<draggableItem id="furniture_endtable_spindle" hasAnimation="false" snapperType="floor" />
+		<draggableItem id="furniture_counter_green" hasAnimation="false" snapperType="floor" />
+		<draggableItem id="furniture_counter_blue" hasAnimation="false" snapperType="floor" />
+		<draggableItem id="furniture_dresser_wood" hasAnimation="false" snapperType="floor" />
+		<draggableItem id="furniture_dresser_white" hasAnimation="false" snapperType="floor" />
+		<draggableItem id="furniture_dresser_yellow" hasAnimation="false" snapperType="floor" />
+		<draggableItem id="furniture_bookshelf" hasAnimation="false" snapperType="floor" />
+		<draggableItem id="furniture_tv" hasAnimation="true" snapperType="floor" />
+		<draggableItem id="furniture_vanity" hasAnimation="false" snapperType="floor" />
+		<draggableItem id="furniture_oven" hasAnimation="true" snapperType="floor" />
+		<draggableItem id="friend_carrie" hasAnimation="true" snapperType="floor" />
+		<draggableItem id="friend_amy" hasAnimation="true" snapperType="floor" />
+		<draggableItem id="friend_holly" hasAnimation="true" snapperType="floor" />
+		<draggableItem id="friend_cheddar" hasAnimation="true" snapperType="floor" />
+		<draggableItem id="friend_bonnet" hasAnimation="true" snapperType="floor" />
+		<draggableItem id="friend_doodles" hasAnimation="true" snapperType="floor" />
+	</draggableItems>
+
+
+	<menu>
+		<menuTabs>
+			<menuTab id="friend" totalPages="1" isDefault="true"/>
+			<menuTab id="furniture" totalPages="7"/>
+			<menuTab id="extra" totalPages ="6" />
+		</menuTabs>
+	</menu>
+
+
+	<rooms>
+		<room id="livingroom" snapperTypes="wall,floor" />
+		<room id="bedroom" snapperTypes="wall,floor" />
+		<room id="kitchen" snapperTypes="wall,floor" />
+		<room id="bathroom" snapperTypes="wall,floor" />
+	</rooms>
+</bffgame>
