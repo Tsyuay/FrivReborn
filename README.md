@@ -10,3 +10,5 @@ Playing now the classic friv menu is now possible!!
 # Credits
 
 - @Tsyuay (Restoring and archiving files) 
+
+- @kpro199procreator (Contributor)
