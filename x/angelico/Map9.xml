@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+
+<size>
+	<size _height="30" _width="49"></size>	
+</size>
+<level>
+      <tile _x="0" _y="0" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="1" _y="0" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="2" _y="0" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="3" _y="0" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="4" _y="0" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="5" _y="0" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="6" _y="0" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="7" _y="0" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="8" _y="0" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="9" _y="0" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="10" _y="0" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="11" _y="0" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="12" _y="0" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="13" _y="0" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="14" _y="0" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="15" _y="0" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="16" _y="0" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="17" _y="0" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="18" _y="0" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="19" _y="0" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="20" _y="0" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="21" _y="0" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="22" _y="0" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="23" _y="0" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="24" _y="0" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="25" _y="0" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="26" _y="0" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="27" _y="0" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="28" _y="0" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="29" _y="0" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="30" _y="0" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="31" _y="0" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="32" _y="0" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="33" _y="0" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="34" _y="0" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="35" _y="0" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="36" _y="0" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="37" _y="0" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="38" _y="0" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="39" _y="0" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="40" _y="0" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="41" _y="0" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="42" _y="0" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="43" _y="0" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="44" _y="0" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="45" _y="0" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="46" _y="0" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="47" _y="0" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="48" _y="0" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  
+	  <tile _x="0" _y="29" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="1" _y="29" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="2" _y="29" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="3" _y="29" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="4" _y="29" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="5" _y="29" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="6" _y="29" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="7" _y="29" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="8" _y="29" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="9" _y="29" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="10" _y="29" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="11" _y="29" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="12" _y="29" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="13" _y="29" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="14" _y="29" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="15" _y="29" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="16" _y="29" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="17" _y="29" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="18" _y="29" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="19" _y="29" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="20" _y="29" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="21" _y="29" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="22" _y="29" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="23" _y="29" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="24" _y="29" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="25" _y="29" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="26" _y="29" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="27" _y="29" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="28" _y="29" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="29" _y="29" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="30" _y="29" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="31" _y="29" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="32" _y="29" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="33" _y="29" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="34" _y="29" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="35" _y="29" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="36" _y="29" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="37" _y="29" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="38" _y="29" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="39" _y="29" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="40" _y="29" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="41" _y="29" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="42" _y="29" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="43" _y="29" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="44" _y="29" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="45" _y="29" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="46" _y="29" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="47" _y="29" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="48" _y="29" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  
+	  <tile _x="0" _y="0" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="0" _y="1" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="0" _y="2" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="0" _y="3" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="0" _y="4" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="0" _y="5" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="0" _y="6" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="0" _y="7" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="0" _y="8" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="0" _y="9" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="0" _y="10" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="0" _y="11" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="0" _y="12" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="0" _y="13" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="0" _y="14" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="0" _y="15" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="0" _y="16" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="0" _y="17" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="0" _y="18" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="0" _y="19" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="0" _y="20" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="0" _y="21" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="0" _y="22" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="0" _y="23" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="0" _y="24" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="0" _y="25" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="0" _y="26" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="0" _y="27" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="0" _y="28" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="0" _y="29" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  
+	  <tile _x="48" _y="0" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="48" _y="1" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="48" _y="2" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="48" _y="3" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="48" _y="4" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="48" _y="5" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="48" _y="6" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="48" _y="7" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="48" _y="8" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="48" _y="9" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="48" _y="10" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="48" _y="11" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="48" _y="12" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="48" _y="13" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="48" _y="14" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="48" _y="15" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="48" _y="16" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="48" _y="17" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="48" _y="18" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="48" _y="19" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="48" _y="20" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="48" _y="21" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="48" _y="22" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="48" _y="23" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="48" _y="24" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="48" _y="25" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="48" _y="26" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="48" _y="27" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="48" _y="28" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="48" _y="29" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  
+	  <tile _x="1" _y="28" _frame="4" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="2" _y="28" _frame="6" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="3" _y="28" _frame="7" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="4" _y="28" _frame="6" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="5" _y="28" _frame="7" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="6" _y="28" _frame="5" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="19" _y="28" _frame="4" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="20" _y="28" _frame="6" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="21" _y="28" _frame="5" _walkable="" _cloud="" _ladder=""></tile>
+	  
+	  <tile _x="20" _y="27" _frame="32" _walkable="true" _cloud="" _ladder="true"></tile>
+	  
+	  <tile _x="20" _y="26" _frame="32" _walkable="true" _cloud="" _ladder="true"></tile>
+	  
+	  <tile _x="12" _y="25" _frame="22" _walkable="true" _cloud="true" _ladder=""></tile>
+	  <tile _x="13" _y="25" _frame="24" _walkable="true" _cloud="true" _ladder=""></tile>
+	  <tile _x="14" _y="25" _frame="24" _walkable="true" _cloud="true" _ladder=""></tile>
+	  <tile _x="15" _y="25" _frame="24" _walkable="true" _cloud="true" _ladder=""></tile>
+	  <tile _x="16" _y="25" _frame="24" _walkable="true" _cloud="true" _ladder=""></tile>
+	  <tile _x="17" _y="25" _frame="23" _walkable="true" _cloud="true" _ladder=""></tile>
+	  <tile _x="19" _y="25" _frame="22" _walkable="true" _cloud="true" _ladder=""></tile>
+	  <tile _x="20" _y="25" _frame="27" _walkable="true" _cloud="" _ladder="true"></tile>
+	  <tile _x="21" _y="25" _frame="24" _walkable="true" _cloud="true" _ladder=""></tile>
+	  <tile _x="22" _y="25" _frame="24" _walkable="true" _cloud="true" _ladder=""></tile>
+	  <tile _x="23" _y="25" _frame="24" _walkable="true" _cloud="true" _ladder=""></tile>
+	  <tile _x="24" _y="25" _frame="24" _walkable="true" _cloud="true" _ladder=""></tile>
+	  <tile _x="25" _y="25" _frame="24" _walkable="true" _cloud="true" _ladder=""></tile>
+	  
+	  <tile _x="13" _y="24" _frame="32" _walkable="true" _cloud="" _ladder="true"></tile>
+	  <tile _x="47" _y="24" _frame="32" _walkable="true" _cloud="" _ladder="true"></tile>
+	  
+	  <tile _x="13" _y="23" _frame="32" _walkable="true" _cloud="" _ladder="true"></tile>
+	  <tile _x="47" _y="23" _frame="32" _walkable="true" _cloud="" _ladder="true"></tile>
+	  
+	  <tile _x="13" _y="22" _frame="32" _walkable="true" _cloud="" _ladder="true"></tile>
+	  <tile _x="47" _y="22" _frame="67" _walkable="true" _cloud="" _ladder="true"></tile>
+	  
+	  <tile _x="9" _y="21" _frame="22" _walkable="true" _cloud="true" _ladder=""></tile>
+	  <tile _x="10" _y="21" _frame="24" _walkable="true" _cloud="true" _ladder=""></tile>
+	  <tile _x="11" _y="21" _frame="24" _walkable="true" _cloud="true" _ladder=""></tile>
+	  <tile _x="12" _y="21" _frame="24" _walkable="true" _cloud="true" _ladder=""></tile>
+	  <tile _x="13" _y="21" _frame="31" _walkable="true" _cloud="" _ladder="true"></tile>
+	  <tile _x="37" _y="21" _frame="32" _walkable="true" _cloud="true" _ladder=""></tile>
+	  
+	  <tile _x="37" _y="20" _frame="32" _walkable="true" _cloud="" _ladder="true"></tile>
+	  
+	  <tile _x="19" _y="19" _frame="22" _walkable="true" _cloud="true" _ladder=""></tile>
+	  <tile _x="20" _y="19" _frame="24" _walkable="true" _cloud="true" _ladder=""></tile>
+	  <tile _x="21" _y="19" _frame="24" _walkable="true" _cloud="true" _ladder=""></tile>
+	  <tile _x="22" _y="19" _frame="24" _walkable="true" _cloud="true" _ladder=""></tile>
+	  <tile _x="23" _y="19" _frame="23" _walkable="true" _cloud="true" _ladder=""></tile>
+	  <tile _x="37" _y="19" _frame="32" _walkable="true" _cloud="" _ladder="true"></tile>
+	  
+	  <tile _x="18" _y="3" _frame="12" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="18" _y="4" _frame="12" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="24" _y="23" _frame="29" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="17" _y="24" _frame="60" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="17" _y="23" _frame="60" _walkable="" _cloud="" _ladder=""></tile>
+	  
+	  <tile _x="25" _y="24" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="25" _y="23" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="19" _y="23" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="19" _y="24" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="22" _y="17" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  <tile _x="22" _y="16" _frame="1" _walkable="" _cloud="" _ladder=""></tile>
+	  
+	  <tile _x="37" _y="18" _frame="67" _walkable="true" _cloud="" _ladder="true"></tile>
+	  <tile _x="35" _y="9" _frame="32" _walkable="true" _cloud="" _ladder="true"></tile>
+	  <tile _x="35" _y="8" _frame="67" _walkable="true" _cloud="" _ladder="true"></tile>
+	  <tile _x="31" _y="7" _frame="32" _walkable="true" _cloud="" _ladder="true"></tile>
+	  <tile _x="31" _y="6" _frame="32" _walkable="true" _cloud="" _ladder="true"></tile>
+	  <tile _x="31" _y="5" _frame="67" _walkable="true" _cloud="" _ladder="true"></tile>
+	  
+	  <tile _x="12" _y="24" _frame="43" _walkable="true" _cloud="" _ladder=""></tile>
+	  <tile _x="14" _y="23" _frame="38" _walkable="true" _cloud="" _ladder=""></tile>
+	  <tile _x="14" _y="24" _frame="39" _walkable="true" _cloud="" _ladder=""></tile>
+	  <tile _x="22" _y="24" _frame="46" _walkable="true" _cloud="" _ladder=""></tile>
+
+	  
+	  <tile _x="10" _y="20" _frame="41" _walkable="true" _cloud="" _ladder=""></tile>
+	  <tile _x="11" _y="20" _frame="42" _walkable="true" _cloud="" _ladder=""></tile>
+	  <tile _x="12" _y="20" _frame="48" _walkable="true" _cloud="" _ladder=""></tile>
+	  
+	  <tile _x="19" _y="18" _frame="41" _walkable="true" _cloud="" _ladder=""></tile>
+	  <tile _x="20" _y="18" _frame="42" _walkable="true" _cloud="" _ladder=""></tile>
+	  <tile _x="21" _y="18" _frame="46" _walkable="true" _cloud="" _ladder=""></tile>
+	  
+	  <tile _x="1" _y="27" _frame="47" _walkable="true" _cloud="" _ladder=""></tile>
+	  <tile _x="2" _y="27" _frame="46" _walkable="true" _cloud="" _ladder=""></tile>
+	  <tile _x="4" _y="26" _frame="38" _walkable="true" _cloud="" _ladder=""></tile>
+	  <tile _x="4" _y="27" _frame="39" _walkable="true" _cloud="" _ladder=""></tile>
+	  <tile _x="5" _y="27" _frame="43" _walkable="true" _cloud="" _ladder=""></tile>
+</level>
+<platforms>
+      <platform _id="0" _startY="28" _startX="18" _destY="28" _destX="7" _speedY="0" _speedX="2" _frame="2" _activator="" _action="" _linkedObjects="0" _visible="true" _add=""></platform>
+	  
+	  <platform _id="1" _startY="25" _startX="18" _destY="19" _destX="18" _speedY="2" _speedX="0" _frame="17" _activator="" _action="" _linkedObjects="1" _visible="" _add=""></platform>
+	  
+	  <platform _id="2" _startY="25" _startX="26" _destY="25" _destX="26" _speedY="0" _speedX="0" _frame="2" _activator="1" _action="1" _linkedObjects="2" _visible="true" _add=""></platform>
+	  <platform _id="3" _startY="25" _startX="27" _destY="25" _destX="27" _speedY="0" _speedX="0" _frame="2" _activator="1" _action="1" _linkedObjects="3" _visible="true" _add=""></platform>
+	  <platform _id="4" _startY="25" _startX="28" _destY="25" _destX="28" _speedY="0" _speedX="0" _frame="2" _activator="1" _action="1" _linkedObjects="4" _visible="true" _add=""></platform>
+	  <platform _id="5" _startY="25" _startX="29" _destY="25" _destX="29" _speedY="0" _speedX="0" _frame="2" _activator="1" _action="1" _linkedObjects="5" _visible="true" _add=""></platform>
+	  <platform _id="6" _startY="25" _startX="30" _destY="25" _destX="30" _speedY="0" _speedX="0" _frame="2" _activator="1" _action="1" _linkedObjects="6" _visible="true" _add=""></platform>
+	  <platform _id="7" _startY="25" _startX="31" _destY="25" _destX="31" _speedY="0" _speedX="0" _frame="2" _activator="1" _action="1" _linkedObjects="7" _visible="true" _add=""></platform>
+	  <platform _id="8" _startY="25" _startX="32" _destY="25" _destX="32" _speedY="0" _speedX="0" _frame="2" _activator="1" _action="1" _linkedObjects="8" _visible="true" _add=""></platform>
+	  <platform _id="9" _startY="25" _startX="33" _destY="25" _destX="33" _speedY="0" _speedX="0" _frame="2" _activator="1" _action="1" _linkedObjects="9" _visible="true" _add=""></platform>
+	  <platform _id="10" _startY="25" _startX="34" _destY="25" _destX="34" _speedY="0" _speedX="0" _frame="2" _activator="1" _action="1" _linkedObjects="10" _visible="true" _add=""></platform>
+	  <platform _id="11" _startY="25" _startX="35" _destY="25" _destX="35" _speedY="0" _speedX="0" _frame="2" _activator="1" _action="1" _linkedObjects="11" _visible="true" _add=""></platform>
+	  <platform _id="12" _startY="25" _startX="36" _destY="25" _destX="36" _speedY="0" _speedX="0" _frame="2" _activator="1" _action="1" _linkedObjects="12" _visible="true" _add=""></platform>
+	  <platform _id="13" _startY="25" _startX="37" _destY="25" _destX="37" _speedY="0" _speedX="0" _frame="5" _activator="7" _action="6" _linkedObjects="13" _visible="true" _add=""></platform>
+	  <platform _id="14" _startY="25" _startX="38" _destY="25" _destX="38" _speedY="0" _speedX="0" _frame="5" _activator="7" _action="6" _linkedObjects="14" _visible="true" _add=""></platform>
+	  <platform _id="15" _startY="25" _startX="44" _destY="25" _destX="44" _speedY="0" _speedX="0" _frame="5" _activator="7" _action="6" _linkedObjects="15" _visible="true" _add=""></platform>
+	  <platform _id="16" _startY="25" _startX="45" _destY="25" _destX="45" _speedY="0" _speedX="0" _frame="5" _activator="7" _action="6" _linkedObjects="16" _visible="true" _add=""></platform>
+	  <platform _id="17" _startY="25" _startX="46" _destY="25" _destX="46" _speedY="0" _speedX="0" _frame="2" _activator="1" _action="1" _linkedObjects="17" _visible="true" _add=""></platform>
+	  <platform _id="18" _startY="25" _startX="47" _destY="25" _destX="47" _speedY="0" _speedX="0" _frame="5" _activator="7" _action="6" _linkedObjects="18" _visible="true" _add=""></platform>
+	  
+	  <platform _id="19" _startY="25" _startX="39" _destY="25" _destX="42" _speedY="0" _speedX="2" _frame="16" _activator="" _action="" _linkedObjects="19" _visible="true" _add=""></platform>
+	  
+	  <platform _id="21" _startY="24" _startX="19" _destY="24" _destX="19" _speedY="0" _speedX="0" _frame="15" _activator="3" _action="5" _linkedObjects="21" _visible="true" _add=""></platform>
+	  <platform _id="22" _startY="24" _startX="25" _destY="24" _destX="25" _speedY="0" _speedX="0" _frame="15" _activator="3" _action="5" _linkedObjects="22" _visible="true" _add=""></platform>
+	  
+	  <platform _id="23" _startY="22" _startX="16" _destY="22" _destX="16" _speedY="0" _speedX="0" _frame="5" _activator="7" _action="6" _linkedObjects="23" _visible="true" _add=""></platform>
+	  <platform _id="24" _startY="22" _startX="17" _destY="22" _destX="17" _speedY="0" _speedX="0" _frame="5" _activator="7" _action="6" _linkedObjects="24" _visible="true" _add=""></platform>
+	  <platform _id="26" _startY="22" _startX="19" _destY="22" _destX="19" _speedY="0" _speedX="0" _frame="5" _activator="7" _action="6" _linkedObjects="26" _visible="true" _add=""></platform>
+	  <platform _id="27" _startY="22" _startX="20" _destY="22" _destX="20" _speedY="0" _speedX="0" _frame="5" _activator="7" _action="6" _linkedObjects="27" _visible="true" _add=""></platform>
+	  <platform _id="28" _startY="22" _startX="21" _destY="22" _destX="21" _speedY="0" _speedX="0" _frame="5" _activator="7" _action="6" _linkedObjects="28" _visible="true" _add=""></platform>
+	  <platform _id="29" _startY="22" _startX="22" _destY="22" _destX="22" _speedY="0" _speedX="0" _frame="5" _activator="7" _action="6" _linkedObjects="29" _visible="true" _add=""></platform>
+	  <platform _id="30" _startY="22" _startX="23" _destY="22" _destX="23" _speedY="0" _speedX="0" _frame="5" _activator="7" _action="6" _linkedObjects="30" _visible="true" _add=""></platform>
+	  <platform _id="31" _startY="22" _startX="24" _destY="22" _destX="24" _speedY="0" _speedX="0" _frame="5" _activator="7" _action="6" _linkedObjects="31" _visible="true" _add=""></platform>
+	  <platform _id="32" _startY="22" _startX="25" _destY="22" _destX="25" _speedY="0" _speedX="0" _frame="5" _activator="7" _action="6" _linkedObjects="32" _visible="true" _add=""></platform>
+	  <platform _id="33" _startY="22" _startX="26" _destY="22" _destX="26" _speedY="0" _speedX="0" _frame="6" _activator="6" _action="6" _linkedObjects="33" _visible="true" _add=""></platform>
+	  <platform _id="34" _startY="22" _startX="27" _destY="22" _destX="27" _speedY="0" _speedX="0" _frame="6" _activator="6" _action="6" _linkedObjects="34" _visible="true" _add=""></platform>
+	  <platform _id="35" _startY="22" _startX="28" _destY="22" _destX="28" _speedY="0" _speedX="0" _frame="6" _activator="6" _action="6" _linkedObjects="35" _visible="true" _add=""></platform>
+	  <platform _id="36" _startY="22" _startX="29" _destY="22" _destX="29" _speedY="0" _speedX="0" _frame="6" _activator="6" _action="6" _linkedObjects="36" _visible="true" _add=""></platform>
+	  <platform _id="37" _startY="22" _startX="30" _destY="22" _destX="30" _speedY="0" _speedX="0" _frame="6" _activator="6" _action="6" _linkedObjects="37" _visible="true" _add=""></platform>
+	  <platform _id="38" _startY="22" _startX="31" _destY="22" _destX="31" _speedY="0" _speedX="0" _frame="6" _activator="6" _action="6" _linkedObjects="38" _visible="true" _add=""></platform>
+	  <platform _id="39" _startY="22" _startX="32" _destY="22" _destX="32" _speedY="0" _speedX="0" _frame="6" _activator="6" _action="6" _linkedObjects="39" _visible="true" _add=""></platform>
+	  <platform _id="40" _startY="22" _startX="33" _destY="22" _destX="33" _speedY="0" _speedX="0" _frame="6" _activator="6" _action="6" _linkedObjects="40" _visible="true" _add=""></platform>
+	  <platform _id="41" _startY="22" _startX="34" _destY="22" _destX="34" _speedY="0" _speedX="0" _frame="6" _activator="6" _action="6" _linkedObjects="41" _visible="true" _add=""></platform>
+	  <platform _id="42" _startY="22" _startX="35" _destY="22" _destX="35" _speedY="0" _speedX="0" _frame="6" _activator="6" _action="6" _linkedObjects="42" _visible="true" _add=""></platform>
+	  <platform _id="43" _startY="22" _startX="36" _destY="22" _destX="36" _speedY="0" _speedX="0" _frame="6" _activator="6" _action="6" _linkedObjects="43" _visible="true" _add=""></platform>
+	  <platform _id="44" _startY="22" _startX="39" _destY="22" _destX="39" _speedY="0" _speedX="0" _frame="2" _activator="1" _action="1" _linkedObjects="44" _visible="true" _add=""></platform>
+	  <platform _id="45" _startY="22" _startX="41" _destY="22" _destX="41" _speedY="0" _speedX="0" _frame="2" _activator="1" _action="1" _linkedObjects="45" _visible="true" _add=""></platform>
+	  <platform _id="46" _startY="22" _startX="43" _destY="22" _destX="43" _speedY="0" _speedX="0" _frame="2" _activator="1" _action="1" _linkedObjects="46" _visible="true" _add=""></platform>
+	  <platform _id="47" _startY="22" _startX="44" _destY="22" _destX="44" _speedY="0" _speedX="0" _frame="2" _activator="1" _action="1" _linkedObjects="47" _visible="true" _add=""></platform>
+	  <platform _id="48" _startY="22" _startX="45" _destY="22" _destX="45" _speedY="0" _speedX="0" _frame="2" _activator="1" _action="1" _linkedObjects="48" _visible="true" _add=""></platform>
+	  <platform _id="49" _startY="22" _startX="46" _destY="22" _destX="46" _speedY="0" _speedX="0" _frame="2" _activator="1" _action="1" _linkedObjects="49" _visible="true" _add=""></platform>
+	  
+	  <platform _id="50" _startY="20" _startX="7" _destY="20" _destX="7" _speedY="0" _speedX="0" _frame="2" _activator="1" _action="1" _linkedObjects="50" _visible="true" _add=""></platform>
+	  
+	  <platform _id="51" _startY="19" _startX="5" _destY="19" _destX="5" _speedY="0" _speedX="0" _frame="2" _activator="1" _action="1" _linkedObjects="51" _visible="true" _add=""></platform>
+	  <platform _id="52" _startY="19" _startX="39" _destY="19" _destX="39" _speedY="0" _speedX="0" _frame="5" _activator="7" _action="6" _linkedObjects="52" _visible="true" _add=""></platform>
+	  <platform _id="53" _startY="19" _startX="40" _destY="19" _destX="40" _speedY="0" _speedX="0" _frame="5" _activator="7" _action="6" _linkedObjects="53" _visible="true" _add=""></platform>
+	  <platform _id="54" _startY="19" _startX="41" _destY="19" _destX="41" _speedY="0" _speedX="0" _frame="5" _activator="7" _action="6" _linkedObjects="54" _visible="true" _add=""></platform>
+	  <platform _id="55" _startY="19" _startX="42" _destY="19" _destX="42" _speedY="0" _speedX="0" _frame="5" _activator="7" _action="6" _linkedObjects="55" _visible="true" _add=""></platform>
+	  <platform _id="56" _startY="19" _startX="43" _destY="19" _destX="43" _speedY="0" _speedX="0" _frame="5" _activator="7" _action="6" _linkedObjects="56" _visible="true" _add=""></platform>
+	  <platform _id="57" _startY="19" _startX="44" _destY="19" _destX="44" _speedY="0" _speedX="0" _frame="5" _activator="7" _action="6" _linkedObjects="57" _visible="true" _add=""></platform>
+	  
+	  <platform _id="58" _startY="18" _startX="45" _destY="18" _destX="45" _speedY="0" _speedX="0" _frame="6" _activator="6" _action="6" _linkedObjects="58" _visible="true" _add=""></platform>
+	  <platform _id="59" _startY="18" _startX="46" _destY="18" _destX="46" _speedY="0" _speedX="0" _frame="6" _activator="6" _action="6" _linkedObjects="59" _visible="true" _add=""></platform>
+	  <platform _id="60" _startY="18" _startX="47" _destY="18" _destX="47" _speedY="0" _speedX="0" _frame="6" _activator="6" _action="6" _linkedObjects="60" _visible="true" _add=""></platform>
+	  <platform _id="61" _startY="18" _startX="7" _destY="18" _destX="7" _speedY="0" _speedX="0" _frame="2" _activator="1" _action="1" _linkedObjects="61" _visible="true" _add=""></platform>
+	  
+	  <platform _id="63" _startY="17" _startX="9" _destY="17" _destX="9" _speedY="0" _speedX="0" _frame="2" _activator="1" _action="1" _linkedObjects="63" _visible="true" _add=""></platform>
+	  <platform _id="64" _startY="17" _startX="39" _destY="17" _destX="39" _speedY="0" _speedX="0" _frame="2" _activator="1" _action="1" _linkedObjects="64" _visible="true" _add=""></platform>
+	  
+	  <platform _id="65" _startY="16" _startX="3" _destY="16" _destX="3" _speedY="0" _speedX="0" _frame="2" _activator="1" _action="1" _linkedObjects="65" _visible="true" _add=""></platform>
+	  <platform _id="66" _startY="16" _startX="4" _destY="16" _destX="4" _speedY="0" _speedX="0" _frame="2" _activator="1" _action="1" _linkedObjects="66" _visible="true" _add=""></platform>
+	  <platform _id="67" _startY="16" _startX="5" _destY="16" _destX="5" _speedY="0" _speedX="0" _frame="2" _activator="1" _action="1" _linkedObjects="67" _visible="true" _add=""></platform>
+	  <platform _id="68" _startY="16" _startX="7" _destY="16" _destX="7" _speedY="0" _speedX="0" _frame="2" _activator="1" _action="1" _linkedObjects="68" _visible="true" _add=""></platform>
+	  <platform _id="69" _startY="16" _startX="41" _destY="16" _destX="41" _speedY="0" _speedX="0" _frame="2" _activator="1" _action="1" _linkedObjects="69" _visible="true" _add=""></platform>
+	  
+	  <platform _id="70" _startY="15" _startX="39" _destY="15" _destX="39" _speedY="0" _speedX="0" _frame="2" _activator="1" _action="1" _linkedObjects="70" _visible="true" _add=""></platform>
+	  
+	  <platform _id="71" _startY="14" _startX="37" _destY="14" _destX="37" _speedY="0" _speedX="0" _frame="2" _activator="1" _action="1" _linkedObjects="71" _visible="true" _add=""></platform>
+	  
+	  <platform _id="72" _startY="13" _startX="35" _destY="13" _destX="35" _speedY="0" _speedX="0" _frame="2" _activator="1" _action="1" _linkedObjects="72" _visible="true" _add=""></platform>
+	  
+	  <platform _id="73" _startY="16" _startX="2" _destY="12" _destX="2" _speedY="2" _speedX="0" _frame="17" _activator="" _action="" _linkedObjects="73" _visible="true" _add=""></platform>
+	  
+	  <platform _id="74" _startY="11" _startX="35" _destY="11" _destX="35" _speedY="0" _speedX="0" _frame="2" _activator="1" _action="1" _linkedObjects="74" _visible="true" _add=""></platform>
+	  
+	  <platform _id="75" _startY="8" _startX="1" _destY="12" _destX="1" _speedY="2" _speedX="0" _frame="17" _activator="" _action="" _linkedObjects="75" _visible="true" _add=""></platform>
+	  <platform _id="76" _startY="8" _startX="2" _destY="8" _destX="2" _speedY="0" _speedX="0" _frame="2" _activator="" _action="" _linkedObjects="76" _visible="true" _add=""></platform>
+	  <platform _id="102" _startY="8" _startX="3" _destY="8" _destX="3" _speedY="0" _speedX="0" _frame="2" _activator="1" _action="1" _linkedObjects="102" _visible="true" _add=""></platform>
+	  <platform _id="77" _startY="8" _startX="5" _destY="8" _destX="5" _speedY="0" _speedX="0" _frame="2" _activator="1" _action="1" _linkedObjects="76" _visible="true" _add=""></platform>
+	  <platform _id="78" _startY="8" _startX="6" _destY="8" _destX="6" _speedY="0" _speedX="0" _frame="2" _activator="" _action="" _linkedObjects="78" _visible="true" _add=""></platform>
+	  <platform _id="103" _startY="8" _startX="7" _destY="8" _destX="7" _speedY="0" _speedX="0" _frame="2" _activator="1" _action="1" _linkedObjects="103" _visible="true" _add=""></platform>
+	  <platform _id="79" _startY="8" _startX="9" _destY="8" _destX="9" _speedY="0" _speedX="0" _frame="2" _activator="1" _action="1" _linkedObjects="78" _visible="true" _add=""></platform>
+	  <platform _id="80" _startY="8" _startX="10" _destY="8" _destX="10" _speedY="0" _speedX="0" _frame="2" _activator="" _action="" _linkedObjects="80" _visible="true" _add=""></platform>
+	  <platform _id="104" _startY="8" _startX="11" _destY="8" _destX="11" _speedY="0" _speedX="0" _frame="2" _activator="1" _action="1" _linkedObjects="104" _visible="true" _add=""></platform>
+	  <platform _id="81" _startY="8" _startX="13" _destY="8" _destX="13" _speedY="0" _speedX="0" _frame="2" _activator="1" _action="1" _linkedObjects="80" _visible="true" _add=""></platform>
+	  <platform _id="82" _startY="8" _startX="14" _destY="8" _destX="14" _speedY="0" _speedX="0" _frame="2" _activator="1" _action="1" _linkedObjects="82" _visible="true" _add=""></platform>
+	  <platform _id="83" _startY="8" _startX="15" _destY="8" _destX="15" _speedY="0" _speedX="0" _frame="2" _activator="1" _action="1" _linkedObjects="83" _visible="true" _add=""></platform>
+	  <platform _id="84" _startY="8" _startX="16" _destY="8" _destX="16" _speedY="0" _speedX="0" _frame="2" _activator="1" _action="1" _linkedObjects="84" _visible="true" _add=""></platform>
+	  <platform _id="85" _startY="8" _startX="18" _destY="8" _destX="18" _speedY="0" _speedX="0" _frame="2" _activator="1" _action="1" _linkedObjects="85" _visible="true" _add=""></platform>
+	  <platform _id="86" _startY="8" _startX="19" _destY="8" _destX="19" _speedY="0" _speedX="0" _frame="2" _activator="1" _action="1" _linkedObjects="86" _visible="true" _add=""></platform>
+	  <platform _id="87" _startY="8" _startX="20" _destY="8" _destX="20" _speedY="0" _speedX="0" _frame="5" _activator="7" _action="6" _linkedObjects="87" _visible="true" _add=""></platform>
+	  <platform _id="88" _startY="8" _startX="21" _destY="8" _destX="21" _speedY="0" _speedX="0" _frame="5" _activator="7" _action="6" _linkedObjects="88" _visible="true" _add=""></platform>
+	  <platform _id="90" _startY="8" _startX="23" _destY="8" _destX="23" _speedY="0" _speedX="0" _frame="5" _activator="7" _action="6" _linkedObjects="90" _visible="true" _add=""></platform>
+	  <platform _id="91" _startY="8" _startX="24" _destY="8" _destX="24" _speedY="0" _speedX="0" _frame="5" _activator="7" _action="6" _linkedObjects="91" _visible="true" _add=""></platform>
+	  <platform _id="92" _startY="8" _startX="32" _destY="8" _destX="32" _speedY="0" _speedX="0" _frame="2" _activator="1" _action="1" _linkedObjects="92" _visible="true" _add=""></platform>
+	  <platform _id="93" _startY="8" _startX="33" _destY="8" _destX="33" _speedY="0" _speedX="0" _frame="2" _activator="1" _action="1" _linkedObjects="93" _visible="true" _add=""></platform>
+	  <platform _id="94" _startY="8" _startX="34" _destY="8" _destX="34" _speedY="0" _speedX="0" _frame="2" _activator="1" _action="1" _linkedObjects="94" _visible="true" _add=""></platform>
+	  
+	  <platform _id="95" _startY="5" _startX="21" _destY="5" _destX="21" _speedY="0" _speedX="0" _frame="2" _activator="" _action="" _linkedObjects="95" _visible="true" _add=""></platform>
+	  <platform _id="96" _startY="5" _startX="22" _destY="8" _destX="22" _speedY="2" _speedX="0" _frame="2" _activator="" _action="" _linkedObjects="96" _visible="" _add=""></platform>
+	  <platform _id="97" _startY="5" _startX="23" _destY="5" _destX="23" _speedY="0" _speedX="0" _frame="2" _activator="" _action="" _linkedObjects="97" _visible="true" _add=""></platform>
+	  <platform _id="98" _startY="5" _startX="25" _destY="5" _destX="25" _speedY="0" _speedX="0" _frame="2" _activator="1" _action="1" _linkedObjects="98" _visible="true" _add=""></platform>
+	  <platform _id="99" _startY="5" _startX="27" _destY="5" _destX="27" _speedY="0" _speedX="0" _frame="2" _activator="1" _action="1" _linkedObjects="99" _visible="true" _add=""></platform>
+	  <platform _id="100" _startY="5" _startX="29" _destY="5" _destX="29" _speedY="0" _speedX="0" _frame="2" _activator="1" _action="1" _linkedObjects="100" _visible="true" _add=""></platform>
+	  <platform _id="101" _startY="5" _startX="30" _destY="5" _destX="30" _speedY="0" _speedX="0" _frame="2" _activator="1" _action="1" _linkedObjects="101" _visible="true" _add=""></platform>
+	  
+	  <platform _id="156" _startY="21" _startX="26" _destY="21" _destX="26" _speedY="0" _speedX="0" _frame="5" _activator="7" _action="6" _linkedObjects="156" _visible="true" _add=""></platform>
+	  <platform _id="157" _startY="21" _startX="27" _destY="21" _destX="27" _speedY="0" _speedX="0" _frame="5" _activator="7" _action="6" _linkedObjects="157" _visible="true" _add=""></platform>
+	  <platform _id="158" _startY="21" _startX="28" _destY="21" _destX="28" _speedY="0" _speedX="0" _frame="5" _activator="7" _action="6" _linkedObjects="158" _visible="true" _add=""></platform>
+	  <platform _id="159" _startY="21" _startX="29" _destY="21" _destX="29" _speedY="0" _speedX="0" _frame="5" _activator="7" _action="6" _linkedObjects="159" _visible="true" _add=""></platform>
+	  <platform _id="160" _startY="21" _startX="30" _destY="21" _destX="30" _speedY="0" _speedX="0" _frame="5" _activator="7" _action="6" _linkedObjects="160" _visible="true" _add=""></platform>
+	  <platform _id="161" _startY="21" _startX="31" _destY="21" _destX="31" _speedY="0" _speedX="0" _frame="5" _activator="7" _action="6" _linkedObjects="161" _visible="true" _add=""></platform>
+	  <platform _id="162" _startY="21" _startX="32" _destY="21" _destX="32" _speedY="0" _speedX="0" _frame="5" _activator="7" _action="6" _linkedObjects="162" _visible="true" _add=""></platform>
+	  <platform _id="163" _startY="21" _startX="33" _destY="21" _destX="33" _speedY="0" _speedX="0" _frame="5" _activator="7" _action="6" _linkedObjects="163" _visible="true" _add=""></platform>
+	  <platform _id="164" _startY="21" _startX="34" _destY="21" _destX="34" _speedY="0" _speedX="0" _frame="5" _activator="7" _action="6" _linkedObjects="164" _visible="true" _add=""></platform>
+	  <platform _id="165" _startY="21" _startX="35" _destY="21" _destX="35" _speedY="0" _speedX="0" _frame="5" _activator="7" _action="6" _linkedObjects="165" _visible="true" _add=""></platform>
+	  <platform _id="166" _startY="21" _startX="36" _destY="21" _destX="36" _speedY="0" _speedX="0" _frame="5" _activator="7" _action="6" _linkedObjects="166" _visible="true" _add=""></platform>
+	  <platform _id="167" _startY="17" _startX="45" _destY="17" _destX="45" _speedY="0" _speedX="0" _frame="5" _activator="7" _action="6" _linkedObjects="167" _visible="true" _add=""></platform>
+	  <platform _id="168" _startY="17" _startX="46" _destY="17" _destX="46" _speedY="0" _speedX="0" _frame="5" _activator="7" _action="6" _linkedObjects="168" _visible="true" _add=""></platform>
+	  <platform _id="169" _startY="17" _startX="47" _destY="17" _destX="47" _speedY="0" _speedX="0" _frame="5" _activator="7" _action="6" _linkedObjects="169" _visible="true" _add=""></platform>
+	  
+	  <platform _id="170" _startY="28" _startX="22" _destY="28" _destX="22" _speedY="0" _speedX="0" _frame="5" _activator="7" _action="6" _linkedObjects="170" _visible="true" _add=""></platform>
+	  <platform _id="171" _startY="28" _startX="23" _destY="28" _destX="23" _speedY="0" _speedX="0" _frame="5" _activator="7" _action="6" _linkedObjects="171" _visible="true" _add=""></platform>
+	  <platform _id="172" _startY="28" _startX="24" _destY="28" _destX="24" _speedY="0" _speedX="0" _frame="5" _activator="7" _action="6" _linkedObjects="172" _visible="true" _add=""></platform>
+	  <platform _id="173" _startY="28" _startX="25" _destY="28" _destX="25" _speedY="0" _speedX="0" _frame="5" _activator="7" _action="6" _linkedObjects="173" _visible="true" _add=""></platform>
+	  <platform _id="174" _startY="28" _startX="26" _destY="28" _destX="26" _speedY="0" _speedX="0" _frame="5" _activator="7" _action="6" _linkedObjects="174" _visible="true" _add=""></platform>
+	  <platform _id="175" _startY="28" _startX="27" _destY="28" _destX="27" _speedY="0" _speedX="0" _frame="5" _activator="7" _action="6" _linkedObjects="175" _visible="true" _add=""></platform>
+	  <platform _id="176" _startY="28" _startX="28" _destY="28" _destX="28" _speedY="0" _speedX="0" _frame="5" _activator="7" _action="6" _linkedObjects="176" _visible="true" _add=""></platform>
+	  <platform _id="177" _startY="28" _startX="29" _destY="28" _destX="29" _speedY="0" _speedX="0" _frame="5" _activator="7" _action="6" _linkedObjects="177" _visible="true" _add=""></platform>
+	  <platform _id="178" _startY="28" _startX="30" _destY="28" _destX="30" _speedY="0" _speedX="0" _frame="5" _activator="7" _action="6" _linkedObjects="178" _visible="true" _add=""></platform>
+	  <platform _id="179" _startY="28" _startX="31" _destY="28" _destX="31" _speedY="0" _speedX="0" _frame="5" _activator="7" _action="6" _linkedObjects="179" _visible="true" _add=""></platform>
+	  <platform _id="180" _startY="28" _startX="32" _destY="28" _destX="32" _speedY="0" _speedX="0" _frame="5" _activator="7" _action="6" _linkedObjects="180" _visible="true" _add=""></platform>
+	  <platform _id="181" _startY="28" _startX="33" _destY="28" _destX="33" _speedY="0" _speedX="0" _frame="5" _activator="7" _action="6" _linkedObjects="181" _visible="true" _add=""></platform>
+	  <platform _id="182" _startY="28" _startX="34" _destY="28" _destX="34" _speedY="0" _speedX="0" _frame="5" _activator="7" _action="6" _linkedObjects="182" _visible="true" _add=""></platform>
+	  <platform _id="183" _startY="28" _startX="35" _destY="28" _destX="35" _speedY="0" _speedX="0" _frame="5" _activator="7" _action="6" _linkedObjects="183" _visible="true" _add=""></platform>
+	  <platform _id="184" _startY="28" _startX="36" _destY="28" _destX="36" _speedY="0" _speedX="0" _frame="5" _activator="7" _action="6" _linkedObjects="184" _visible="true" _add=""></platform>
+	  <platform _id="185" _startY="28" _startX="37" _destY="28" _destX="37" _speedY="0" _speedX="0" _frame="5" _activator="7" _action="6" _linkedObjects="185" _visible="true" _add=""></platform>
+	  <platform _id="186" _startY="28" _startX="38" _destY="28" _destX="38" _speedY="0" _speedX="0" _frame="5" _activator="7" _action="6" _linkedObjects="186" _visible="true" _add=""></platform>
+	  <platform _id="187" _startY="28" _startX="39" _destY="28" _destX="39" _speedY="0" _speedX="0" _frame="5" _activator="7" _action="6" _linkedObjects="187" _visible="true" _add=""></platform>
+	  <platform _id="188" _startY="28" _startX="40" _destY="28" _destX="40" _speedY="0" _speedX="0" _frame="5" _activator="7" _action="6" _linkedObjects="188" _visible="true" _add=""></platform>
+	  <platform _id="189" _startY="28" _startX="41" _destY="28" _destX="41" _speedY="0" _speedX="0" _frame="5" _activator="7" _action="6" _linkedObjects="189" _visible="true" _add=""></platform>
+	  <platform _id="190" _startY="28" _startX="42" _destY="28" _destX="42" _speedY="0" _speedX="0" _frame="5" _activator="7" _action="6" _linkedObjects="190" _visible="true" _add=""></platform>
+	  <platform _id="191" _startY="28" _startX="43" _destY="28" _destX="43" _speedY="0" _speedX="0" _frame="5" _activator="7" _action="6" _linkedObjects="191" _visible="true" _add=""></platform>
+	  <platform _id="192" _startY="28" _startX="44" _destY="28" _destX="44" _speedY="0" _speedX="0" _frame="5" _activator="7" _action="6" _linkedObjects="192" _visible="true" _add=""></platform>
+	  <platform _id="193" _startY="28" _startX="45" _destY="28" _destX="45" _speedY="0" _speedX="0" _frame="5" _activator="7" _action="6" _linkedObjects="193" _visible="true" _add=""></platform>
+	  <platform _id="194" _startY="28" _startX="46" _destY="28" _destX="46" _speedY="0" _speedX="0" _frame="5" _activator="7" _action="6" _linkedObjects="194" _visible="true" _add=""></platform>
+	  <platform _id="195" _startY="28" _startX="47" _destY="28" _destX="47" _speedY="0" _speedX="0" _frame="5" _activator="7" _action="6" _linkedObjects="195" _visible="true" _add=""></platform>
+	  
+	  <platform _id="1000" _startY="18" _startX="22" _destY="18" _destX="22" _speedY="0" _speedX="0" _frame="8" _activator="3" _action="5" _linkedObjects="1000" _visible="true" _add=""></platform>
+</platforms>
+<targets>
+      <target _id="201" _startY="24" _startX="17" _destY="24" _destX="19" _speedY="0" _speedX="0" _frame="13" _activator="5" _action="2" _linkedObjects="1" _visible="true" _add=""></target>
+	  <target _id="205" _startY="4" _startX="18" _destY="4" _destX="18" _speedY="0" _speedX="0" _frame="4" _activator="5" _action="1" _linkedObjects="95 97" _visible="true" _add=""></target>
+	  <target _id="206" _startY="3" _startX="18" _destY="3" _destX="18" _speedY="0" _speedX="0" _frame="14" _activator="5" _action="2" _linkedObjects="96" _visible="true" _add=""></target>
+	  <target _id="207" _startY="23" _startX="24" _destY="23" _destX="24" _speedY="0" _speedX="0" _frame="9" _activator="5" _action="1" _linkedObjects="22 105" _visible="true" _add=""></target>
+</targets>
+<characters>
+       <char _id="301" _type="9" _startY="18" _startX="19" _destY="18" _destX="23" _speed="2" _partner="302"></char> 
+       <char _id="302" _type="10" _startY="20" _startX="9" _destY="20" _destX="13" _speed="2" _partner="301"></char> 
+   
+	   <char _id="303" _type="0" _startY="24" _startX="34" _destY="24" _destX="28" _speed="2"></char> 
+
+	   <char _id="304" _type="0" _startY="24" _startX="4" _destY="24" _destX="4" _speed="2"></char> 
+	   <char _id="305" _type="0" _startY="24" _startX="18" _destY="24" _destX="18" _speed="2"></char> 
+
+</characters>
+<items>
+	  <item _id="400" _startY="14" _startX="41" _destY="14" _destX="41" _speedY="0" _speedX="0" _frame="21" _visible="true" _points=""></item>
+	  <item _id="401" _startY="16" _startX="9" _destY="16" _destX="9" _speedY="0" _speedX="0" _frame="21" _visible="true" _points=""></item>
+	  <item _id="402" _startY="17" _startX="19" _destY="17" _destX="19" _speedY="0" _speedX="0" _frame="21" _visible="true" _points=""></item>
+</items>
+</map>
