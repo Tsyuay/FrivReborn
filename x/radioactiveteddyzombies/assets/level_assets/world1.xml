@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<level>
+  <name>World 1</name>
+  <room id="1">
+    <swf_path>world1/room1.swf</swf_path>
+    <room_music volume="55">LetCarnageBegin</room_music>
+    <cinematic id="1" playAtStart="1">cutscene_assets/NP_CS1.swf</cinematic>
+    <stage_clips>
+      <playerStart>playerStart</playerStart>
+      <RoomExit id="1">roomexitspot1</RoomExit>
+      <marker id="2" clip="exitBox" type="RoomExit" data="2"></marker>
+      <marker id="4" clip="convo1" type="" data="">
+        <conversation>
+            <page image="convo_wu">Hey, Rat-Tail boy! </page>
+            <page image="convo_codyScowl">What?</page>
+            <page image="convo_wu">Mr. Meow lost. You see him?</page>
+            <page image="convo_cody">No.</page>
+            <page image="convo_wu">Please, ugly boy. You find Mr. Meow. He so scared and helpless.</page>
+            <page image="convo_cody">I’ll keep my eyes open.</page>
+            <page image="convo_wu">You good boy. Seven happinesses bless you!</page>
+            <page image="convo_codyThink">Stupid cat will be good target practice.</page>
+        </conversation>
+      </marker>
+    </stage_clips>
+    <load_assets>
+      <entry>M01</entry>
+      <entry>M02</entry>
+      <entry>wu</entry>
+      <entry>big_crate</entry>
+      <entry>small_crate</entry>
+      <entry>explode_crate</entry>
+    </load_assets>
+  </room>
+  <room id="2">
+    <swf_path>world1/room2.swf</swf_path>
+    <stage_clips>
+      <playerStart>playerStart</playerStart>
+      <RoomExit id="1">roomexitspot1</RoomExit>
+      <marker id="1" clip="exitBox" type="RoomExit" data="3"></marker>
+	   <marker id="4" clip="wu" type="SpawnNPC" data="N04|550">
+            <conversation>
+                <page image="convo_wu">Hey, Rat-Tail boy! </page>
+                <page image="convo_codyScowl">What?</page>
+                <page image="convo_wu">Mr. Meow lost. You see him?</page>
+                <page image="convo_cody">No.</page>
+                <page image="convo_wu">Please, ugly boy. You find Mr. Meow. He so scared and helpless.</page>
+				<page image="convo_cody">I’ll keep my eyes open.</page>
+				<page image="convo_wu">You good boy. Seven happinesses bless you!</page>
+				<page image="convo_codyThink">Stupid cat will be good target practice.</page>
+            </conversation>
+          </marker>
+    </stage_clips>
+    <load_assets>
+      <entry>M01</entry>
+      <entry>M02</entry>
+      <entry>wu</entry>
+      <entry>big_crate</entry>
+      <entry>small_crate</entry>
+      <entry>explode_crate</entry>
+    </load_assets>
+  </room>
+  <room id="3">
+    <swf_path>world1/room3.swf</swf_path>
+    <stage_clips>
+      <playerStart>playerStart</playerStart>
+      <RoomExit id="1">roomexitspot1</RoomExit>
+      <marker id="1" clip="exitBox" type="RoomExit" data="4"></marker>
+    </stage_clips>
+    <load_assets>
+      <entry>M01</entry>
+      <entry>M02</entry>
+      <entry>M05</entry>
+      <entry>M08</entry>
+      <entry>big_crate</entry>
+      <entry>small_crate</entry>
+      <entry>explode_crate</entry>
+    </load_assets>
+  </room>
+  <room id="4">
+    <swf_path>world1/room4.swf</swf_path>
+    <stage_clips>
+      <playerStart>playerStart</playerStart>
+      <RoomExit id="1">roomexitspot1</RoomExit>
+      <marker id="1" clip="exitBox" type="RoomExit" data="5"></marker>
+    </stage_clips>
+    <load_assets>
+      <entry>M01</entry>
+      <entry>M02</entry>
+      <entry>M03</entry>
+      <entry>big_crate</entry>
+      <entry>small_crate</entry>
+      <entry>explode_crate</entry>
+    </load_assets>
+  </room>
+  <room id="5">
+    <swf_path>world1/room5.swf</swf_path>
+    <stage_clips>
+      <playerStart>playerStart</playerStart>
+      <RoomExit id="1">roomexitspot1</RoomExit>
+      <marker id="1" clip="exitBox" type="RoomExit" data="6"></marker>
+    </stage_clips>
+    <load_assets>
+      <entry>M01</entry>
+      <entry>M02</entry>
+      <entry>M05</entry>
+      <entry>M08</entry>
+      <entry>big_crate</entry>
+      <entry>small_crate</entry>
+      <entry>explode_crate</entry>
+    </load_assets>
+  </room>
+  <room id="6" showScoreScreen="true">
+    <swf_path>world1/room6.swf</swf_path>
+    <stage_clips>
+      <playerStart>playerStart</playerStart>
+      <RoomExit id="1">roomexitspot1</RoomExit>
+	  <marker id="4" clip="wu" type="SpawnNPC" data="N04|550">
+            <conversation>
+                <page image="convo_wu">Mr. Wu: You find Mr. Meow? </page>
+                <page image="convo_codyThink">Cody: This was a situation that would require tact and delicacy. </page>
+                <page image="convo_cody">Cody: I killed him. </page>
+                <page image="convo_wu">Mr. Wu: Ai-ya! You bad boy! Very bad boy! </page>
+                <page image="convo_cody">Cody: Sorry, dude. </page>
+                <page image="convo_wu">Mr. Wu: This very bad. You must wake sleeping dragon. </page>
+                <page image="convo_cody">Cody: Huh? </page>
+                <page image="convo_wu">Mr. Wu: Go to Happy Factory! All will be revealed.  </page>
+            </conversation>
+          </marker>
+      <marker id="1" clip="exitBox" type="RoomExit" data="7"></marker>
+    </stage_clips>
+    <load_assets>
+      <entry>M01</entry>
+      <entry>M02</entry>
+      <entry>M05</entry>
+      <entry>B01</entry>
+      <entry>wu</entry>
+      <entry>big_crate</entry>
+      <entry>small_crate</entry>
+      <entry>explode_crate</entry>
+      <sound>bossMusic.swf</sound>
+    </load_assets>
+  </room>
+  <room id="7">
+    <swf_path>world1/room7.swf</swf_path>
+    <stage_clips>
+      <playerStart>playerStart</playerStart>
+      <RoomExit id="1">roomexitspot1</RoomExit>
+      <marker id="1" clip="exitBox" type="RoomExit" data="8"></marker>
+    </stage_clips>
+    <load_assets>
+      <entry>M01</entry>
+      <entry>M02</entry>
+      <entry>M08</entry>
+      <entry>M09</entry>
+      <entry>big_crate</entry>
+      <entry>small_crate</entry>
+      <entry>explode_crate</entry>
+    </load_assets>
+  </room>
+  <room id="8">
+    <swf_path>world1/room8.swf</swf_path>
+    <stage_clips>
+      <playerStart>playerStart</playerStart>
+      <RoomExit id="1">roomexitspot1</RoomExit>
+      <marker id="1" clip="exitBox" type="RoomExit" data="9"></marker>
+    </stage_clips>
+    <load_assets>
+      <entry>M01</entry>
+      <entry>M02</entry>
+      <entry>M03</entry>
+      <entry>M08</entry>
+      <entry>M09</entry>
+      <entry>big_crate</entry>
+      <entry>small_crate</entry>
+      <entry>explode_crate</entry>
+    </load_assets>
+  </room>
+  <room id="9">
+    <swf_path>world1/room9.swf</swf_path>
+    <stage_clips>
+      <playerStart>playerStart</playerStart>
+      <RoomExit id="1">roomexitspot1</RoomExit>
+      <marker id="1" clip="exitBox" type="RoomExit" data="10"></marker>
+    </stage_clips>
+    <load_assets>
+      <entry>M01</entry>
+      <entry>M02</entry>
+      <entry>M04</entry>
+      <entry>M05</entry>
+      <entry>M08</entry>
+      <entry>M09</entry>
+      <entry>big_crate</entry>
+      <entry>small_crate</entry>
+      <entry>explode_crate</entry>
+    </load_assets>
+  </room>
+  <room id="10" showScoreScreen="true">
+    <swf_path>world1/room10.swf</swf_path>
+    <stage_clips>
+      <playerStart>playerStart</playerStart>
+      <RoomExit id="1">roomexitspot1</RoomExit>
+	    <marker id="4" clip="wu" type="SpawnNPC" data="N04|550">
+            <conversation>
+                <page image="convo_wu">Mr. Wu: What take you so long? Little toys give you trouble? </page>
+                <page image="convo_codyScowl">Cody: No! </page>
+                <page image="convo_wu">Mr. Wu: Too many question! You wake sleeping dragon! </page>
+                <page image="convo_codyScowl">Cody: I didn’t ask anything. </page>
+                <page image="convo_wu">Mr. Wu: Fine, I tell you whole story. </page>
+                <page image="convo_codyScowl">Cody: No, really, it’s okay . . . </page>
+                <page image="convo_wu">Mr. Wu: Don’t worry! Wu tell everything. </page>
+            </conversation>
+          </marker>
+      <marker id="1" clip="exitBox" type="RoomExit" data="L:world2.xml"></marker>
+    </stage_clips>
+    <load_assets>
+      <entry>M01</entry>
+      <entry>M02</entry>
+      <entry>M03</entry>
+      <entry>M04</entry>
+      <entry>M06</entry>
+      <entry>wu</entry>
+      <entry>big_crate</entry>
+      <entry>small_crate</entry>
+      <entry>explode_crate</entry>
+      <sound>bossMusic.swf</sound>
+    </load_assets>
+  </room>
+  <asset_load_targets>
+    <M01>
+      <swf_path>character_assets/M01.swf</swf_path>
+      <class_name>chars.M01</class_name>
+    </M01>
+    <M02>
+      <swf_path>character_assets/M02.swf</swf_path>
+      <class_name>chars.M02</class_name>
+    </M02>
+    <M03>
+      <swf_path>character_assets/M03.swf</swf_path>
+      <class_name>chars.M03</class_name>
+    </M03>
+    <M04>
+      <swf_path>character_assets/M04.swf</swf_path>
+      <class_name>chars.M04</class_name>
+    </M04>
+    <M05>
+      <swf_path>character_assets/M05.swf</swf_path>
+      <class_name>chars.M05</class_name>
+    </M05>
+    <M06>
+      <swf_path>character_assets/M06.swf</swf_path>
+      <class_name>chars.M06</class_name>
+    </M06>
+    <M07>
+      <swf_path>character_assets/M07.swf</swf_path>
+      <class_name>chars.M07</class_name>
+    </M07>
+    <M08>
+      <swf_path>character_assets/M08.swf</swf_path>
+      <class_name>chars.M08</class_name>
+    </M08>
+    <M09>
+      <swf_path>character_assets/M09.swf</swf_path>
+      <class_name>chars.M09</class_name>
+    </M09>
+    <M10>
+      <swf_path>character_assets/M10.swf</swf_path>
+      <class_name>chars.M10</class_name>
+    </M10>
+    <M11>
+      <swf_path>character_assets/M11.swf</swf_path>
+      <class_name>chars.M11</class_name>
+    </M11>
+    <M12>
+      <swf_path>character_assets/M12.swf</swf_path>
+      <class_name>chars.M12</class_name>
+    </M12>
+    <M13>
+      <swf_path>character_assets/M13.swf</swf_path>
+      <class_name>chars.M13</class_name>
+    </M13>
+    <M14>
+      <swf_path>character_assets/M14.swf</swf_path>
+      <class_name>chars.M14</class_name>
+    </M14>
+    <M15>
+      <swf_path>character_assets/M15.swf</swf_path>
+      <class_name>chars.M15</class_name>
+    </M15>
+    <M16>
+      <swf_path>character_assets/M16.swf</swf_path>
+      <class_name>chars.M16</class_name>
+    </M16>
+    <B01>
+      <swf_path>character_assets/B01.swf</swf_path>
+      <class_name>chars.B01</class_name>
+    </B01>
+    <B01V2>
+      <swf_path>character_assets/B01v2.swf</swf_path>
+      <class_name>chars.B01v2</class_name>
+    </B01V2>
+    <B01V3>
+      <swf_path>character_assets/B01v3.swf</swf_path>
+      <class_name>chars.B01v3</class_name>
+    </B01V3>
+    <B03>
+      <swf_path>character_assets/B03.swf</swf_path>
+      <class_name>chars.B03</class_name>
+    </B03>
+    <B04>
+      <swf_path>character_assets/B04.swf</swf_path>
+      <class_name>chars.B04</class_name>
+    </B04>
+    <camille>
+      <swf_path>character_assets/N01.swf</swf_path>
+      <class_name>chars.N01</class_name>
+    </camille>
+    <sheriff>
+      <swf_path>character_assets/N02.swf</swf_path>
+      <class_name>chars.N02</class_name>
+    </sheriff>
+    <sternrod>
+      <swf_path>character_assets/N03.swf</swf_path>
+      <class_name>chars.N03</class_name>
+    </sternrod>
+    <wu>
+      <swf_path>character_assets/N04.swf</swf_path>
+      <class_name>chars.N04</class_name>
+    </wu>
+    <big_crate>
+      <swf_path>widget_assets/BigCrate.swf</swf_path>
+      <class_name>items.BigCrate</class_name>
+    </big_crate>
+    <small_crate>
+      <swf_path>widget_assets/SmallCrate.swf</swf_path>
+      <class_name>items.SmallCrate</class_name>
+    </small_crate>
+    <explode_crate>
+      <swf_path>widget_assets/ExplodeCrate.swf</swf_path>
+      <class_name>items.ExplodeCrate</class_name>
+    </explode_crate>
+  </asset_load_targets>
+</level>
