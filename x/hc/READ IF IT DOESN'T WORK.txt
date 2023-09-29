@@ -1,0 +1,1 @@
+You will need to perform the multi file fix explained in the _README folder if this game doesn't work.
