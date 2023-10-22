@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<files>
+  <file name="AlienThief-Events.swf" source="original">
+    <mtime>1559691643</mtime>
+    <size>2598291</size>
+    <md5>1aa577f1993cc7a61862000c3c1de2f2</md5>
+    <crc32>565d11b0</crc32>
+    <sha1>58f20850d22f1701a62de035e67b76026afd6be7</sha1>
+    <format>Shockwave Flash</format>
+    <length>74.27</length>
+    <height>78</height>
+    <width>104</width>
+  </file>
+  <file name="coolmathgames-alien_thief_archive.torrent" source="metadata">
+    <btih>d4f94e5ba644bdec7c57dc8d3bc9c599131a3504</btih>
+    <mtime>1597049903</mtime>
+    <size>1820</size>
+    <md5>ebe7759193c31ee530fe92d2d406de08</md5>
+    <crc32>e37a9a8c</crc32>
+    <sha1>79ad38c78dd98f52beaeb48f16a558a3591705d8</sha1>
+    <format>Archive BitTorrent</format>
+  </file>
+  <file name="coolmathgames-alien_thief_files.xml" source="original">
+    <format>Metadata</format>
+    <md5>2535c103cd676abceaa01a92ecbb87fa</md5>
+  </file>
+  <file name="coolmathgames-alien_thief_meta.sqlite" source="original">
+    <mtime>1559691686</mtime>
+    <size>9216</size>
+    <md5>48ec0446b3c28a238d9d1486833a1992</md5>
+    <crc32>cfa62e90</crc32>
+    <sha1>95287e9433677a2ef3822a3997134a3cf10a9378</sha1>
+    <format>Metadata</format>
+  </file>
+  <file name="coolmathgames-alien_thief_meta.xml" source="original">
+    <mtime>1597049902</mtime>
+    <size>735</size>
+    <format>Metadata</format>
+    <md5>594076f770d15e94b944387ed2c1df94</md5>
+    <crc32>cd763223</crc32>
+    <sha1>0e412546687868cf0afcd40ec7e730d386da4027</sha1>
+  </file>
+</files>
