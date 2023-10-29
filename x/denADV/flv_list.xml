@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='iso-8859-1'?>
+<list>
+	<location_1 name="Hollywood" description="">
+		<clip_0 title="Clip 1" src="locations/Hollywood/103_clip1.f4v" />
+		
+		
+	</location_1>
+
+	<location_2 name="Casper" description="">
+		
+		<clip_0 title="Clip 1" src="locations/Casper/103_clip1.f4v" />
+	</location_2>
+	
+	<location_3 name="Minneapolis" description="">
+		<clip_0 title="Clip 1" src="locations/Minneapolis/102_clip1.f4v" />
+		<clip_0 title="Clip 1" src="locations/Minneapolis/angrypeter_01.f4v" />
+		
+	</location_3>
+
+	<location_4 name="Lancaster" description="">
+		<clip_0 title="Clip 1" src="locations/Lancaster/102_clip2.f4v" />
+		<clip_0 title="Clip 1" src="locations/Lancaster/anywhere_01.f4v" />
+		
+	</location_4>	
+	
+	<location_5 name="Atlantic City" description="">
+		<clip_0 title="Clip 1" src="locations/Atlantic City/102_clip1.f4v" />
+		<clip_0 title="Clip 1" src="locations/Atlantic City/angrypeter_01.f4v" />
+		
+	</location_5>	
+	
+	<location_6 name="Savannah" description="">
+		<clip_0 title="Clip 1" src="locations/Savannah/anywhere_02.f4v" />
+		
+	</location_6>	
+	
+	<location_7 name="Cape Canaveral" description="">
+		<clip_0 title="Clip 1" src="locations/Cape Canaveral/102_clip2.f4v" />
+	</location_7>	
+	
+	<location_8 name="Las Vegas" description="">
+		
+		<clip_0 title="Clip 1" src="locations/Las Vegas/anywhere_01.f4v" />
+	</location_8>
+	
+	<location_9 name="Texas" description="">
+		
+		<clip_0 title="Clip 1" src="locations/Texas/Glenn_Martin_DDS_Fooseball.flv" />
+		<clip_0 title="Clip 1" src="locations/Texas/Glenn_Martin_DDS_Fooseball2.flv" />
+		<clip_0 title="Clip 1" src="locations/Texas/Glenn_Martin_DDS_Fooseball3.flv" />
+		<clip_0 title="Clip 1" src="locations/Texas/Glenn_Martin_DDS_Fooseball4.flv" />
+	</location_9>
+
+	<location_10 name="New York" description="">
+		
+		<clip_0 title="Clip 1" src="locations/NewYork/Glenn_Martin_bust_em_up2.flv" />
+		<clip_0 title="Clip 1" src="locations/NewYork/Glenn_Martin_bust_em_up3.flv" />
+		<clip_0 title="Clip 1" src="locations/NewYork/Glenn_Martin_bust_em_up4.flv" />
+		<clip_0 title="Clip 1" src="locations/NewYork/Glenn_Martin_bust_em_up5.flv" />
+		<clip_0 title="Clip 1" src="locations/NewYork/Glenn_Martin_bust_em_up6.flv" />
+	</location_10>	
+	
+	<location_11 name="Wyoming" description="">
+		
+		<clip_0 title="Clip 1" src="locations/Wyoming/Glenn_Martin_Dog_Show.flv" />
+		<clip_0 title="Clip 1" src="locations/Wyoming/Glenn_Martin_Dog_Show2.flv" />
+		<clip_0 title="Clip 1" src="locations/Wyoming/Glenn_Martin_Dog_Show3.flv" />
+		<clip_0 title="Clip 1" src="locations/Wyoming/Glenn_Martin_Dog_Show4.flv" />
+	</location_11>	
+</list>
+
