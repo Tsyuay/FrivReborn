@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+
+		<title>stars</title>
+		<meta charset="utf-8"/>
+		<style>
+         html, body { margin: 0; padding: 0; border: 0; }
+         #c { display: block; }
+            
+                         #overlay {
+        position: absolute;
+        top:0;
+        z-index: 10;
+        background-color: rgba(255,255,255,0.5);
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        animation:overlay 1s 3s ease-in forwards;
+    }
+    
+    @keyframes overlay{
+        from {
+            top:0;
+            }
+
+        to {
+             top:250px;
+            }
+        }
+    
+    
+    #mouse {
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    position: absolute;
+    pointer-events: none;
+    z-index: 20;
+    top: 75px;
+    left: 110px;
+    background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 26.458333 26.458334'%3E%3Cg%3E%3Cg transform='translate%280 -270.54%29 translate%28-2.107 30.331%29'%3E%3Cpath stroke='%23fff' stroke-width='1.323' stroke-dashoffset='19.48' d='M10.04 246.56a7.28 7.5 0 0 0-7.27 7.5v4.43a7.28 7.5 0 0 0 7.28 7.5 7.28 7.5 0 0 0 7.27-7.5v-4.43a7.28 7.5 0 0 0-7.28-7.5z' stroke-linejoin='round' style='paint-order:markers fill stroke' stroke-linecap='round'/%3E%3Cpath fill='none' stroke='%23fff' stroke-width='1.323' d='M2.9 253.75h14.38'/%3E%3Cellipse cx='10.125' cy='250.08' fill='none' stroke='%23fff' stroke-width='1.323' stroke-dashoffset='19.48' ry='3.501' style='paint-order:markers fill stroke' rx='1.349' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath fill='none' stroke='%23fff' stroke-width='1.323' d='M10.04 246.56c-.22-3.37 3.4-7.98 9.66-2.88 2.67 2.2 4.33 2.5 8.24.84'/%3E%3Cellipse cx='-191.28' cy='121.03' fill='%23fff' fill-opacity='.333' style='paint-order:markers fill stroke' rx='4.526' transform='matrix%28.438 -.899 .744 .669 0 0%29' ry='1.925'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        animation: mouse 1s 3s linear forwards;
+}
+    
+    @keyframes mouse{
+        from {
+            top:75px;
+            left: 110px;
+            }
+
+        to {
+            top:75px;
+            left: -400px;
+            }
+        }
+
+            
+            
+      </style>
+	</head>
+	<body>
+        
+         <div id="overlay"></div>
+    <div id="mouse"></div>
+        
+        
+		<canvas id="c"></canvas>
+		<script>
+			var a = document.getElementsByTagName('canvas')[0];
+			var b = document.body;
+         var d = function(e){ return function(){ e.parentNode.removeChild(e); }; }(a);
+         // unprefix some popular vendor prefixed things (but stick to their original name)
+         var AudioContext =
+           window.AudioContext ||
+           window.webkitAudioContext;
+         var requestAnimationFrame =
+           window.requestAnimationFrame ||
+           window.mozRequestAnimationFrame ||
+           window.webkitRequestAnimationFrame ||
+           window.msRequestAnimationFrame ||
+           function(f){ setInterval(f, 1000/30); };
+         // stretch canvas to screen size (once, wont onresize!)
+         a.style.width = (a.width = innerWidth) + 'px';
+         a.style.height = (a.height = innerHeight) + 'px';
+
+         var c = a.getContext('2d');
+		</script>
+<script>for(_='b[2*i~~+1`),__c.^.x,)};b=);c[c.fy]=n-y)/(+=sign;i--;)](=b.page(m-x/2,0,&&*o*s/30+v[=>{],gA]=*random()	30	-15b.addColorStop(=b.length/2for(i.push(a.width*sin(u)+cos(u)*k[a.height in c)c[i[0]+[i[6]]]=i;Ol=b%3;m=	|0;n=	|0;f=30;v=[];v.map.call(["IRJ[QTZVVMZDQFJ?IH@M","LTLPTNTLOLOHQFRFRHTHTDMCHCEGFHIELEIHIKLNHNJPJTHVNVPSPQNN","UXV[WXXSXKWEVCUETJUMUQTTRSMRJQFOCOAQBOCMFLJKRKSMSQ"][l>b.charCodeAt(w=0)-77=qv[`~]=60v[,,]s=min(,Rw(x_y(n-y_150<w++O(l+1)cL.7,"#001"1,"#115"b;fc,sS]="#fff";o=(80<w?w/4-19:1)*(1-f*f/9001/o;ff--;[l?1<l?12]:25]:0]]; in v)k=iu=PI*(y<n?n:-n)g=-k[2]1h=k[1]2u=-PI*)/(x<m?m:-m)A=h0k.x=Ak.y=gba^arc(kk.y,i<q?5/2:1,2*PI^fill(_i<q-(l-1?0:2)bk,kl-2?b0]):b13216]max(.8-hypot,.8*s))/o;!f!w.7<gA](w=1ba_m~]~].y_l`]`].y^stroke(1;requestAnimationFrame(Ronmousemovew||(xX,yYO(x=y=0R()';G=/[-^-`~]/.exec(_);)with(_.split(G))_=join(shift());with(Math)eval(_)</script>
+	</body>
+</html>
