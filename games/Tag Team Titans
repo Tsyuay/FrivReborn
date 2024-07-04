@@ -1,0 +1,34 @@
+<html lang="en"><head>
+<meta charset="UTF-8">
+<meta name="robots" content="noindex,nofollow">
+<style>
+html,
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+</style>
+<script type="text/javascript" src="/templates/responsive/js/chrc.js"></script></head>
+<body>
+<object type="application/x-shockwave-flash" data="GameContainer.swf" width="100%" height="100%" id="game-play-container" style="visibility: visible;">
+<param name="base" value="">
+<param name="wmode" value="direct">
+<param name="allowFullScreen" value="true">
+<param name="allowScriptAccess" value="always">
+<param name="flashvars" value="base=.">
+</object>
+		<script>
+			window.RufflePlayer = window.RufflePlayer || {};
+			window.RufflePlayer.config = {
+			     "autoplay": "on",
+			     "unmuteOverlay": "hidden",
+			     "warnOnUnsupportedContent": false,
+			     "preloader": false,
+			};
+		</script>
+		<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+
+
+</body></html>
