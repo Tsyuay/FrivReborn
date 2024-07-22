@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+	<head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=qM_6omlu" charset="utf-8"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.pc(0.001);
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://www.frivclassic.com/menu/000/fgn-doodles/circleness.html","20201016092248","https://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1602840168");
+</script>
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/banner-styles.css?v=S1zqJCYt" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=qtvMKcIJ" />
+<!-- End Wayback Rewrite JS Include -->
+
+		<title>spira</title>
+		<meta charset="utf-8"/>
+		<style>
+         html, body { margin: 0; padding: 0; border: 0; }
+         #c { display: block; cursor: pointer}
+            
+               #overlay {
+        position: absolute;
+        top:0;
+        z-index: 10;
+        background-color: rgba(0,0,0,0.5);
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        animation:overlay 1s 3s ease-in forwards;
+    }
+    
+    @keyframes overlay{
+        from {
+            top:0;
+            }
+
+        to {
+             top:250px;
+            }
+        }
+    
+        #backColor {
+        position: absolute;
+        z-index: -10;
+        top: 0;
+        left: 0;
+        width: 300px;
+        height: 250px;
+        background-color:lime;
+        animation:backColor 10s linear infinite;
+    }
+      @keyframes backColor{
+        from {
+            filter:hue-rotate(0deg);
+            }
+
+        to {
+            filter:hue-rotate(360deg);
+            }
+        }
+    
+    #mouse {
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    position: absolute;
+    pointer-events: none;
+    z-index: 20;
+    top: 75px;
+    left: 110px;
+    background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 26.458333 26.458334'%3E%3Cg%3E%3Cg transform='translate%280 -270.54%29 translate%28-2.107 30.331%29'%3E%3Cpath stroke='%23fff' stroke-width='1.323' stroke-dashoffset='19.48' d='M10.04 246.56a7.28 7.5 0 0 0-7.27 7.5v4.43a7.28 7.5 0 0 0 7.28 7.5 7.28 7.5 0 0 0 7.27-7.5v-4.43a7.28 7.5 0 0 0-7.28-7.5z' stroke-linejoin='round' style='paint-order:markers fill stroke' stroke-linecap='round'/%3E%3Cpath fill='none' stroke='%23fff' stroke-width='1.323' d='M2.9 253.75h14.38'/%3E%3Cellipse cx='10.125' cy='250.08' fill='none' stroke='%23fff' stroke-width='1.323' stroke-dashoffset='19.48' ry='3.501' style='paint-order:markers fill stroke' rx='1.349' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath fill='none' stroke='%23fff' stroke-width='1.323' d='M10.04 246.56c-.22-3.37 3.4-7.98 9.66-2.88 2.67 2.2 4.33 2.5 8.24.84'/%3E%3Cellipse cx='-191.28' cy='121.03' fill='%23fff' fill-opacity='.333' style='paint-order:markers fill stroke' rx='4.526' transform='matrix%28.438 -.899 .744 .669 0 0%29' ry='1.925'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        animation: mouse 1s 3s linear forwards;
+}
+    
+    @keyframes mouse{
+        from {
+            top:75px;
+            left: 110px;
+            }
+
+        to {
+            top:75px;
+            left: -400px;
+            }
+        }
+            
+            
+      </style>
+	</head>
+	<body>
+        
+
+          <div id="overlay"></div>
+    <div id="backColor"></div>
+    <div id="mouse"></div>
+
+
+        
+        
+		<canvas id="c"></canvas>
+		<script>
+			var a = document.getElementsByTagName('canvas')[0];
+            a.style.width = (a.width = innerWidth) + 'px';
+            a.style.height = (a.height = innerHeight) + 'px';
+
+         var c = a.getContext('2d');
+		</script>
+        
+        <script>
+        function G(j,b,t,o){function e(p,z){this.x=p;this.y=z}function m(z,y,p){var x=new e(y*Math.cos(p),y*Math.sin(p));return new e(x.x+z.x,x.y+z.y)}function u(A,x,y,z,B,p){return m(m(A,x-y,B),z,p)}oc.clearRect(0,0,w,h);var l=0.017453292519943;var v=new e(w/2,h/2);var n=0;var g=0;var k=1;var q=k*(1/o);var f=u(v,j,b,t,g,n);oc.beginPath();oc.moveTo(f.x,f);for(i=0;i<=360*(1/q);i++){f=u(v,j,b,t,g,n);oc.lineTo(f.x,f.y);g-=k*l;n-=q*l}oc.stroke();c.clearRect(0,0,w,h);c.drawImage(ocn,0,0,w,h);return true}function D(){G(gr,sr,gr/3,r);r=r+s;d=r<20+s;if(d){requestAnimationFrame(D)}}window.onclick=function(){function b(g,e){return Math.floor((Math.random()*(e-g+1))+g)}r=0.1;gr=b(w/20,w/6);sr=b(w/40,w/3);if(!d){D()}};var w=a.width;var h=a.height;var d=0;var gr=w/5;var sr=gr/4;var s=0.05;var r=0.1;var ocn=document.createElement("canvas");ocn.width=w;ocn.height=h;var oc=ocn.getContext("2d");D();</script>
+	</body>
+</html>
+<!--
+     FILE ARCHIVED ON 09:22:48 Oct 16, 2020 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 18:05:43 Jul 22, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 1.579
+  exclusion.robots: 0.073
+  exclusion.robots.policy: 0.042
+  esindex: 0.038
+  cdx.remote: 8.869
+  LoadShardBlock: 105.393 (3)
+  PetaboxLoader3.datanode: 194.711 (5)
+  load_resource: 515.1 (2)
+  PetaboxLoader3.resolve: 391.398 (2)
+-->
