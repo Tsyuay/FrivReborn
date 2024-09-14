@@ -1,0 +1,278 @@
+
+<!doctype html>
+<html>
+	<head>
+		<title>connect</title>
+		<meta charset="utf-8" />
+		<style>
+         html, body { margin: 0; padding: 0; border: 0; background-color: blanchedalmond;}
+         #c { display: block; cursor: pointer}
+            
+               #overlay {
+        position: absolute;
+        top:0;
+        z-index: 10;
+        background-color: rgba(0,0,0,0.5);
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        animation:overlay 1s 3.5s ease-in forwards;
+    }
+    
+    @keyframes overlay{
+        from {
+            top:0;
+            }
+
+        to {
+             top:250px;
+            }
+        }
+    
+    #mouse {
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    position: absolute;
+    pointer-events: none;
+    z-index: 20;
+    top: 75px;
+    left: 110px;
+    background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 26.458333 26.458334'%3E%3Cg%3E%3Cg transform='translate%280 -270.54%29 translate%28-2.107 30.331%29'%3E%3Cpath stroke='%23fff' stroke-width='1.323' stroke-dashoffset='19.48' d='M10.04 246.56a7.28 7.5 0 0 0-7.27 7.5v4.43a7.28 7.5 0 0 0 7.28 7.5 7.28 7.5 0 0 0 7.27-7.5v-4.43a7.28 7.5 0 0 0-7.28-7.5z' stroke-linejoin='round' style='paint-order:markers fill stroke' stroke-linecap='round'/%3E%3Cpath fill='none' stroke='%23fff' stroke-width='1.323' d='M2.9 253.75h14.38'/%3E%3Cellipse cx='10.125' cy='250.08' fill='none' stroke='%23fff' stroke-width='1.323' stroke-dashoffset='19.48' ry='3.501' style='paint-order:markers fill stroke' rx='1.349' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath fill='none' stroke='%23fff' stroke-width='1.323' d='M10.04 246.56c-.22-3.37 3.4-7.98 9.66-2.88 2.67 2.2 4.33 2.5 8.24.84'/%3E%3Cellipse cx='-191.28' cy='121.03' fill='%23fff' fill-opacity='.333' style='paint-order:markers fill stroke' rx='4.526' transform='matrix%28.438 -.899 .744 .669 0 0%29' ry='1.925'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    animation: mouse 1s 3.5s linear forwards;
+}
+    
+    @keyframes mouse{
+        from {
+            top:75px;
+            left: 110px;
+            }
+
+        to {
+            top:75px;
+            left: -400px;
+            }
+        }
+
+    #emojisContainer {
+        position: absolute;
+        width: 300px;
+        text-align: center;
+        left: 0;
+        top: -20px;
+    }    
+    
+            
+            
+      </style>
+	</head>
+	<body>
+        
+        <div id=overlay></div>
+    <!-- <div id=backColor></div> -->
+    <div id=mouse></div>
+        
+		<canvas id="c"></canvas>
+		<script>
+			var a = document.getElementsByTagName('canvas')[0];
+            a.style.width = (a.width = innerWidth) + 'px';
+            a.style.height = (a.height = innerHeight) + 'px';
+
+         var c = a.getContext('2d');
+		</script>
+<script>
+        
+// a = canvas
+// b = body
+// c = ctx
+// d  = dotSize
+// e = event
+// f = colors
+// g = dots
+// h = selected
+// k = isSelecting
+// m = score
+// n = highestRow
+// o = dot.o
+// p = dot (first level)
+// q = dot (second level)
+// r = hasBelow
+// s = dot.bdown
+// t = dot.bup
+// D = dir
+// i = iter
+// L = x offset
+// R = y offset
+
+with(Math) {
+
+// canvas hash
+for(i in c)c[i[x = m = n = k = 0]+(i[6]||'')]=c[i]
+
+// initialize grid
+for (W = a.width,
+     H = a.height,
+     f = ['#e43', '#92a', '#29e', '#4a5', '#f90'],
+     d = min(W, H) / 7,
+     L = W / 2 - d * 3 + d / 2,
+     R = H / 2 - d * 3,
+     g = [],
+     h = [],
+     onmousedown = function () {
+       k = 1
+     }; x < 6; x++) {
+  for (y = 0; y < 6; y++) {
+    g.push({
+      o: f[random()*5|0],
+      Y: R + y * d,
+      x: L + x * d,
+      y: R + y * d,
+      r: y,
+      c: x
+    })
+  }
+}
+
+onmouseup = ontouchend = function () {
+
+  // ignore single selections
+  if (!h[1]) {
+    h = []
+  }
+
+  // respawn dots above board
+  for (i in h) {
+    p = h[i]
+    if (p.r >= 0) {
+      m++
+      p.r -= n + 1
+      p.y = R + p.r * d
+      p.o = f[random()*5|0]
+    }
+  }
+
+  n = k = 0
+  h = []
+}
+
+onmousemove = ontouchmove = function (e) {
+
+  // normalize touch inputs
+  if (e.pageX) {
+    X = e.pageX
+    Y = e.pageY
+  } else {
+    X = e.touches[0].pageX
+    k = Y = e.touches[0].pageY
+  }
+
+  // select dots
+  if (k) {
+    for (i in g) {
+      p = g[i]
+
+      // skip if dot is not the same color or isn't neighboring
+      if (h[0] &&
+        (h[0].o != p.o |
+          abs(
+            abs(h[0].r - p.r) - abs(h[0].c - p.c)
+          ) != 1))
+        continue
+
+      if (
+        abs(X - p.x) < d / 2 &&
+        abs(Y - p.y) < d / 2
+      ) {
+        if (!~h.indexOf(p)) {
+          h.unshift(p)
+          n = max(p.r, n)
+        } else if (h[1] == p) {
+          h.shift()
+        }
+      }
+    }
+  }
+}
+
+
+setInterval(function() {
+
+  // clear canvas
+  c.ce(0, 0, W, H)
+  c.lineWidth = d / 6
+  c.lineJoin = 'round'
+
+  // physics and painting
+  for (i in g) {
+    p = g[i]
+
+    // if p doesn't have a neighbor below, move it down
+    r = 0
+    for (j in g) {
+      q = g[j]
+      if (p.r + 1 == q.r && p.c == q.c) {
+        r = 1
+      }
+    }
+    if (!r && p.r != 5) {
+      p.r++
+      p.Y = R + p.r * d
+    }
+
+    // falling animation
+    if (p.y != p.Y) {
+      D = p.y > p.Y ? -1 : 1
+      p.y += p.T * D
+      p.T *= p.s && !p.t ? 0.5 : 1.5
+
+      if (~D && p.y >= p.Y) {
+        p.y = p.Y
+      } else if (!~D && p.y <= p.Y) {
+        p.y = p.Y
+      }
+
+      // flip up/down
+      if (!p.s && !p.t && p.y == p.Y) {
+        p.s = 1
+        p.Y -= d / 3
+        p.T = d / 5
+      } else if (p.s && !p.t && p.y == p.Y) {
+        p.t = 1
+        p.T = d / 15
+        p.Y += d / 3
+      }
+
+    } else {
+      p.T = d / 15
+      p.t = p.s = 0
+    }
+
+    // paint
+    c.strokeStyle = p.o
+    if (~h.indexOf(p)) {
+      c.sR(p.x - d / 3, p.y - d / 3, d / 1.5, d / 1.5)
+    }
+    c.sR(p.x - d / 4, p.y - d / 4, d / 2, d / 2)
+  }
+
+  // m
+  c.font = d / 2 + 'px s'
+  c.fx('Score: ' + m, L, R + d * 6)
+
+  // paint selection lines
+  if (h[0]) {
+    c.strokeStyle = h[0].o
+    c.ba()
+    c.m(X, Y)
+    for (i in h) {
+      p = h[i]
+      c.l(p.x, p.y)
+    }
+    c.s()
+  }
+}, 33)
+}
+        
+        </script>
+	</body>
+</html>
