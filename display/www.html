@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="zxx" translate="no">
+
+<head>
+#logoContainer {
+            z-index: 10;
+            height: 60vw;
+            max-height: 54vh;
+            max-width: 100vw;
+            display: block;
+            position: relative;
+            overflow: hidden;
+            background: linear-gradient(.48turn, #40a 30%, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+        }
+
+        #logoLeftShine {
+            position: absolute;
+            z-index: 20;
+            pointer-events: none;
+            width: 30vmax;
+            height: 30vmax;
+            transform: rotate(-60deg);
+            left: -20vmax;
+            top: -10vmax;
+            background-image: linear-gradient(white, rgba(255, 255, 255, 0));
+        }
+
+        #logoRightShadow {
+            position: absolute;
+            pointer-events: none;
+            width: 30vmax;
+            height: 30vmax;
+            transform: rotate(30deg);
+            right: -10vmax;
+            top: -20vmax;
+            background-image: linear-gradient(black, rgba(0, 0, 0, 0));
+        }
+
+        #logoLensFlareA,
+        #logoLensFlareB {
+            position: absolute;
+            z-index: 20;
+            background-color: rgba(255, 255, 255, 0.08);
+            border-radius: 50%;
+            pointer-events: none;
+            left: 2vw;
+            top: 2vw;
+            height: 4vw;
+            width: 4vw;
+        }
+
+        #logoLensFlareB {
+            background-color: rgba(255, 255, 255, 0.06);
+            left: 3vw;
+            top: 4vw;
+            height: 7vw;
+            width: 7vw;
+        }
+
+        #logo {
+            max-width: 100vw;
+            height: 60vw;
+            max-height: 50vh;
+            transform: rotate(-2deg);
+            cursor: pointer;
+            background-size: contain;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='300' height='225' viewBox='0 0 79.4 59.5'%3E%3Cdefs%3E%3ClinearGradient id='a'%3E%3Cstop offset='0'/%3E%3Cstop offset='.9'/%3E%3Cstop offset='1' stop-color='%23fff'/%3E%3C/linearGradient%3E%3ClinearGradient xlink:href='%23a' id='c' x1='194.3' x2='71' y1='93.7' y2='-12.5' gradientTransform='matrix(.33043 0 0 .3305 24 76.9)' gradientUnits='userSpaceOnUse'/%3E%3Cfilter id='b' color-interpolation-filters='sRGB'%3E%3CfeFlood flood-color='%23000' flood-opacity='.5' result='flood'/%3E%3CfeComposite in='flood' in2='SourceGraphic' operator='in' result='composite1'/%3E%3CfeGaussianBlur in='composite1' result='blur' stdDeviation='2'/%3E%3CfeOffset dx='5' dy='5' result='offset'/%3E%3CfeComposite in='SourceGraphic' in2='offset' result='composite2'/%3E%3C/filter%3E%3C/defs%3E%3Cg transform='rotate(-1 -4144.1 2413.4) scale(1.15007)'%3E%3Cpath fill='%230f0' d='M227.4-21.7a4 4 0 0 0-4.1 4 4 4 0 0 0 4 4 4 4 0 0 0 4-3.9 4 4 0 0 0-3.9-4.1zm-11.1-.1-21.8 10.5a137 137 0 0 1-4.4 77.2 94.5 94.5 0 0 1-8.6-54.3l-8.2 2.5.6-9.8-2.8.7a18 18 0 0 0 5-13c.1-8.6-5.3-15.2-14-14.6v-.1c-10 .6-15.2 11-14.5 17.5.2 6.3 3.6 11.4 8.5 13.5l-3.8.9c-.2 19.9-.3 39.8-2 58.8a52 52 0 0 0-19.7-8c39.5-21.8 1.1-65-11.3-74l1.5-5.4c-18.5.4-33.6 3.3-48.5 9.3C70.2.2 68.5 8.1 67.7 17.7l-7.4 1.2c-.8 5.5-1 11-.8 16.5l7.5-1.1a217 217 0 0 0 10 66.5l22.6-11.9A132.3 132.3 0 0 1 84.3 32c6-.6 11.3-1 16-1.3.2-5.7.9-11.8 1.7-17.3-6 .5-12 1.7-17.7 2.3.1-4 .4-8.5.7-12.5a83 83 0 0 1 27.4-5 174.3 174.3 0 0 0-6.8 49.8h-6.3l1.7 16.4 5.6 1.5 2 18.1 15.1-2.6c-1-3.8-1.9-7.7-2.5-11.5a32 32 0 0 1 21 20.5l5.7-2.9c-.5 3-1 6-1.7 9l25.6-8.3c-.4-9-.5-18.2-.4-27.3a93.1 93.1 0 0 0 18.9 29.8C213.8 63 219 23 216.3-21.8zm-91.1 32.2c7 7.7 21.1 34.8-5.5 37.4-.2-13.2 1.8-26 5.5-37.4z' filter='url(%23b)' transform='matrix(.33043 0 0 .3305 24 76.9)'/%3E%3Cpath fill='%230d0' d='M49.3 82.2a.9.9 1 0 0-.9.9.9.9 1 0 0 .9.9.9.9 1 0 0 .9-.9.9.9 1 0 0-.9-.9zm31.4 2.4a1.5 1.5 1 0 0-1.5 1.5 1.5 1.5 1 0 0 1.5 1.6 1.5 1.5 1 0 0 1.5-1.5 1.5 1.5 1 0 0-1.5-1.6zM52 85.7a1.6 1.6 1 0 0-1.6 1.6 1.6 1.6 1 0 0 1.6 1.6 43.7 43.7 1 0 1-.1-1.4l1.6-.2a1.6 1.6 1 0 0-1.5-1.6zm25 1a1.3 1.3 1 0 0-1.3 1.2 1.3 1.3 1 0 0 1.2 1.3 1.3 1.3 1 0 0 1.3-1.2 1.3 1.3 1 0 0-1.3-1.3zm17.5 1a2 2 1 0 0-2.1 2 2 2 1 0 0 1.8 2l.7-4a2 2 1 0 0-.4 0zm-35.3 0a57.6 57.6 1 0 0-.2 3.6 1.8 1.8 1 0 0 .2 0 1.8 1.8 1 0 0 1.8-1.8 1.8 1.8 1 0 0-1.8-1.9zM84 88a2.5 2.5 1 0 0-1 2 2.5 2.5 1 0 0 1.7 2.4A31.2 31.2 1 0 1 84 88zm-37.6 1.5a71.7 71.7 1 0 0 3.2 20.6l7.5-4A43.7 43.7 1 0 1 52.2 91a12 12 1 0 0-3.5.5 2.5 2.5 1 0 0-2.4-1.9zm33.1 2.1a2.5 2.5 1 0 0-2.5 2 9 9 1 0 0-.4 0 9 9 1 0 0-2.4.2l-.4 5.5a17.2 17.2 1 0 0-6.5-2.7l1.5-1A7 7 1 0 0 65 94a1.6 1.6 1 0 0-1.4-1 1.6 1.6 1 0 0-1.5 1.4 7 7 1 0 0-1.1.4 12 12 1 0 0-2.6-2.1H57l.5 5.4 1.9.5.6 6 5-.9a39 39 0 0 1-.8-3.8 10.6 10.6 1 0 1 7 6.8l1.8-1-.5 3 8.4-2.8c-.1-3-.2-6-.1-9a30.8 30.8 1 0 0 6.2 9.9c2.8-3.3 4.8-7 6.2-11.2a5.4 5.4 1 0 0-4.5-2.5 5.4 5.4 1 0 0-.2 0 45.3 45.3 1 0 1-1.5 5.5 31.2 31.2 1 0 1-1.7-4.4 5.4 5.4 1 0 0-1.9 2.7 9 9 1 0 0-1.7-1.7 2.5 2.5 1 0 0 .3-1 2.5 2.5 1 0 0-2.5-2.6z'/%3E%3Cpath fill='%23fff' fill-opacity='.2' d='M99.2 69.7a1.3 1.3 1 0 0-1.4 1.3 1.3 1.3 1 0 0 1.3 1.4 1.3 1.3 1 0 0 1.4-1.3 1.3 1.3 1 0 0-1.3-1.4zm-3.7 0-7.2 3.5a45.3 45.3 1 0 1 1.1 11.3 37.1 19 1 0 0 6.2-2.6c.2-4 .2-8 0-12.2zm-17.9-.3c-3.3.2-5 3.6-4.8 5.8 0 2 1.2 3.7 2.8 4.4l-1.2.3-.1 7.4a37.1 19 1 0 0 9.5-1.3 31.2 31.2 1 0 1 .2-5.3l-2.7.9.2-3.3-1 .3a6 6 1 0 0 1.7-4.3c0-2.9-1.7-5-4.6-4.9zm-13.6 1c-6.2.2-11.1 1.2-16 3.2-.8 3.4-1.3 6-1.6 9.1l-1 .2a37.1 19 1 0 0 11.8 3.5l.5-5c-2 0-4 .5-5.8.7l.2-4.1a27.4 27.4 1 0 1 9-1.7 57.6 57.6 1 0 0-1.9 10.4 37.1 19 1 0 0 4.7.5 38 38 0 0 1 1.5-6.9 15 15 0 0 1 3.3 7.2 37.1 19 1 0 0 4.2-.1c-.5-6.5-6.8-13.2-9.4-15.1Z'/%3E%3Cpath fill='none' stroke='url(%23c)' stroke-linejoin='round' stroke-width='1.3' d='M65.4 80.3c2.3 2.5 7 11.6-1.8 12.4 0-4.3.6-8.6 1.8-12.4zm12.2-10.9c-3.3.2-5 3.6-4.8 5.8a5 5 0 0 0 2.8 4.5l-1.2.2c0 6.7-.1 13.2-.7 19.5a17 17 1 0 0-6.5-2.6c13-7.2.4-21.5-3.7-24.5l.5-1.8a44.6 44.6 1 0 0-16 3c-.7 3.5-1.3 6-1.6 9.3L44 83c-.3 1.9-.4 3.7-.3 5.5l2.5-.3c0 7.8 1.1 15.1 3.3 22l7.5-4a43.7 43.7 1 0 1-5-18.8l5.2-.5c.1-1.8.3-3.9.6-5.7l-5.9.8.3-4.1a28 28 1 0 1 9-1.7A57.6 57.6 1 0 0 59 92.8h-2.1l.6 5.4 1.8.5.7 6 5-.9a41.3 41.3 1 0 1-.9-3.8 10.6 10.6 1 0 1 7 6.8l1.8-1-.5 3 8.5-2.7c-.2-3-.2-6-.2-9a30.8 30.8 1 0 0 6.2 9.8c7.8-9.2 9.5-22.4 8.6-37.2l-7.2 3.4A45.3 45.3 1 0 1 87 98.6a31.2 31.2 1 0 1-3-17.9l-2.7.8.2-3.2-1 .2a6 6 1 0 0 1.7-4.3c.1-2.8-1.7-5-4.6-4.8z'/%3E%3Ccircle cx='78.5' cy='74.2' r='.3' fill='none'/%3E%3Ccircle cx='99.2' cy='71.1' r='1.1' fill='none' stroke='%23000' stroke-width='.9'/%3E%3Cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-opacity='.6' stroke-width='.8' d='M61.4 72.4c-5.2.5-8.7 1.5-11.8 2.6-.5 2.2-.9 4.4-1.1 6.7m26.1-7.6c.6-1.8 1.8-2.8 3.6-3m-15.4 6.1a64 64 0 0 0-1.9 12m15.3-7.5L76 92.3m17.5-19.5-3.1 1.4c.5 2.9.9 6 1 8.7'/%3E%3Cpath fill-opacity='.8' d='M98.8 71.03v-.47h.24l.26.01c.11.01.16.03.2.08.05.05.08.11.07.19 0 .05 0 .09-.03.12a.23.23 0 0 1-.07.08.35.35 0 0 1-.15.06h.01l.07.06c.04.04.07.08.16.23l.06.1.02.03h-.24l-.08-.13-.15-.22c-.04-.04-.06-.05-.14-.05H99v.19l-.01.2h-.2zm.42-.06.08-.01a.1.1 0 0 0 .08-.11c0-.04 0-.06-.03-.09a.1.1 0 0 0-.05-.03h-.18l-.13-.01v.24h.23z'/%3E%3C/g%3E%3C/svg%3E");
+            /* animation: logo 20s 6s ease-in-out infinite, brightFlash 0.2s 12s steps(1), brightFlash 0.2s 45s steps(1), brightFlash 0.2s 80s steps(1); */
+            animation: logo 20s 6s ease-in-out infinite;
+        }
+
+        @keyframes logo {
+            0% {
+                transform: rotate(-2deg);
+            }
+
+            25% {
+                transform: rotate(4deg);
+            }
+
+            50% {
+                transform: rotate(-2deg);
+            }
+
+            75% {
+                transform: rotate(4deg);
+            }
+
+            100% {
+                transform: rotate(-2deg);
+                filter: hue-rotate(360deg);
+            }
+        }
+
+        #logoSpinner {
+            position: absolute;
+            left: -5vw;
+            top: 10%;
+            height: 8vmax;
+            width: 8vmax;
+            background-size: contain;
+            background-position: center center;
+            background-repeat: no-repeat;
+            opacity: 0;
+            pointer-events: none;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='300' width='300'%3E%3Cpolygon points='149,289 199,204 296,183 230,109 241,11 150,50 60,10 70,108 4,183 100,203' style='fill:lime;'/%3E%0A%3C/svg%3E");
+            animation: logoSpinnerX 10s 6s ease-in-out infinite, logoSpinnerY 47s 6s ease-in-out infinite, logoSpinnerZ 20s 5.5s ease-in-out infinite;
+        }
+
+        @media (orientation: portrait) {
+            #logoSpinner {
+                display: none;
+            }
+        }
+
+        @keyframes logoSpinnerX {
+            0% {
+                opacity: 0.5;
+                left: calc(8vw - 5vmax);
+            }
+
+            25% {
+                height: 15vmax;
+                width: 15vmax;
+                opacity: 0.9;
+            }
+
+            50% {
+                opacity: 0.5;
+                left: 84vw;
+                z-index: 5;
+            }
+
+            75% {
+                opacity: 0;
+                height: 6vmax;
+                width: 6vmax;
+            }
+
+            100% {
+                opacity: 0.5;
+                left: calc(8vw - 5vmax);
+            }
+        }
+
+        @keyframes logoSpinnerY {
+            0% {
+                transform: rotate(0deg);
+                top: 10%;
+            }
+
+            33% {
+                transform: rotate(720deg);
+                top: 37%;
+            }
+
+            66% {
+                transform: rotate(-720deg);
+            }
+
+            100% {
+                transform: rotate(0deg);
+                top: 10%;
+            }
+        }
+
+        @keyframes logoSpinnerZ {
+            to {
+                filter: hue-rotate(360deg);
+            }
+        }
+
+        #welcome {
+            position: relative;
+            z-index: 11;
+            color: rgba(255, 100, 255, 1);
+            opacity: 0;
+            font-size: 12vmin;
+            letter-spacing: 2vmin;
+            text-shadow: 1vmin 1vmin 1vmin rgba(0, 0, 0, 0.7);
+            font-family: frivFont, arial, helvetica, sans-serif;
+            margin-top: -20vmin;
+            margin-bottom: 1vh;
+            pointer-events: none;
+            animation: welcomeFadeInOut 10s 3s ease-out forwards;
+        }
+
+        @keyframes welcomeFadeInOut {
+            0% {
+                opacity: 0;
+            }
+
+            30% {
+                opacity: 1;
+            }
+
+            80% {
+                opacity: 1;
+            }
+
+            100% {
+                opacity: 0;
+                filter: hue-rotate(70deg);
+            }
+        }
+
+        .halloweenIcon {
+            position: absolute;
+            z-index: 15;
+            pointer-events: none;
+            bottom: 0;
+            left: 50px;
+            width: 40px;
+            height: 40px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='200' height='200' viewBox='0 0 52.9 52.9'%3E%3Cdefs/%3E%3Cdefs%3E%3ClinearGradient id='a'%3E%3Cstop offset='0' stop-color='%23000042'/%3E%3Cstop offset='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' x1='94.3' x2='93' y1='-.1' y2='199.8' gradientUnits='userSpaceOnUse' xlink:href='%23a'/%3E%3C/defs%3E%3Cpath fill='url(%23b)' d='M27.3 0C.6.1 1 17.3 0 29c-.3 55.5 0 115.3 0 171h200V84.7C200.3 24.9 154.4 0 107.4 0z' transform='scale(.26458)'/%3E%3Cg transform='translate(13.5 22.3) scale(.21072)'%3E%3Cpath fill='%23381400' stroke='%2328170b' stroke-linecap='round' stroke-linejoin='round' stroke-width='4' d='M32.2-46.3c3-.5 32.2-10.8 32.2-10.8A163 163 0 0068-14.5S52.2-8.8 51.7-9.8c1.3-2.3-18.4-37.3-19.5-36.5z'/%3E%3Cellipse cx='35.3' cy='-36.4' fill='%23401800' stroke='%2328170b' stroke-linecap='round' stroke-linejoin='round' stroke-width='4' rx='17.4' ry='9.6' transform='matrix(.919 -.395 .29 .957 26.4 -3.6)'/%3E%3Cpath fill='%23fdb002' d='M37 122.4c14.3-8.3 32.6-13.1 48.1-5.1a40.3 40.3 0 0022.5 6.3 54.6 54.6 0 0039-14.4 43.8 43.8 0 0014.1-25C165 60 161.8 32 148.8 11a101.1 101.1 0 00-25-27.2C110.7-26.9 87-33 66.4-31.8c-15.3.7-31 2.6-45 8.8C-1.7-12.6-24 4-34.5 28a89.5 89.5 0 00-7.6 38.4c.5 18.8 6.5 36 22.2 49.9a53 53 0 0045.2 9.7c4-1 8-2.1 11.8-3.6z'/%3E%3Cpath fill='maroon' fill-opacity='.3' d='M72.2-32l-6 .2c-10.7.6-21.8 1.7-32.2 4.5C35-19.4 43.8-13 55.3-12 49.5 32.6 74 68.3 91.1 106 79.3 65 51.6 18.9 64.3-12.3c9-1.6 16-6.7 17.8-13 37 31.8 55.8 76.4 34.6 148.8 11-1.5 21.6-7.1 29.8-14.1a43.8 43.8 0 0014.1-25c4.3-24.4 1.1-52.3-11.9-73.3a100.7 100.7 0 00-25-27.2C111.7-26 91.3-32 72-32zM7.5 1.8C5.2 20.7-2.1 35.9.7 58.6c4.2 17.6 18.1 35 27.2 52.5A199.1 199.1 0 017.5 1.7z'/%3E%3Cpath fill='%23fff' fill-opacity='.2' d='M5.9-15a96 96 0 00-40.6 43 89.2 89.2 0 00-7.6 38.4C-42 83.4-37 99-24.6 112-29.6 80.6-13.3 17 6-15z'/%3E%3Cpath fill='none' stroke='%237a0700' stroke-width='4' d='M37 122.4c14.3-8.3 32.6-13.1 48.1-5.1a40.3 40.3 0 0022.5 6.3 54.6 54.6 0 0039-14.4 43.8 43.8 0 0014.1-25C165 60 161.8 32 148.8 11a101.1 101.1 0 00-25-27.2C110.7-26.9 87-33 66.4-31.8c-15.3.7-31 2.6-45 8.8C-1.7-12.6-24 4-34.5 28a89.5 89.5 0 00-7.6 38.4c.5 18.8 6.5 36 22.2 49.9a53 53 0 0045.2 9.7c4-1 8-2.1 11.8-3.6z'/%3E%3Cpath fill='%23fdb002' stroke='%237a0700' stroke-linecap='round' stroke-width='4' d='M-7.9 107.5c43.3 29.9 91 34.7 146.4-3'/%3E%3Cpath stroke='%237a0700' stroke-linecap='round' stroke-linejoin='round' stroke-width='4' d='M-4.7 47c1.5-2.8 49.7-1.7 53.7-.7C55 47.8 28-1 23.6 4.6a90 90 0 00-23.5 39M53.6 66c-2.1-2.9 12-30.4 14.4-30.4a55.8 55.8 0 0120.3 23.8c-13.2.2-24.4 2.9-34.7 6.6zM134.5 27.3c-8-11-18-23.6-34.4-28.3-7.2 15.1-12 30.4-10 46.2 16.6-10.6 33.2-15 49.8-18.7'/%3E%3Cpath stroke='%237a0700' stroke-linecap='round' stroke-linejoin='round' stroke-width='4' d='M7.1 63.1l6.7 6-4.5 12.2C8.2 83.9 29 95.8 30.1 93.7c.5-.4 7.2-15.3 7.2-15.3l12.8 1.4-.6 14.7c13 1.7 26.5.4 37.9-5.8l-4.8-15.2c5.8-1 10.2-2.8 13.8-5.5 1.1 4.7 3 8.5 5.4 11.7a66.4 66.4 0 0021-15.6c-3.4-6-5.8-8.6-10-12.7l10.4-8 10.2 2.8c3.7 12.4 7 29.6-20.5 55.1L108.6 90a52.2 52.2 0 00-20 10.5l4 11.4a97.5 97.5 0 01-43.7 6l1.3-13.9a49.2 49.2 0 00-22.7-1.6l-2.3 8.4a49.5 49.5 0 01-31-35c3.4-5 7.2-9.8 13-12.6z'/%3E%3C/g%3E%3Cpath fill='%23fff' fill-opacity='.1' d='M12.8 17l-4.5-1.6-2 4.3.1-4.7-4.7-.7L6.3 13l-.9-4.6 2.7 3.9 4.1-2.3-2.9 3.8z'/%3E%3Cpath fill='%23ff9' fill-opacity='.3' d='M39 13.5l-2-3.2-3.5 1.7L36 9l-2.8-2.7 3.6 1.4 1.8-3.5-.2 3.9 3.8.6-3.7 1z'/%3E%3Cpath fill='%23fff' fill-opacity='.3' d='M20.4 8.7L17.8 7 16 9.4l.8-3-2.8-1 3-.2.2-3.1L18 5l3-.8L18.7 6z'/%3E%3C/svg%3E");
+            animation: iconPulse 3s infinite;
+        }
+
+        .xmasIcon {
+            position: absolute;
+            z-index: 14;
+            pointer-events: none;
+            bottom: 0;
+            left: 0;
+            width: 100px;
+            height: 66.6px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='200' viewBox='0 0 79.4 52.9'%3E%3Cdefs/%3E%3Cg transform='translate(0 -244)'%3E%3Cpath fill='none' stroke='%23000' stroke-opacity='.3' stroke-width='4' d='M45.8 246.7a16 16 0 00-8.7 2.5c-.8.3-1.8.8-2.9 1.6-3.6 2.4-6 6.3-6 10.9-1.2.9-2.3 1.9-3.2 3.1a8.1 8.1 0 00-1.1 7c.2.8.6 1.4 1 2a8.2 8.2 0 00-.7 7.8 8 8 0 0011.3 4 8.1 8.1 0 0016 2.7 8.2 8.2 0 0010.5-12c2-1.6 3.2-4.6 2.7-7.2l-.6-2c.8 0 1.8.1 2.8.4a5 5 0 00.1.9 5 5 0 006.2 3.7 5 5 0 003.7-6.2 5 5 0 00-6.2-3.7 5 5 0 00-.8.3c-6.1-9-15.3-15.7-24-15.8z'/%3E%3Cpath fill='%23d40000' d='M42 247.2c-1 .2-2 .5-2.9 1-7.3 3.3-14.5 10.7-9.8 27.6l32.2 4.1c-4-20 6.7-10.1 11.9-11.6-6.5-13.1-19.9-23.9-31.4-21.1z'/%3E%3Cpath fill='%23f7d6ae' d='M28.6 272.3V262.5l14.4-7.3 16 6.5 1.4 12z'/%3E%3Cpath fill='%23fff' d='M39.9 248.3c-.5 0-1 .2-1.5.4-.3.1-2.1.7-4.2 2-3.6 2.5-6 6.4-6 11-1.2.9-2.3 1.9-3.2 3.1a8.1 8.1 0 00-1.1 7c.2.8.6 1.4 1 2a8.2 8.2 0 00-.7 7.8 8 8 0 0011.3 4 8.1 8.1 0 0016 2.7 8.2 8.2 0 0010.5-12c2-1.6 3.2-4.6 2.7-7.2-.2-.6-.4-1.7-1.3-3.3-.6-.9-1.2-1.5-2-2.2-.9-1-.7-.6-.7-1 .4-6.6-4.5-12-11-14-3-1-6.4-1.2-9.8-.3zm-1 10.3l2.3-.5c4.5-.4 8 0 12.2 2.5a15 15 0 015 4.9c.5 1.8.5 4 0 5.7a10.3 10.3 0 00-7.1-4c-3.1-.3-4.8.4-7.5 1.2-1-.4-3.6-2.5-9.4-1.3-2.5.6-4.4 3-4.5 3a11 11 0 01.3-5.4c1.5-3.2 5.3-5.3 8.8-6.1zm31.8 3.6a5 5 0 00-3.7 6.2 5 5 0 006.2 3.7 5 5 0 003.7-6.2 5 5 0 00-6.2-3.7z'/%3E%3Cpath fill='%23fff' d='M52.2 261.6v.7c-.3.4-1-.2-2.1-.7-2-.9-4.1-.3-4.3-1l.3-.6c1.3-1.1 5.4 0 6 1.6z' class='st2'/%3E%3Cpath fill='%23fffffe' d='M41.7 260.2c-.3-.2-.6-.4-1-.4-1.5-.3-3.4.3-4.6 1.4l-.6.6c-.4.6.2 1.1.6 1 1.2-.6 1.7-1.3 4.3-1.6.7 0 1.3-.1 1.4-.5l-.1-.5z' class='st14'/%3E%3Cpath fill='none' stroke='%23803300' stroke-linecap='round' stroke-width='1.1' d='M37 263.8c1.1-1 2.7-1.2 4 0M46.5 264c1-1 2.7-1.1 4 0'/%3E%3Ccircle cx='-22' cy='270.5' r='3.1' fill='%23ffc2ae' transform='rotate(-13.9)'/%3E%3Cpath fill='none' stroke='%23f55' stroke-linecap='round' stroke-width='1.3' d='M46.6 273.4c-1 1.6-4.6 1.7-5.7 0'/%3E%3C/g%3E%3C/svg%3E");
+        }
+
+        .pulsateIcon {
+            position: absolute;
+            left: 0;
+            background-size: contain;
+            background-repeat: no-repeat;
+            animation: pulsate 2s infinite;
+        }
+
+        @keyframes pulsate {
+            from {
+                filter: contrast(100%);
+                filter: brightness(100%);
+            }
+
+            to {
+                filter: contrast(150%);
+                filter: brightness(150%);
+            }
+        }
+
+        .newIcon {
+            position: absolute;
+            z-index: 15;
+            pointer-events: none;
+            bottom: 0;
+            left: 0;
+            width: 40px;
+            height: 40px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200' viewBox='0 0 52.9 52.9'%3E%3Cpath d='M53 53V22.3C53 6.6 40.8 0 28.3 0H0v53z' fill='%23f60'/%3E%3Cpath d='M15.9 21.6V3.3L23 21.6 23.4 3M37.1 13.3l-6.5-1.6-4.6 17 7.6 2M28.3 17.8l4.6 1M36 23.5L39.2 43l3.3-12 3.5 12 2.7-19.6' fill='none' stroke='%23fff' stroke-width='4'/%3E%3C/svg%3E");
+            opacity: 0;
+            animation: newFlash 0.5s forwards, newFlash 0.5s 5s forwards, newFlash 0.5s 10s forwards;
+        }
+
+        @keyframes newFlash {
+            0% {
+                opacity: 0;
+            }
+
+            10% {
+                opacity: 1;
+            }
+
+            20% {
+                opacity: 0;
+            }
+
+            30% {
+                opacity: 1;
+            }
+
+            40% {
+                opacity: 0;
+            }
+
+            50% {
+                opacity: 1;
+            }
+
+            60% {
+                opacity: 0;
+            }
+
+            70% {
+                opacity: 1;
+            }
+
+            80% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes iconPulse {
+            to {
+                filter: contrast(200%);
+                filter: brightness(200%);
+            }
+        }
+
+        #dBugBlinker {
+            position: fixed;
+            z-index: 30;
+            background-color: red;
+            top: 0;
+            width: 100%;
+            min-height: 10px;
+            animation: blinker 1s linear infinite;
+            display: none;
+        }
+
+        @keyframes blinker {
+            50% {
+                opacity: 0;
+            }
+        }
+
+        #searchButton {
+            position: absolute;
+            z-index: 20;
+            min-width: 12vmin;
+            min-height: 12vmin;
+            top: -12vh;
+            right: 0;
+            padding: 1vmin;
+            cursor: pointer;
+            opacity: 0.5;
+            transition: 1s;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200' viewBox='0 0 52.9 52.9'%3E%3Cg transform='translate(0 -244)'%3E%3Cpath d='M10.6 244v36.5c0 4.2 1.7 6 5.8 6h36.5V244z' fill-opacity='.5'/%3E%3Ccircle cx='28' cy='260.6' r='10.9' fill='none' stroke='%23fff' stroke-width='3.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M36.3 268.9l5.1 5' fill='none' stroke='%23fff' stroke-width='3.2'/%3E%3Cpath d='M39.8 272.3l6.5 6.7' fill='none' stroke='%23fff' stroke-width='5' stroke-linecap='round'/%3E%3Cpath d='M28.3 253.5c-4 0-7.3 3.3-7.3 7.3' fill='none' stroke='%23fff' stroke-width='1.3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/g%3E%3C/svg%3E");
+            animation: searchButtonSlideIn 2s ease-out forwards;
+        }
+        
+        #colourSelector {
+            position: absolute;
+            z-index: 20;
+            min-width: 9vmin;
+            min-height: 6vmin;
+            top: 13vmin;
+            right: -13vmin;
+            padding: 1vmin;
+            cursor: pointer;
+            border-radius: 1vmin 0 0 1vmin;
+            background-image: linear-gradient(indigo, navy);
+            opacity: 0.6;
+            transition: 1s;
+            animation: colourSelectorButtonSlideIn 2s 0.5s ease-out forwards;
+        }
+
+        @keyframes searchButtonSlideIn {
+            to {
+                top: 0;
+            }
+        }
+
+        #searchButton:hover {
+            opacity: 1;
+        }
+        
+        @keyframes colourSelectorButtonSlideIn {
+            to {
+                right: 0;
+            }
+        }
+        
+        #colourSelector:hover{
+            opacity: 1;
+        }
+
+        /* qqq */
+        
+        #friv4SchoolFactsContainer, #topPromoTextLink, #performanceAlert {
+            position: relative;
+            border-radius: 1em;
+            margin-left: 7vmin;
+            margin-right: 7vmin;
+            margin-bottom: 5vmin;
+            padding: 2vmin;
+            padding-top: 1vmin;
+            padding-bottom: 1vmin;
+            font-size: 1.7vmax;
+            box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.4);
+            display: none;
+            opacity: 0;
+            
+            /* font-weight: normal; */
+        }
+        
+        #topPromoTextLink, #performanceAlert {
+            background: orangered;
+            opacity: 1;
+        }
+        
+        #topPromoTextLink a:link,#topPromoTextLink a:visited {
+            color:white;
+        } 
+        
+        #friv4SchoolFactsContents {
+            cursor: pointer;
+        }
+        
+        #friv4SchoolFactsThankyou {
+            display: none;
+        }
+
+        /* for very hi-res screens */
+        @media only screen and (min-width: 2000px) {
+            #friv4SchoolFactsContainer {
+                font-size: 1.3vmax;
+            }
+        }
+
+        #topPromoButtonsContainer {
+            position: absolute;
+            display: none;
+            z-index: 35;
+            top: -10vh;
+            left: 0;
+            font-size: 2em;
+            transition: 0.5s;
+            animation: topPromoButtonsContainerAnim 2s 0s ease-out forwards;
+            /* can increase delay to discourage use */
+        }
+
+        @keyframes topPromoButtonsContainerAnim {
+            0% {
+                top: -10vmin;
+            }
+
+            100% {
+                top: 0;
+            }
+        }
+
+        #topPromoButton1,
+        #topPromoButton2 {
+            padding: 1vmin;
+            border-radius: 0 0 1vmin 0;
+            background-color: rgba(0, 0, 0, 0.4);
+            color: rgba(255, 255, 255, 0.5);
+            cursor: pointer;
+            transition: 1s;
+        }
+
+        #topPromoButton1:hover,
+        #topPromoButton2:hover {
+            color: white;
+            background-color: rgba(0, 0, 0, 0.6);
+            transition: 1s;
+        }
+
+        #searchBoxContainer {
+            position: fixed;
+            z-index: 20;
+            display: none;
+            background-color: #306;
+            width: 100%;
+            height: 100%;
+        }
+
+        #searchBox {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            box-sizing: border-box;
+            width: 100%;
+            padding: 0.5vmax;
+            margin: auto;
+            font-size: 6.2vmin;
+            text-shadow: 0.5vmin 0.5vmin 0 rgba(0, 0, 0, 0.7);
+            background-color: indigo;
+        }
+
+        .searchLetter,
+        .searchLetterAll {
+            display: inline-block;
+            font-family: frivFont;
+            font-size: 3.8vmax;
+            color: white;
+            padding: 0.1vmax;
+            padding-left: 1vmax;
+            padding-right: 1vmax;
+            margin: 0.3vmin;
+            margin-top: 1vmin;
+            border-radius: 1.5vmin;
+            border: 0.5vmin outset brown;
+            cursor: pointer;
+            background: linear-gradient(orange, white, orange, orange, orange, orange, chocolate, brown);
+            box-shadow: 2vmin 2vmin 2vmin rgba(0, 0, 0, 0.4);
+        }
+
+        .searchLetterAll {
+            border: 0.5vmin outset green;
+            background: linear-gradient(lime, white, lime, lime, lime, lime, lime, green, green);
+        }
+
+        #halloweenRemove {
+            color: yellow;
+        }
+        
+        #xmasRemove {
+            color: red;
+        }
+
+        #headerSearchResult {
+            font-size: 4vmin;
+            display: none;
+        }
+
+        #frivDaily {
+            padding-top: 100vh;
+        }
+
+        /*
+    #frivDailyInner {
+        width: 80%;
+        font-size: 14vw;
+        -webkit-text-stroke: calc(0.01em + 0.3vw) maroon;
+    }
+        */
+
+        #dropGfx {
+            position: fixed;
+            pointer-events: none;
+            z-index: 30;
+            width: 100vw;
+            max-width: 100vw;
+            height: 100vw;
+            background-size: contain;
+            background-repeat: no-repeat;
+            top: -100vmax;
+            left: 0;
+        }
+
+        @keyframes dropGfx {
+            from {
+                top: -100vmax;
+            }
+
+            to {
+                top: 110vmax;
+                transform: rotate(90deg);
+            }
+        }
+
+        #feedback {
+            font-size: 4.5vmin;
+            font-weight: 700;
+            background-color: rgba(0, 255, 0, 0.5);
+            padding: 3vmin;
+            z-index: 15;
+            display: none;
+        }
+
+        .feedbackInput {
+            display: block;
+            margin: auto;
+            font-family: frivFont;
+            font-size: 4.5vmin;
+            font-weight: 700;
+            border: 1vmin solid lime;
+            border-radius: 1vmin;
+            margin-top: 2vh;
+            width: 90vw;
+    </script>
+
+    
+    
+</body>
+
+</html>
