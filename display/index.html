@@ -1,122 +1,150 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>starfield</title>
-    
-     <style>
-    html,
-body {
-    margin: 0;
-    overflow: hidden;
-    height: 100%;
-    cursor: pointer;
-}
 
-/* Scale canvas with resize attribute to full size */
-canvas[resize] {
-    width: 100%;
-    height: 100%;
-}
-         
-         
-         #overlay {
-        position: absolute;
-        top:0;
-        z-index: 10;
-        background-color: rgba(0,0,0,0.5);
-        width: 100%;
-        height: 100%;
-        pointer-events: none;
-        animation:overlay 1s 3s ease-in forwards;
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+<title>Raycaster maze</title>
+<script src="trace.js"></script>
+<script src="input.js"></script>
+<script src="Player.js"></script>
+<script src="Level.js"></script>
+<script src="RayCaster.js"></script>
+
+<script>
+  var C2D, W, H, RC;
+  var fps = 30;
+  var mspf = 1000 / fps;
+  var updateInterval;
+  var quit = false;
+
+  function main() {
+    var c = document.getElementById('canvas');
+    if (c.getContext) {
+      initializeCanvas(c);
+      var P = new Player(8);
+      var L = new Level();
+      RC = new RayCaster(C2D, W, H, 4, L, P, input);
+      if (initializeLevel()) {
+        trace('map loaded successfully.');
+        trace("now casting...");
+        trace("  \'a\' - turn left");
+        trace("  \'d\' - turn right");
+        trace("  \'w\' - step forward");
+        trace("  \'s\' - step backward");
+        trace("  \'q\' - stop casting");
+        updateInterval = window.setInterval("update()", mspf);
+      }
+      else {
+        trace("map failed to load");
+      }
+    }
+
+    else {
+      trace('sorry.. you\'ll need a browser that supports the canvas tag,');
+      trace('like Safari or Firefox 1.5+ to see this demo.');
+    }
+  }
+
+  function initializeCanvas(c) {
+      C2D = c.getContext('2d');
+      C2D.lineWidth = 1;
+      C2D.globalAlpha = 1;
+      C2D.globalCompositeOperation = 'source-over';
+      W = c.width;
+      H = c.height;
+      trace('canvas initialized');
+  }
+
+  function initializeLevel() {
+    var mapCells_x = 28;
+    var mapCells_y = 16;
+      
+    var M = '' +
+      '############################' +
+      '#                          #' +
+      '#  @@@@@  %   %   @@@   %  #' +
+      '#  @      %   %  @   @  %  #' +
+      '#  @      %   %  @   @  %  #' +
+      '#  @@@@   %   %  @   @  %  #' +
+      '#  @      %   %  @   @  %  #' +
+      '#  @      %   %  @   @     #' +
+      '#  @       %%%   @   @  %  #' +
+      '#                          #' +
+      '#                          #' +
+      '#                          #' +
+      '#            P             #' +
+      '#                          #' +
+      '#                          #' +
+      '############################';
+
+    trace('submitting map...');
+    return RC.loadMap(M, mapCells_x, mapCells_y);
+  }
+
+  function update() {
+    if (input.quit) {
+      input.quit = false;
+      window.clearInterval(updateInterval);
+      trace('raycaster halted.');
+    }
+    else {
+      RC.update();
+    }
+  }
+    
+    
+    
+    
+    	// key blocker. prevent cursor keys from scrolling page while playing cart.
+		
+		function onKeyDown_blocker(event) {
+			event = event || window.event;
+			var o = document.activeElement;
+			if (!o || o == document.body || o.tagName == "canvas")
+			{
+				if ([32, 37, 38, 39, 40].indexOf(event.keyCode) > -1)
+				{
+					if (event.preventDefault) event.preventDefault();
+				}
+			}
+		}
+
+		document.addEventListener('keydown', onKeyDown_blocker, false);
+    
+    
+    
+    
+</script>
+
+<style>
+    body{
+        margin: 0;
+        overflow: hidden;
     }
     
-    @keyframes overlay{
-        from {
-            top:0;
-            }
-
-        to {
-             top:100%;
-            }
-        }
-    
-    #mouse {
-    width: 100px;
-    height: 100px;
-    background-size: contain;
-    position: absolute;
-    pointer-events: none;
-    z-index: 20;
-    top: 75px;
-    left: 110px;
-    background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 26.458333 26.458334'%3E%3Cg%3E%3Cg transform='translate%280 -270.54%29 translate%28-2.107 30.331%29'%3E%3Cpath stroke='%23fff' stroke-width='1.323' stroke-dashoffset='19.48' d='M10.04 246.56a7.28 7.5 0 0 0-7.27 7.5v4.43a7.28 7.5 0 0 0 7.28 7.5 7.28 7.5 0 0 0 7.27-7.5v-4.43a7.28 7.5 0 0 0-7.28-7.5z' stroke-linejoin='round' style='paint-order:markers fill stroke' stroke-linecap='round'/%3E%3Cpath fill='none' stroke='%23fff' stroke-width='1.323' d='M2.9 253.75h14.38'/%3E%3Cellipse cx='10.125' cy='250.08' fill='none' stroke='%23fff' stroke-width='1.323' stroke-dashoffset='19.48' ry='3.501' style='paint-order:markers fill stroke' rx='1.349' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath fill='none' stroke='%23fff' stroke-width='1.323' d='M10.04 246.56c-.22-3.37 3.4-7.98 9.66-2.88 2.67 2.2 4.33 2.5 8.24.84'/%3E%3Cellipse cx='-191.28' cy='121.03' fill='%23fff' fill-opacity='.333' style='paint-order:markers fill stroke' rx='4.526' transform='matrix%28.438 -.899 .744 .669 0 0%29' ry='1.925'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
-        animation: mouse 1s 3s linear forwards;
+    #overlay{
+        position: absolute;
+        cursor: pointer;
+        z-index: 10;
+    }
+canvas {
+  border: 0px;
+  position: absolute;
 }
     
-    @keyframes mouse{
-        from {
-            top:75px;
-            left: 110px;
-            }
-
-        to {
-            top:-175px;
-            left: 110px;
-            }
-        }
-         
-         
-        </style>
+    #trace{
+        position: absolute;
+        margin-top: 300px;
+    }
     
-    <script src="paper-full.min.js"></script>
-    <script type="text/paperscript" canvas="canvas">
-
-// The amount of points in the path:
-var points = 20;
-
-// The distance between the points:
-var length = 15;
-
-var path = new Path({
-	strokeColor: '#600090',
-	strokeWidth: 30,
-	strokeCap: 'round'
-});
-
-var start = view.center / [10, 1];
-for (var i = 0; i < points; i++)
-	path.add(start + new Point(i * length, 0));
-
-function onMouseMove(event) {
-	path.firstSegment.point = event.point;
-	for (var i = 0; i < points - 1; i++) {
-		var segment = path.segments[i];
-		var nextSegment = segment.next;
-		var vector = segment.point - nextSegment.point;
-		vector.length = length;
-		nextSegment.point = segment.point - vector;
-	}
-	path.smooth({ type: 'continuous' });
-}
-
-function onMouseDown(event) {
-	path.fullySelected = true;
-	path.strokeColor = '#e08285';
-}
-
-function onMouseUp(event) {
-	path.fullySelected = false;
-	path.strokeColor = '#600090';
-}
-    </script>
+</style>
 </head>
-<body>
-    
-    <div id=overlay></div>
 
-    <div id=mouse></div>
+<body onload="main();" onkeydown="press(event);" onkeyup="release(event);">
+
+   <div id=overlay><img src="raycastOverlay.png" alt="raycastOverlay" width="300" height="250" onclick="overlay.style.display = 'none'"></div>
     
-    <canvas id="canvas" resize hidpi="off" style="background:black"></canvas>
+<canvas id="canvas" width="300" height="250"></canvas>
+    <div id="trace" class="window"><ul><li>RayCaster v.0.0.1</li></ul></div>
 </body>
 </html>
