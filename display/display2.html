@@ -1,150 +1,133 @@
 
-<html>
+<!DOCTYPE html>
+<html lang=en>
+
 <head>
-<meta name="robots" content="noindex,nofollow">
-<meta http-equiv=Content-Type content="text/html;">
-<meta http-equiv="PRAGMA" content="no-cache">
-<meta http-equiv="Cache-Control" content="no-cache">
-<meta http-equiv="Cache-Control" content="must-revalidate">
-<meta http-equiv="Cache-Control" content="no-store">
-<meta http-equiv="Expires" content="Tue, 20 Aug 1996 14:25:27 GMT">
-<title></title>
-<style type="text/css">body{margin:10;background:#600090 url('../gameback.png') no-repeat top center;color:#FFFFFF;font-family:arial,helvetica,sans-serif;font-size:small;text-align:left;}a{text-decoration:none;color:#FF00DD;}a:visited{color:#FF00DD;}a:active{color:#FF00FF;}a:hover{color:#FF99FF;}.table{background-image:url('adpanel.png');}.gamestyle{border-color:#400070;background-color:#301050;font-family:arial,helvetica,sans-serif;font-size:small;text-align:left;}</style>
-    
-<script>var adBlock=true;</script>
-<script src="http://geo.friv.com/300x250.js"></script>    
-    
+    <title>mix01 rotator</title>
+    <meta charset=utf-8>
+    <meta name="robots" content="noindex,nofollow">
+    <style>
+        body {
+            margin: 0;
+        }
+        
+        #footerBlock {
+            position: absolute;
+            z-index: 666;
+            background-color: yellow;
+            top: 250px;
+            left: 0;
+            width: 300px;
+            height: 6px;
+        }
+
+    </style>
 </head>
+
+<!-- <body onmouseover="trackInterest()" onclick="trackClick()"> -->
+
 <body>
-<form name="receive"><input type=hidden name=dt style=margin:0px;></form>
-<center>
-<script>
-var locate=window.location;
-document.receive.dt.value=locate;
-var tx=document.receive.dt.value;
-function ex(str){
-var l=str.indexOf("=")+1;
-return(str.substring(l,str.length));}
-var gamemb=ex(tx);
-var wh=document.body.clientHeight;
-var sp=(wh/2)-270;
-if(sp<=0)sp=0;
-var nl=true;if(window==top)nl=false;
-if(nl){document.write('<table border="0" cellspacing="0" cellpadding="0"><tr><td height="'+sp+'"></td></tr></table>');}else{document.write('<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="972" height="120" id="headerx"><param name="wmode" value="transparent"><param name="movie" value="headerx.swf"/><object type="application/x-shockwave-flash" data="headerx.swf" width="972" height="120" wmode="transparent"><param name="movie" value="headerx.swf"/>Adobe Flash Plugin Not Found!</object></object><br><br><br><br>');sp=0;gamemb=0;}
 
-var bl = navigator.language.toLowerCase();
-    
-var ra=Math.random();
+    <div id=promoSpace></div>
+    <div id=footerBlock></div>
+    <div id=promoIndicator></div>
 
-var a1="adframe-rubicon-x";var a3="adframe-rubicon-z";
-if(ra>0.333){a1="adframe-rubicon-z";a3="adframe-rubicon-y"}
-if(ra>0.666){a1="adframe-rubicon-y";a3="adframe-rubicon-x"}
+    <script>
+        var randNumber = Math.floor(Math.random() * 30) + 1; //numbers 1-20
+        var randBanner;
+        var banners;
 
-var a2="../menu/000/3025af-fgn-mix";
-
-//cpmstar next
-var rb=Math.random();
-if(rb < 1){ //rubicon removed
-    a1="../menu/000/adframe-cpmstar-next";
-}
-if(rb > 0.0){ //rubicon removed
-    a3="../menu/000/adframe-cpmstar-next";
-}
-    
-//10% zel (6.66% of which to boy)
-var rb=Math.random();
-if(rb < 0.0466){
-    a1="../menu/000/fgn-zel/zelgirl";
-}
-if(rb > 0.9068){
-    a3="../menu/000/fgn-zel/zelboy";
-}
-
-//for ab
-if(adBlock){
-    a1=a3="../menu/000/3025af-fgn-mix";
-    var rc=Math.random();
-    if(rc<0.2){
-        a1="../menu/000/3025af-fgn-yt";
-    }
-}
-
-//overide for cpmstar abbp (en only)
-/*
-var rd=Math.random();
-if(adBlock && rd<0.5 && (bl.indexOf("en") != -1)){
-    a1="abbp";
-}
-if(adBlock && rd>0.5 && (bl.indexOf("en") != -1)){
-    a3="abbp";
-}
-*/
-    
-
-//overide for doodles
-var re=Math.random();
-if(re<0.333){
-    a1="../menu/000/3025af-fgn-doodles";
-}
-if(re>=0.333 && re<=0.666){
-    a2="../menu/000/3025af-fgn-doodles";
-}
-if(re>0.666){
-    a3="../menu/000/3025af-fgn-doodles";
-}
-
- 
-</script>
+        switch (randNumber) {
+            case 1:
+            case 2:
+            case 3:
+            case 4:
+            case 5:
+            case 6:
+                banners = ['twistbot/index', 'displayswwe', 'umbri/index', 'ballchase', 'sand', 'connect', 'shader', 'bunnies/index', 'spikes', 'flipcards', 'spira', 'voronoi/index', 'draw', 'emojis', 'raycast/index', 'mandlebrot', 'circleness', 'stars', 'radialrainbow/index', 'snake', 'shadows/index', 'optico/index']; //'helovesdafrivmusic/index',
+                //'sand' fails in Chrome 104
+                //'mergefruit/index' (needs larger space)
+                randBanner = banners[Math.floor(Math.random() * banners.length)] + ".html";
+                break;
+            case 7:
+            case 8:
+            case 9:
+            case 10:
+            case 11:
+            case 12:
+                banners = ["a09", "a1", "a10", "a2", "index"];
+                randBanner = banners[Math.floor(Math.random() * banners.length)] + ".html";
+                break;
+            case 13:
+            case 14:
+            case 15:
+            case 16:
+            case 17:
+            case 18:
+            case 19:
+            case 20:
+            case 21:
+            case 22:
+            case 23:
+            case 24:
+            case 25:
+            case 26:
+            case 27:
+            case 28:
+            case 29:
+                banners = ["z10", "z02", "z03", "z04", "e", "t", "z05", "indexx", "z09", "u"];
+                randBanner = banners[Math.floor(Math.random() * banners.length)] + ".html";
+                break; 
+            case 30:
+                randBanner = "adframe-cpmstar-mix.html";
+            default:
+                randBanner = "adframe-cpmstar-mix.html";
+        }
 
 
 
-<table style="width: 972px" class="table" cellspacing="0" cellpadding="0"><tr><td colspan="7" style="width:972px;height:36px"></td></tr><tr><td style="width:18px;height:250px"></td><td style="width:300px;height:250px">
+
+        //promo special
+        const lang = navigator.language.toLowerCase();
+        const shortLang = lang.slice(0, 2);
+
+        if (shortLang != "en" && Math.random() < 0.0) {
+
+            var randNumber = Math.floor(Math.random() * 3) + 1; //numbers 1-3
+
+            switch (randNumber) {
+                case 1:
+                    randBanner = "z01.html";
+                    break;
+                case 2:
+                    randBanner = "z02.html";
+                    break;
+                case 3:
+                    randBanner = "z03.html";
+                    break;
+                default:
+                    randBanner = "adframe-cpmstar-mix.html";
+
+            }
+        }
 
 
 
-<!--AD1-->
-<script language="javascript" type="text/javascript">
-document.write('<iframe src="frivversion.html" width=300 height=250 marginwidth=0 marginheight=0 hspace=0 vspace=0 frameborder=0 scrolling="no"></iframe>');
-</script>
 
 
+        promoSpace.innerHTML = "<iframe src=" + randBanner + " width=300 height=250 marginwidth=0 marginheight=0 hspace=0 vspace=0 frameborder=0 scrolling='no'></iframe>";
+        promoIndicator.innerHTML = randNumber + " | " + randBanner;
 
-</td><td style="width:18px;height:250px"></td><td style="width:300px;height:250px">
+        //function trackInterest(){
+        //    document.getElementById("track").innerHTML = "<img src=http://www.zel.us/track.png?ref=garish>";
+        //}
 
+        //function trackClick(){
+        //    document.getElementById("track").innerHTML = "<img src=http://www.zel.us/track.png?ref=garishClick>";
+        //}
 
+    </script>
 
-<!--AD2-->
-<script language="javascript" type="text/javascript">
-document.write('<iframe src="z09.html" width=300 height=250 marginwidth=0 marginheight=0 hspace=0 vspace=0 frameborder=0 scrolling="no"></iframe>');
-</script>
+    <!-- <div id=track></div> -->
 
-
-
-</td><td style="width:18px;height:250px"></td><td style="width:300px;height:250px">
-
-
-
-<!--AD3-->
-<script language="javascript" type="text/javascript">
-document.write('<iframe src="indexx.html" width=300 height=250 marginwidth=0 marginheight=0 hspace=0 vspace=0 frameborder=0 scrolling="no"></iframe>');
-</script>
-
-
-
-</td><td style="width:18px; height:250px"></td></tr><tr><td colspan="7" style="width:972px;height:18px"></td></tr></table><br><br>
-<script language="javascript" type="text/javascript">
-document.write('<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="972" height="100" id="apb"><param name="wmode" value="transparent"><param name="menu" value="false"><param name="movie" value="apb.swf?gamemb='+gamemb+'"/><object type="application/x-shockwave-flash" data="apb.swf?gamemb='+gamemb+'" width="972" height="100" wmode="transparent"><param name="menu" value="false"><param name="movie" value=apb.swf?gamemb='+gamemb+'"/>Adobe Flash Plugin Not Found!</object></object>');
-sp+=100;
-document.write('<table border="0" cellspacing="0" cellpadding="0"><tr><td height="'+sp+'"></td></tr></table>');
-</script>
-
-<br><br><br><br><br><br>
-<b>Privacy Information:&nbsp;</b>Sometimes third party network ads may store information on your computer. To find out more, you can read our full privacy policy <a href="../privacy.html" target="_self" rel="nofollow">here</a>.<br><br>
-
-<script language="javascript" type="text/javascript">
-document.write(a1+' | '+a2+' | '+a3);
-</script>
-
-</center>
 </body>
-</html>

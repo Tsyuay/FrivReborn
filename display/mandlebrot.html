@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+<head>
+    <title>Mandlebrot</title>
+    <style>
+
+        html, body{ margin:0; cursor: pointer;
+}
+
+    #overlay {
+        position: absolute;
+        top:0;
+        z-index: 10;
+        background-color: rgba(0,0,0,0.5);
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        animation:overlay 1s 3s ease-in forwards;
+    }
+    
+    @keyframes overlay{
+        from {
+            top:0;
+            }
+
+        to {
+             top:100%;
+            }
+        }
+    
+    #mouse {
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    position: absolute;
+    pointer-events: none;
+    z-index: 20;
+    top: 75px;
+    left: 110px;
+    background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 26.458333 26.458334'%3E%3Cg%3E%3Cg transform='translate%280 -270.54%29 translate%28-2.107 30.331%29'%3E%3Cpath stroke='%23fff' stroke-width='1.323' stroke-dashoffset='19.48' d='M10.04 246.56a7.28 7.5 0 0 0-7.27 7.5v4.43a7.28 7.5 0 0 0 7.28 7.5 7.28 7.5 0 0 0 7.27-7.5v-4.43a7.28 7.5 0 0 0-7.28-7.5z' stroke-linejoin='round' style='paint-order:markers fill stroke' stroke-linecap='round'/%3E%3Cpath fill='none' stroke='%23fff' stroke-width='1.323' d='M2.9 253.75h14.38'/%3E%3Cellipse cx='10.125' cy='250.08' fill='none' stroke='%23fff' stroke-width='1.323' stroke-dashoffset='19.48' ry='3.501' style='paint-order:markers fill stroke' rx='1.349' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath fill='none' stroke='%23fff' stroke-width='1.323' d='M10.04 246.56c-.22-3.37 3.4-7.98 9.66-2.88 2.67 2.2 4.33 2.5 8.24.84'/%3E%3Cellipse cx='-191.28' cy='121.03' fill='%23fff' fill-opacity='.333' style='paint-order:markers fill stroke' rx='4.526' transform='matrix%28.438 -.899 .744 .669 0 0%29' ry='1.925'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        animation: mouse 1s 3s linear forwards;
+}
+    
+    @keyframes mouse{
+        from {
+            top:75px;
+            left: 110px;
+            }
+
+        to {
+            top:75px;
+            left: 400px;
+            }
+        }
+    
+</style>
+    
+	<script src="ivank.js"></script>
+	<script>
+		
+        
+        
+		var stage, bd, bm, time=0, down=false, zoom=1, zoomX=0, zoomY=0;
+		var w=300, h=250;
+		
+		var sin  = new Uint8Array(128);
+		for (var i=0; i<128; i++) sin[i] = (Math.sin(2*Math.PI/128*i) * 127 + 127);
+			
+		function Start()
+		{
+			stage = new Stage("c");
+			bd = BitmapData.empty(w, h, 0xff000000);
+			
+			bm = new Bitmap(bd);
+			bm.scaleX = stage.stageWidth/w;
+			bm.scaleY = stage.stageHeight/h;
+			stage.addChild(bm);
+			
+			stage.addEventListener(Event.ENTER_FRAME, function(e){drawMandelbrot(); time++;});
+			stage.addEventListener(MouseEvent.MOUSE_DOWN, function(e){down=true ;});
+			stage.addEventListener(MouseEvent.MOUSE_UP  , function(e){down=false;});
+		}
+		
+		function drawMandelbrot()
+		{
+			var msx = bm.mouseX/w, msy = bm.mouseY/h;
+			var mx = zoomX + msx/zoom, my = zoomY + msy/zoom;
+			
+			zoom = down ? zoom*1.05 : Math.max(1, zoom/1.05);
+			var xc = 1 / (w*zoom), yc = 1 / (h*zoom);
+			
+			zoomX = Math.max(0, Math.min(1-1/zoom, mx - msx/zoom));
+			zoomY = Math.max(0, Math.min(1-1/zoom, my - msy/zoom));
+			
+			for(var y=0; y<h; y++)	// rows
+				for(var x=0; x<w; x++)	// columns
+				{
+					var cx = -2 + 3*(zoomX + x*xc), cy = -1 + 2*(zoomY + y*yc);
+					var zx = cx, zy = cy, i=1;
+					
+					while(zx*zx+zy*zy<4 && ++i<130)
+					{
+						var nzx = cx + (zx*zx - zy*zy);
+						zy = cy + 2*zx*zy;  zx = nzx;
+					}
+					var re = sin[((i << 0)+95) & 127];
+					var gr = sin[((i << 1)+0)  & 127];
+					var bl = sin[((i << 1)+40)     & 127];
+					bd.setPixel(x,y,(re<<16 | gr<<8 | bl));
+				}
+		}
+        
+	</script>
+    
+</head>
+<body onload="Start();">
+    
+    <div id=overlay></div>
+
+    <div id=mouse></div>
+    
+    <canvas id="c"></canvas>
+    
+    </body>
+</html>
