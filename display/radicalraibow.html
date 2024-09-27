@@ -1,0 +1,162 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>radialrainbow</title>
+    
+     <style>
+    html,
+body {
+    margin: 0;
+    overflow: hidden;
+    height: 100%;
+    cursor: pointer;
+}
+
+/* Scale canvas with resize attribute to full size */
+canvas[resize] {
+    width: 100%;
+    height: 100%;
+}
+         
+         
+         #overlay {
+        position: absolute;
+        top:0;
+        z-index: 10;
+        background-color: rgba(0,0,0,0.5);
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+        animation:overlay 1s 3s ease-in forwards;
+    }
+    
+    @keyframes overlay{
+        from {
+            top:0;
+            }
+
+        to {
+             top:100%;
+            }
+        }
+    
+    #mouse {
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    position: absolute;
+    pointer-events: none;
+    z-index: 20;
+    top: 75px;
+    left: 110px;
+    background-image: url("data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 26.458333 26.458334'%3E%3Cg%3E%3Cg transform='translate%280 -270.54%29 translate%28-2.107 30.331%29'%3E%3Cpath stroke='%23fff' stroke-width='1.323' stroke-dashoffset='19.48' d='M10.04 246.56a7.28 7.5 0 0 0-7.27 7.5v4.43a7.28 7.5 0 0 0 7.28 7.5 7.28 7.5 0 0 0 7.27-7.5v-4.43a7.28 7.5 0 0 0-7.28-7.5z' stroke-linejoin='round' style='paint-order:markers fill stroke' stroke-linecap='round'/%3E%3Cpath fill='none' stroke='%23fff' stroke-width='1.323' d='M2.9 253.75h14.38'/%3E%3Cellipse cx='10.125' cy='250.08' fill='none' stroke='%23fff' stroke-width='1.323' stroke-dashoffset='19.48' ry='3.501' style='paint-order:markers fill stroke' rx='1.349' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath fill='none' stroke='%23fff' stroke-width='1.323' d='M10.04 246.56c-.22-3.37 3.4-7.98 9.66-2.88 2.67 2.2 4.33 2.5 8.24.84'/%3E%3Cellipse cx='-191.28' cy='121.03' fill='%23fff' fill-opacity='.333' style='paint-order:markers fill stroke' rx='4.526' transform='matrix%28.438 -.899 .744 .669 0 0%29' ry='1.925'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        animation: mouse 1s 3s linear forwards;
+}
+    
+    @keyframes mouse{
+        from {
+            top:75px;
+            left: 110px;
+            }
+
+        to {
+            top:-175px;
+            left: 110px;
+            }
+        }
+         
+         
+        </style>
+    
+    <script src="paper-full.min.js"></script>
+    <script type="text/paperscript" canvas="canvas">
+
+var point = view.center;
+
+var colors = [];
+var cycles = 4;
+for (var i = 0, l = 60; i < l; i++) {
+	var brightness = 1 - (i / l) * 1.5;
+	var hue = i / l * cycles * 360;
+	var color = {
+		hue: hue,
+		saturation: 1,
+		brightness: brightness
+	};
+	colors.push(color);
+}
+
+var radius = Math.max(view.size.width, view.size.height) * 0.75;
+
+var path = new Path.Rectangle({
+	rectangle: view.bounds,
+	fillColor: {
+		origin: point,
+		destination: point + [radius, 0],
+		gradient: {
+			stops: colors,
+			radial: true
+		}
+	}
+});
+
+var color = path.fillColor;
+var gradient = color.gradient;
+var mouseDown = false;
+var mousePoint = view.center;
+
+function onMouseDown(event) {
+	mouseDown = true;
+	mousePoint = event.point;
+}
+
+function onMouseDrag(event) {
+	mousePoint = event.point;
+}
+
+function onMouseUp(event) {
+	vector.length = 10;
+	mouseDown = false;
+}
+
+var grow = false;
+var vector = new Point(150, 0);
+
+function onFrame() {
+	for (var i = 0, l = gradient.stops.length; i < l; i++)
+		gradient.stops[i].color.hue -= 20;
+	if (grow && vector.length > 300) {
+		grow = false;
+	} else if (!grow && vector.length < 75) {
+		grow = true;
+	}
+	if (mouseDown) {
+		point = point + (mousePoint - point) / 10;
+	} else {
+		vector.length += (grow ? 1 : -1);
+		vector.angle += 5;
+	}
+	color.highlight = mouseDown ? point : point + vector;
+}
+
+function onResize(event) {
+	point = view.center;
+	path.bounds = view.bounds;
+	var color = path.fillColor;
+	color.origin = point;
+	var radius = Math.max(view.size.width, view.size.height) * 0.75;
+	color.destination = point + [radius, 0];
+}
+    </script>
+</head>
+<body>
+    
+    <div id=overlay></div>
+
+    <div id=mouse></div>
+    
+    <canvas id="canvas" resize hidpi="off" style="background:black"></canvas>
+</body>
+</html>
