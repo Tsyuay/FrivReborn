@@ -1,0 +1,133 @@
+
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+    <title>mix01 rotator</title>
+    <meta charset=utf-8>
+    <meta name="robots" content="noindex,nofollow">
+    <style>
+        body {
+            margin: 0;
+        }
+        
+        #footerBlock {
+            position: absolute;
+            z-index: 666;
+            background-color: yellow;
+            top: 250px;
+            left: 0;
+            width: 300px;
+            height: 6px;
+        }
+
+    </style>
+</head>
+
+<!-- <body onmouseover="trackInterest()" onclick="trackClick()"> -->
+
+<body>
+
+    <div id=promoSpace></div>
+    <div id=footerBlock></div>
+    <div id=promoIndicator></div>
+
+    <script>
+        var randNumber = Math.floor(Math.random() * 30) + 1; //numbers 1-20
+        var randBanner;
+        var banners;
+
+        switch (randNumber) {
+            case 1:
+            case 2:
+            case 3:
+            case 4:
+            case 5:
+            case 6:
+                banners = ['twistbot/index', 'displayswwe', 'umbri/index', 'ballchase', 'sand', 'connect', 'shader', 'bunnies/index', 'spikes', 'flipcards', 'spira', 'voronoi/index', 'draw', 'emojis', 'raycast/index', 'mandlebrot/index', 'circleness', 'stars', 'radialrainbow/index', 'snake/index', 'shadows/index', 'optico/index']; //'helovesdafrivmusic/index',
+                //'sand' fails in Chrome 104
+                //'mergefruit/index' (needs larger space)
+                randBanner = banners[Math.floor(Math.random() * banners.length)] + ".html";
+                break;
+            case 7:
+            case 8:
+            case 9:
+            case 10:
+            case 11:
+            case 12:
+                banners = ["a09", "a1", "a10", "a2", "index"];
+                randBanner = banners[Math.floor(Math.random() * banners.length)] + ".html";
+                break;
+            case 13:
+            case 14:
+            case 15:
+            case 16:
+            case 17:
+            case 18:
+            case 19:
+            case 20:
+            case 21:
+            case 22:
+            case 23:
+            case 24:
+            case 25:
+            case 26:
+            case 27:
+            case 28:
+            case 29:
+                banners = ["z01", "z02", "z03", "z04", "e", "t", "z07", "indexx", "z09", "u"];
+                randBanner = banners[Math.floor(Math.random() * banners.length)] + ".html";
+                break; 
+            case 30:
+                randBanner = "adframe-cpmstar-mix.html";
+            default:
+                randBanner = "adframe-cpmstar-mix.html";
+        }
+
+
+
+
+        //promo special
+        const lang = navigator.language.toLowerCase();
+        const shortLang = lang.slice(0, 2);
+
+        if (shortLang != "en" && Math.random() < 0.0) {
+
+            var randNumber = Math.floor(Math.random() * 3) + 1; //numbers 1-3
+
+            switch (randNumber) {
+                case 1:
+                    randBanner = "z01.html";
+                    break;
+                case 2:
+                    randBanner = "z02.html";
+                    break;
+                case 3:
+                    randBanner = "z03.html";
+                    break;
+                default:
+                    randBanner = "adframe-cpmstar-mix.html";
+
+            }
+        }
+
+
+
+
+
+        promoSpace.innerHTML = "<iframe src=" + randBanner + " width=300 height=250 marginwidth=0 marginheight=0 hspace=0 vspace=0 frameborder=0 scrolling='no'></iframe>";
+        promoIndicator.innerHTML = randNumber + " | " + randBanner;
+
+        //function trackInterest(){
+        //    document.getElementById("track").innerHTML = "<img src=http://www.zel.us/track.png?ref=garish>";
+        //}
+
+        //function trackClick(){
+        //    document.getElementById("track").innerHTML = "<img src=http://www.zel.us/track.png?ref=garishClick>";
+        //}
+
+    </script>
+
+    <!-- <div id=track></div> -->
+
+</body>
