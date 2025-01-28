@@ -1,0 +1,76 @@
+<sounds>
+   <file id="main" hifi="soundmain.swf" lofi="">
+      <musics>
+         <_theme/>
+         <!--release bouton-->
+         <_release/>
+         <!--rollover bouton-->
+         <_rollover/>
+      </musics>
+      <fx/>
+   </file>
+   <file id="game" hifi="soundgame.swf" lofi="">
+      <musics>
+         <!--boucle niveau 1 et 2-->
+         <_game1/>
+         <!--boucle niveau 3 et 4-->
+         <_game2/>
+         <!--lose-->
+         <_lose/>
+         <!--mode tarzan-->
+         <_tarzan/>
+         <!--checkpoint-->
+         <_checkpoint/>
+      </musics>
+      <fx>
+         <!--sifflet-->
+         <_sifflet/>
+         <!--fin de tube-->
+         <_endtube/>
+         <!--virgil croc-->
+         <_virgilcroc/>
+         <!--virgil grogne-->
+         <_virgilgrogne/>
+         <!--virgil hurt-->
+         <_virgilhurt/>
+         <!--hurt-->
+         <_hurt/>
+         <!--jump Adam-->
+         <_jumpadam/>
+         <!--duck Adam-->
+         <_duckadam/>
+         <!--item collected-->
+         <_item/>
+         <!--energy bonus collected-->
+         <_energybonus/>
+         <!--Virgil casier-->
+         <_virgilcasier/>
+         <!--Flamme-->
+         <_flamme/>
+         <!--slide-->
+         <_slide/>
+         <!--Hit-->
+         <_hit/>
+         <!--slip tarzan collected-->
+         <_slipitem/>
+         <!--look up Adam-->
+         <_lookupadam/>
+         <!--ressort-->
+         <_ressort/>
+         <!--hang-->
+         <_hang/>
+         <!--ball-->
+         <_ball/>
+         <!--plouf-->
+         <_plouf/>
+         <!--jake sort du buisson-->
+         <_jakebush/>
+         <!--dans le tube-->
+         <_ontube/>
+         <!--tappe cul-->
+         <_seesaw/>
+         <!--mecanisme-->
+         <_meca/>
+      </fx>
+   </file>
+</sounds>

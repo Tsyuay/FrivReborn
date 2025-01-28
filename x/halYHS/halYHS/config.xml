@@ -1,0 +1,9 @@
+<system>
+   <version type="String">1.1.0</version>
+   <versionSo type="String">1.0.0</versionSo>
+   <mainPath type="String"/>
+   <gateway type="String"/>
+   <netDebug type="Boolean">false</netDebug>
+   <music type="Number">100</music>
+   <cheat type="Boolean">false</cheat>
+</system>
