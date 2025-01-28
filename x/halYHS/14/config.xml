@@ -1,0 +1,13 @@
+<system>
+   <version type="String">3.0.2</version>
+   <versionSo type="String">1.0.4</versionSo>
+   <mainPath type="String"/>
+   <gateway type="String"/>
+   <netDebug type="Boolean">false</netDebug>
+   <fps type="Boolean">false</fps>
+   <serverGet type="Boolean">false</serverGet>
+   <stage type="Number">1</stage>
+   <cheat type="Boolean">false</cheat>
+   <quality type="String">MEDIUM</quality>
+   <tracker type="String">tracker.swf</tracker>
+</system>
