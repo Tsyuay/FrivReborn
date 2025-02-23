@@ -1,0 +1,896 @@
+<html lang="es" dir="ltr">
+<head>
+<meta name="viewport" content="minimal-ui"/>
+<meta name="viewport" content="width=device-width,user-scalable=no" />
+<meta name="screen-orientation" content="landscape"/>
+<meta name="x5-fullscreen" content="true"/>
+<meta name="360-fullscreen" content="true"/>
+<meta name="apple-touch-fullscreen" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Ed, Edd n Eddy Candy Machine Deluxe - Juegos en linea 7juegos.es</title>
+<link rel="stylesheet" type="text/css" href="/templates/responsive/css/style.min.css?v2.96" />
+<link rel="stylesheet" type="text/css" href="/templates/responsive/css/nav.css?v1" />
+<link rel="stylesheet" type="text/css" href="/templates/responsive/css/navcat.css?v1" />
+<style>
+@media screen and (min-width:1000px) {
+div#gpw {
+    padding: 0 170px 0 0;
+}
+div#gbox1 {
+    display: block;
+    position: absolute;
+    top: 48px;
+    right: 5px;
+    width: 160px;
+}
+}
+@media screen and (min-width:1140px) {
+div#gpw {
+    padding: 0 310px 0 0;
+}
+div#gbox1 {
+    width: 300px;
+}
+}
+@media screen and (min-width:1440px) {
+div#gpw {
+    padding: 0 310px 0 310px;
+}
+div#gbox2 {
+    margin: 0;
+    position: absolute;
+    top: 48px;
+    width: 300px;
+    left: 5px;
+}
+div#tpd1 {
+    display: block;
+}
+}
+</style>
+<meta property="og:image" content="https://7juegos.es/files/image/12084-ed-edd-n-eddy-candy-machine-deluxe.jpg"/>
+<meta property="og:image:width" content="200" />
+<meta property="og:image:height" content="168" />
+<meta property="og:title" content="Ed, Edd n Eddy Candy Machine Deluxe - Juegos en línea"/>
+<meta property="og:description" content="Juega Ed, Edd n Eddy Candy Machine Deluxe en línea. Juega con Ed, Edd y Eddy y conecta la fuente con una tubería al objetivo para hacer una máquina de caramelos."/>
+<meta name="description" content="Juega Ed, Edd n Eddy Candy Machine Deluxe en línea. Juega con Ed, Edd y Eddy y conecta la fuente con una tubería al objetivo para hacer una máquina de caramelos." />
+<base href="https://7juegos.es" />
+<link rel="alternate" href="https://6igri.bg/igri/12084-ed-edd-i-eddi-mashina-za-bonboni.html" hreflang="bg" />
+<link rel="alternate" href="https://6games.eu/games/12084-ed-edd-n-eddy-candy-machine-deluxe.html" hreflang="en" />
+<link rel="alternate" href="https://6spiele.de/spiele/12084-ed-edd-n-eddy-candy-machine-deluxe.html" hreflang="de" />
+<link rel="alternate" href="https://6jeux.fr/jeux/12084-ed-edd-n-eddy-candy-machine-deluxe.html" hreflang="fr" />
+<link rel="alternate" href="https://7juegos.es/juegos/12084-ed-edd-n-eddy-candy-machine-deluxe.html" hreflang="es" />
+<link rel="alternate" href="https://7igri.ru/igri/12084-ed-edd-i-eddi-konfetnaya-mashina.html" hreflang="ru" />
+<link rel="shortcut icon" href="images/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="images/touch_180x180.png" />
+<link rel="apple-touch-icon" sizes="152x152" href="images/touch_152x152.png" />
+<link rel="apple-touch-icon" sizes="120x120" href="images/touch_120x120.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="images/touch_72x72.png" />
+<link rel="apple-touch-icon" sizes="57x57" href="images/touch_57x57.png" />
+<link rel="apple-touch-icon" href="images/touchicon.png" />
+<script src="https://7juegos.es/templates/responsive/js/esdpm.js" type="text/javascript"></script>
+<script src="https://7juegos.es/templates/responsive/js/jquery-1.11.1.min.js"></script>
+<script src="https://7juegos.es/templates/responsive/js/ajaxconstructor.js" type="text/javascript"></script>
+<script src="https://7juegos.es/templates/responsive/ads/banner/google.ads.js" type="text/javascript"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-1056053973"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'AW-1056053973');
+  gtag('event', 'conversion', {
+      'send_to': 'AW-1056053973/7a68CJHm4scZENW1yPcD',
+      'value': 1.0,
+      'currency': 'BGN'
+  });
+</script>
+</head>
+<body>
+	<div class="top-new ov" id="topbar">
+		<div class="top_lim_new ov">
+<h1 class="topttl" id="topttl">Ed, Edd n Eddy Candy Machine Deluxe</h1>
+		<div class="fl bgsb1 mr1 topuser">				
+			<form action="iniciar.html" method="post">
+			<input type="text" name="username" id="username" class="topinput" />
+		</div>	
+		<div class="fl bgsb1 toppass">
+			<input type="password" name="password" class="topinput" />
+		</div>		
+		<input type="hidden" name="remember" value="on" />
+	        <div id="cltr"></div>		
+		<input type="submit" value="iniciar" class="topsubmit fl" />
+		</form>
+		<a href="/registrar.html" class="fr but_top but_register">registrar</a>
+		<div class="cl"></div>		
+		</div>
+		<div class="cl"></div>
+	</div>
+	<script type="text/javascript" src="https://7juegos.es/templates/responsive/js/hse.js?v1.1"></script>
+<div id="maincont" class="push">
+	<div id="top" class="but topes">
+		<a href="." class="show-med logo" id="logoes"></a>
+		<a class="bt-top cp" id="bt-profile" onclick="rotate('bt-profile'); close_top()"></a>	
+				<a class="bt-top cp" id="bt-last" href="huesped/9430460/ultimos-jugados.html" title="Ultimo jugado" rel="nofollow"></a>	
+				<a class="bt-top cp" id="bt-rand-u" href="juego-de-azar.html" title="Juego de azar" rel="nofollow"></a>	
+		<form id="fm-search" action="buscar.html" onsubmit="onSearch()" method="post">
+			<input class="bt-top" id="in-search" name="t" type="search" placeholder="Buscar" onKeyPress="return onSearch();" value="">
+		</form>	
+		<script language="javascript">
+			var searchStarted = 0;
+			function onSearch() {
+			  	if (window.event && window.event.keyCode == 13) {
+					if (searchStarted == 0) {
+						searchStarted = 1;
+						document.getElementById('in-search').style.backgroundPosition = 'bottom right';						
+						return true;
+					} else {
+				  		return false;
+					}
+				}
+			}
+		</script>
+		<nav class="secondary-menu">
+			<h3 class="section-heading">Menú secundario</h3>
+			<ul>
+				<li><a href="chat.html" class="bt-top bt-text show-med bt-blue show-big">Chat</a></li>
+				<li><a href="video.html" class="bt-top bt-text show-med bt-blue show-big">Video</a></li>
+				<li><a href="objetos.html" class="bt-top bt-text show-med bt-blue show-big">Objetos</a></li>
+				<li><a href="mejores-jugadores.html" class="bt-top bt-text show-med bt-blue show-big">Mejores jugadores</a></li>
+				<li><a href="highscores.html" class="bt-top bt-text show-med bt-yellow">Highscores</a></li>	
+				<li><a href="juegos-multijugadores.html" class="bt-top bt-text show-med bt-red">Multijugador</a></li>	
+				<li><a href="juegos-seleccionados.html" class="bt-top bt-text show-med bt-red">Selectionado</a></li>	
+				<li><a href="los-mas-jugados.html" class="bt-top bt-text show-med bt-red show-big">Más jugado</a></li>
+				<li><a href="mejores-juegos.html" class="bt-top bt-text show-med bt-red">Mejores</a></li>
+				<li><a href="nuevos-juegos.html" class="bt-top bt-text show-med bt-blue">Nuevos</a></li>
+			</ul>
+		</nav>
+	</div>
+	<nav id="menu-main" class="navcat">
+		<h3 class="section-heading">Categorías de los juegos</h3>
+		<ul class="u">
+			<a class="x" id="catmore"></a>
+			<li id="cat0"><a href="" id="house"></a></li>	
+			<li id="cat1"><a href="juegos/juegos-de-accion.html">Acción</a></li>	
+			<li id="cat2"><a href="juegos/juegos-de-logica.html">Logica</a></li>	
+			<li id="cat3"><a href="juegos/juegos-de-arcade.html">Arcade</a></li>	
+			<li id="cat9"><a href="juegos/cartas.html">Cartas</a></li>	
+			<li id="cat4"><a href="juegos/juegos-de-chicas.html">Juegos&nbsp;de&nbsp;chicas</a></li>	
+			<li id="cat7"><a href="juegos/juegos-de-combate.html">Combate</a></li>	
+			<li id="cat6"><a href="juegos/juegos-de-aventura.html">Aventuras</a></li>	
+			<li id="cat5"><a href="juegos/juegos-de-deportes.html">Deporte</a></li>	
+			<li id="cat14"><a href="juegos/juegos-de-navidad.html">Navidad</a></li>	
+			<li id="cat8"><a href="juegos/juegos-de-estrategia.html">Estrategias</a></li>	
+			<li id="cat12"><a href="juegos/vestir.html">Habillage</a></li>	
+			<li id="cat13"><a href="juegos/clasico.html">Clásico</a></li>	
+			<li id="cat25"><a href="juegos/juegos-de-carreras.html">Carreras</a></li>	
+			<li id="cat10"><a href="juegos/juegos-divertidos.html">Divertidos</a></li>	
+			<li id="cat16"><a href="juegos/juegos-de-espacio.html">Espacio</a></li>	
+			<li id="cat17"><a href="juegos/diferencias.html">Diferencias</a></li>	
+			<li id="cat18"><a href="juegos/minero.html">Minero</a></li>	
+			<li id="cat19"><a href="juegos/juegos-de-ninos.html">Niños</a></li>	
+			<li id="cat23"><a href="juegos/futbol.html">Fútbol</a></li>	
+			<li id="cat21"><a href="juegos/robot.html">Robots</a></li>	
+			<li id="cat20"><a href="juegos/mini-golf.html">Mini&nbsp;golf</a></li>	
+			<li id="cat22"><a href="juegos/zombi.html">Zombi</a></li>	
+			<li id="cat24"><a href="juegos/vampire.html">Vampiro</a></li>	
+			<li id="cat15"><a href="juegos/aplicaciones.html">Aplicaciones</a></li>	
+		</ul>
+		<div class="cl"></div>
+		<script type="text/javascript" src="https://7juegos.es/templates/responsive/js/navcat.js"></script>
+	</nav>	
+	<div id="icon-wrap">
+	<nav id="caticon">
+	<h3 class="section-heading">Categorías populares juegos</h3>
+	<ul>
+		<li><a href="juegos/princesa.html"><img src="images/caticon/princess.png" alt="Juegos de princesa" title="Juegos de princesa" /></a></li>
+		<li><a href="juegos/bubble-shooter.html"><img src="images/caticon/bubble.png" alt="Juegos de Bubble Shooter" title="Juegos de Bubble Shooter" /></a></li>
+		<li><a href="juegos/combinacion.html"><img src="images/caticon/bejeweled.png" alt="Juegos de combinacion" title="Juegos de combinacion" /></a></li>
+		<li><a href="juegos/mahjong.html"><img src="images/caticon/mahjong.png" alt="Juegos de mahjong" title="Juegos de mahjong" /></a></li>
+		<li><a href="juegos/solitaire.html"><img src="images/caticon/solitaire.png" alt="Juegos de solitaire" title="Juegos de solitaire" /></a></li>
+		<li><a href="juegos/juegos-de-mesa.html"><img src="images/caticon/chess.png" alt="Juegos de mesa" title="Juegos de mesa" /></a></li>
+		<li><a href="juegos/dibujos-animados.html"><img src="images/caticon/cartoon.png" alt="Juegos de dibujos animados" title="Juegos de dibujos animados" /></a></li>
+		<li><a href="juegos/zuma.html"><img src="images/caticon/zuma.png" alt="Juegos de Zuma" title="Juegos de Zuma" /></a></li>
+		<li><a href="juegos/sala-de-escape.html"><img src="images/caticon/escaperoom.png" alt="Juegos de Sala de escape" title="Juegos de Sala de escape" /></a></li>
+		<li><a href="juegos/ariel.html"><img src="images/caticon/ariel.png" alt="Juegos de Ariel" title="Juegos de Ariel" /></a></li>
+		<li><a href="juegos/coche.html"><img src="images/caticon/car.png" alt="Juegos de coche" title="Juegos de coche" /></a></li>
+		<li><a href="juegos/adan-y-eva.html"><img src="images/caticon/adamandeve.png" alt="Juegos de Adan y Eva" title="Juegos de Adan y Eva" /></a></li>
+		<li><a href="juegos/cocinar.html"><img src="images/caticon/cooking.png" alt="Juegos de cocinar" title="Juegos de cocinar" /></a></li>
+		<li><a href="juegos/cooperacion.html"><img src="images/caticon/cooperation.png" alt="Juegos de cooperaci&#243;n" title="Juegos de cooperaci&#243;n" /></a></li>
+		<li><a href="juegos/io-juegos.html"><img src="images/caticon/io.png" alt="Juegos de IO" title="Juegos de IO" /></a></li>
+		<li><a href="juegos/objetos-escondidos.html"><img src="images/caticon/hiddenobjects.png" alt="Juegos de objetos escondidos" title="Juegos de objetos escondidos" /></a></li>
+		<li><a href="juegos/gumball.html"><img src="images/caticon/gumball.png" alt="Juegos de gumball" title="Juegos de gumball" /></a></li>
+		<li><a href="juegos/cartoon-network.html"><img src="images/caticon/cartoonnetwork.png" alt="Juegos de Cartoon Network" title="Juegos de Cartoon Network" /></a></li>
+		<li><a href="juegos/scooby-doo.html"><img src="images/caticon/scoobydoo.png" alt="Juegos de Scooby Doo" title="Juegos de Scooby Doo" /></a></li>
+		<li><a href="juegos/bob-esponja.html"><img src="images/caticon/spongebob.png" alt="Juegos de Bob Esponja" title="Juegos de Bob Esponja" /></a></li>
+		<li><a href="juegos/una-casa-de-locos.html"><img src="images/caticon/theloudhouse.png" alt="Juegos de Una Casa de Locos" title="Juegos de Una Casa de Locos" /></a></li>
+		<li><a href="juegos/disney.html"><img src="images/caticon/disney.png" alt="Juegos de Disney" title="Juegos de Disney" /></a></li>
+		<li><a href="juegos/power-rangers.html"><img src="images/caticon/powerrangers.png" alt="Juegos de Power Rangers" title="Juegos de Power Rangers" /></a></li>
+		<li><a href="juegos/torre-de-defensa.html"><img src="images/caticon/towerdefense.png" alt="Juegos de torre de defensa" title="Juegos de torre de defensa" /></a></li>
+		<li><a href="juegos/nickelodeon.html"><img src="images/caticon/nickelodeon.png" alt="Juegos de Nickelodeon" title="Juegos de Nickelodeon" /></a></li>
+		<li><a href="juegos/batman.html"><img src="images/caticon/batman.png" alt="Juegos de Batman" title="Juegos de Batman" /></a></li>
+		<li><a href="juegos/winx.html"><img src="images/caticon/winx.png" alt="Juegos de winx" title="Juegos de winx" /></a></li>
+	</ul>
+</nav>
+	</div>
+	<div class="cl"></div>
+	<div id="main-wrap">
+	<script type="text/javascript">
+		var fs = 0;
+		var storeh = 0;
+		var filew = 432;
+		var fileh = 330;
+		var dw = document.documentElement.clientWidth;
+		var dh = document.documentElement.clientHeight;	
+		var storescroll = "";
+
+		function closeFullscreen(){
+			var tb = document.getElementById('topbar');
+			var gf = document.getElementById('gamefs');	
+			var clf = document.getElementById('close_fullscreen');
+			var gw = document.getElementById('gw');			
+			var rf1 = document.getElementById('relfiles1');		
+			var rf2 = document.getElementById('relfiles2');	
+			var rn = document.getElementById('newrib');		
+			var mm = document.getElementById('menu-main');		
+
+			if(document.getElementById('game_em')){
+				var ge = document.getElementById('game_em');	
+			}
+			if(document.getElementById('game_ob')){
+				var go = document.getElementById('game_ob');	
+			}
+			if(document.getElementById('ratings_report')){	
+				var rr = document.getElementById('ratings_report');
+			}
+												
+			clf.style.display = 'none';	
+			
+			gf.style.position = "relative";
+			gf.style.width = filew + "px";
+			gf.style.height = fileh + "px";
+			gw.style.width = filew + "px";
+			gw.style.height = fileh + "px";	
+			gw.style.marginTop = 0;			
+			gw.style.borderRadius = 0;
+			gw.style.padding = 0;
+
+			if(document.getElementById('ratings_report')){
+				rr.style.borderRadius = 0;
+			}				
+
+			if(document.getElementById('game_em')){
+				ge.style.width = filew + "px";
+				ge.style.height = fileh + "px";	
+				ge.style.marginTop = 0;		
+				ge.style.marginLeft = 0;
+			}
+			if(document.getElementById('game_ob')){
+				go.style.width = filew + "px";
+				go.style.height = fileh + "px";		
+				go.style.marginTop = 0;			
+			}
+			else {
+				gw.style.padding = 0;
+			}
+										
+			rf1.style.display = "block";			
+			rf2.style.display = "block";			
+			mm.style.display = "block";			
+			//rn.style.display = "block";			
+			//tb.style.display = "block";							
+			window.onscroll = storescroll;
+			
+			fs = 0;
+		}					
+
+		function goFullscreenApi(e){
+			if (document.getElementById("game_em"))
+				var t = document.getElementById("game_em");
+			else
+				var t = document.getElementById("gw");
+			t.requestFullscreen?t.requestFullscreen():t.mozRequestFullScreen?t.mozRequestFullScreen():t.msRequestFullscreen?t.msRequestFullscreen():t.webkitRequestFullScreen&&("undefined"!=typeof Element&&void 0!==Element.ALLOW_KEYBOARD_INPUT?t.webkitRequestFullScreen(Element.ALLOW_KEYBOARD_INPUT):t.webkitRequestFullScreen()),"landscape"==e&&(screen.orientation&&screen.orientation.lock?screen.orientation.lock(e):screen.lockOrientation?screen.lockOrientation(e):screen.webkitLockOrientation?screen.webkitLockOrientation(e):screen.mozLockOrientation?screen.mozLockOrientation(e):screen.msLockOrientation&&screen.msLockOrientation(e))
+		}
+
+		function goFullscreen(){
+			var tb = document.getElementById('topbar');
+			var gf = document.getElementById('gamefs');	
+			var gw = document.getElementById('gw');	
+			var rf1 = document.getElementById('relfiles1');
+			var rf2 = document.getElementById('relfiles2');
+			var mm = document.getElementById('menu-main');		
+			var rn = document.getElementById('newrib');	
+			if(document.getElementById('game_em')){
+				var ge = document.getElementById('game_em');	
+				var go = document.getElementById('game_ob');	
+			}
+			if(document.getElementById('ratings_report')){	
+				var rr = document.getElementById('ratings_report');
+			}
+			var clf = document.getElementById('close_fullscreen');	
+			var cw;
+			var ch;
+			var ow;
+			var oh;									
+
+			ch = dh - 25;
+			cw = filew * (ch / fileh);
+
+			if (cw > dw - 110) {
+				cw = dw - 110;
+			}
+			
+			clf.style.display = 'block';			
+			clf.style.position = "absolute";
+			clf.style.zIndex = 999999;	
+
+			gf.style.zIndex = 999999;
+			gf.style.position = "fixed";
+			gf.style.top = 0;
+			gf.style.left = 0;
+			gf.style.width = "100%";
+			gf.style.height = "100%";	
+			gf.style.backgroundColor = "#000000";	
+			
+			gw.style.zIndex = 999999;
+			gw.style.width = (cw) + "px";
+			gw.style.height = (ch) + "px";		
+			gw.style.overflow = "visible";
+			gw.style.marginTop = "5px";
+			gw.style.backgroundColor = "#ffffff";	
+			gw.style.borderRadius = "5px";
+			gw.style.padding = "8px";
+
+			if(document.getElementById('ratings_report')){
+				rr.style.borderRadius = "5px";
+			}
+
+			if(document.getElementById('game_em')){
+				ge.style.width = cw + "px";
+				ge.style.height = ch + "px";			
+				ge.style.position = "relative";						
+				go.style.width = cw + "px";
+				go.style.height = ch + "px";			
+				go.style.position = "relative";						
+			}
+			else{
+				gw.style.width = (cw + 15) + "px";
+				gw.style.height = (ch) + "px";	
+				gw.style.padding = "8px";
+			}
+										
+			rf1.style.display = "none";			
+			rf2.style.display = "none";			
+			mm.style.display = "none";			
+			//rn.style.display = "none";			
+			//tb.style.display = "none";		
+			window.scrollTo(0, 0);
+
+			if(storescroll == "")
+				storescroll = window.onscroll;
+			window.onscroll = function () { window.scrollTo(0, 0); };
+		
+			addEvent(window, "resize", winres);
+			fs = 1;
+		}
+		
+		function winres(){
+			if(fs == 1){
+				dw = document.documentElement.clientWidth;
+				dh = document.documentElement.clientHeight;				
+				goFullscreen();
+			}
+		}
+		
+		var addEvent = function(elem, type, eventHandle) {
+			if (elem == null || typeof(elem) == 'undefined') return;
+			if ( elem.addEventListener ) {
+				elem.addEventListener( type, eventHandle, false );
+			} else if ( elem.attachEvent ) {
+				elem.attachEvent( "on" + type, eventHandle );
+			} else {
+				elem["on"+type]=eventHandle;
+			}
+		};
+	</script>	
+		<div id="sc-game" itemscope itemtype="https://schema.org/Game">
+			<div class="sc-title padded ovh">
+				<a href="https://7juegos.es" class="ttl hid-small">Juegos en línea</a> 
+				<span class="hid-small">&#8250;</span> 
+				<a href="juegos/ed-edd-y-eddy.html" class="ttl hid-small">Juegos de Ed Edd y Eddy</a> 
+				<span class="hid-small">&#8250;</span> 
+				<h1 itemprop="name">Ed, Edd n Eddy Candy Machine Deluxe</h1> 
+			</div>
+			<div class="h5"></div>
+					<div id="gbox1"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2272400294676046"
+     crossorigin="anonymous"></script>
+<!-- Responsive -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2272400294676046"
+     data-ad-slot="7709198158"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+			<div id="gpw">
+					<div class="padded">
+						<div id="favscr">	
+				<div class="fbbb1 fl">
+					<div class="addthis_inline_share_toolbox_jrfq"></div>
+					<div class="a2a_kit a2a_kit_size_28 a2a_default_style">
+					    <a class="a2a_button_facebook"></a>
+					    				            <a class="a2a_button_twitter"></a>
+					    					    <a class="a2a_button_email"></a>
+					    <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+					</div>
+					<script async src="https://static.addtoany.com/menu/page.js"></script>
+				</div>
+								<a href="#" id="open_fullscreen" class="cup fr" title="Pantalla completa" onclick="goFullscreenApi(); return false;"></a>	
+				<a href="#" id="open_big" class="cup fr" title="Agrandar" onclick="goFullscreen(); return false;"></a>	
+				<a id="imgfav" class="cup fr" title="Hacer favorito" onclick="alert('Tienes que iniciar sesión o registro con el fin de acceder a esta función.');">Hacer favorito</a>	
+				<div class="mgdb1 hid-box-x fr">
+										<div class="fr" style="display: block;" id="nfftable">
+						<div class="fbm fl">
+														<a id="nff" title="Fans del juego">1</a>
+						</div>
+						<div class="fbr fl"></div>	
+					</div>
+				</div>	
+				<div class="starsb">
+					<div class="hid-box-2 fl">
+						Tasa:&nbsp;
+					</div>
+					<div class="stars-box mt4 fl">
+												<a onclick="vote(12084, 1)" onmouseover="voteo(0)" onmouseout="votet()" class="votestar star11" id="votstar1"></a>
+						<a onclick="vote(12084, 2)" onmouseover="voteo(1)" onmouseout="votet()" class="votestar star11" id="votstar2"></a>
+						<a onclick="vote(12084, 3)" onmouseover="voteo(2)" onmouseout="votet()" class="votestar star11" id="votstar3"></a>
+						<a onclick="vote(12084, 4)" onmouseover="voteo(3)" onmouseout="votet()" class="votestar star11" id="votstar4"></a>
+						<a onclick="vote(12084, 5)" onmouseover="voteo(4)" onmouseout="votet()" class="votestar star09" id="votstar5"></a>
+						<script language="javascript">
+							var votstrs = ["11", "11", "11", "11", "09"];
+							var vmgs = [document.getElementById("votstar1"), document.getElementById("votstar2"), document.getElementById("votstar3"), document.getElementById("votstar4"), document.getElementById("votstar5")];
+						</script>
+						<script src="/templates/responsive/js/esfavscr.js" type="text/javascript"></script>
+					</div>
+					<div class="rating-box" id="vot_st" itemprop="aggregateRating" itemscope itemtype="https://schema.org/AggregateRating">
+												&nbsp;<span id="rating" itemprop="ratingValue">4.6</span> <span class="bestrating" itemprop="bestRating">5</span> (<span id="votes"><span itemprop="ratingCount">29</span> votos</span>)
+					</div>
+				</div>	
+				<div class="cl"></div>
+			</div>
+			<div class="cl"></div>
+			</div>
+							<div class="ovfv">
+				<!-- Load File -->
+							
+						<div id="b-wrapper" class="ovfv" style="height: 342px;">
+							<div id="game-wrapper" class="ovfv">	
+								<div id="m-wrapper" class="ovfv" style="height: 330px; min-width: 800px;">
+									<div id="gamefs" class="ovfv">	
+																				<script language="javascript">
+											var httpcm = new Array();
+
+											function closeMob(){	
+												var curDateTime = new Date(); 
+															
+												httpcm[curDateTime] = ajaxConstructor();
+												httpcm[curDateTime].open("get", "clmob.php"); 
+												httpcm[curDateTime].onreadystatechange = function()
+												{ 
+													if (httpcm[curDateTime].readyState == 4)
+													{
+														if (httpcm[curDateTime].status == 200 || httpcm[curDateTime].status == 304)
+														{
+														}
+													}
+												}
+												httpcm[curDateTime].send(null);	
+
+											}
+
+											function closeMobile(){
+												var gwd = document.getElementById('gw');
+												var adr = document.getElementById('awrapper');
+												adr.style.display = 'none';
+												gwd.style.display = 'block';	
+												closeMob();
+											}
+										</script>
+										<div id="awrapper" style="display: none; width: 100%; height: 330;">
+											<div class="h10"></div>
+											<img src="/templates/responsive/images/nopla.png" alt="nopla" \>
+											<div class="h20"></div>
+											<div class="h20"></div>
+											<div class="nopla"><b>Parece que está utilizando un bloqueador de anuncios</b><br /><br />Gracias a los anuncios podemos ofrecer juegos gratis.<br/>Permita los anuncios para mostrar su apoyo al sitio.</div>
+											<div class="h20"></div>
+											<div class="h20"></div>
+											<a href="javascript:javascript:void(0)" onClick="javascript:closeMobile()" class="nopla">Los anuncios están permitidos</a>
+										</div>	
+																				<div id="gw" data-gid="12084" style="width: 432px; height: 330px; background-color: #000000;">
+																						<a href="#" onclick="closeFullscreen(); return false;" id="close_fullscreen" title="Cerrar" style="display: none;"></a>	
+												
+											<style>
+	#game_em {
+		width: 432px;
+		height: 330px;
+	}
+</style>
+                <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="https://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="432" height="330" id="game_ob">
+                  <param name="movie" value="https://7juegos.es/files/file/12084-ed-edd-n-eddy-candy-machine-deluxe.swf">
+                  <param name="menu" value="false">
+                  <param name="play" value="true" />
+                  <param name="wmode" value="direct" />
+                  <param name="pluginurl" value="https://www.macromedia.com/go/getflashplayer" />
+                  <param name="allowScriptAccess" value="sameDomain" />
+                  <embed src="https://7juegos.es/files/file/12084-ed-edd-n-eddy-candy-machine-deluxe.swf" wmode="direct" width="432" height="330" pluginurl="https://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" menu="false" id="game_em"></embed>  
+                </object>
+		<script>
+			window.RufflePlayer = window.RufflePlayer || {};
+			window.RufflePlayer.config = {
+			     "autoplay": "on",
+			     "unmuteOverlay": "hidden",
+			     "warnOnUnsupportedContent": false,
+			     "preloader": false,
+			};
+		</script>
+		<script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+										</div>
+									</div>	
+								</div>
+							</div>										
+						</div>	
+							</div>
+				<div class="related" id="relfiles1">	
+						<div class="gm-box" itemscope itemtype="https://schema.org/Game">
+				<a href="juegos/12068-ed-edd-n-eddy-spin-stadium.html"><img src="/files/image/12068-ed-edd-n-eddy-spin-stadium.jpg" class="gm-thumb" alt="Ed, Edd n Eddy Spin Stadium" itemprop="image" /><div class="gm-title" itemprop="name">Ed, Edd n Eddy Spin Stadium</div><div class="game-ribbon ratings-game-ribbon" title="Highscore juego"></div></a>
+			</div>
+			<div class="gm-box" itemscope itemtype="https://schema.org/Game">
+				<a href="juegos/5309-snail-bob-3.html"><img src="/files/image/5309-snail-bob-3.jpg" class="gm-thumb" alt="Snail Bob 3" itemprop="image" /><div class="gm-title" itemprop="name">Snail Bob 3</div><div class="game-ribbon ratings-game-ribbon" title="Highscore juego"></div></a>
+			</div>
+			<div class="gm-box" itemscope itemtype="https://schema.org/Game">
+				<a href="juegos/15502-slide-wood.html"><img src="/files/image/15502-slide-wood.jpg" class="gm-thumb" alt="Slide Wood" itemprop="image" /><div class="gm-title" itemprop="name">Slide Wood</div><div class="game-ribbon ratings-game-ribbon" title="Highscore juego"></div></a>
+			</div>
+			<div class="gm-box hid-box-x" itemscope itemtype="https://schema.org/Game">
+				<a href="juegos/13741-slide-a-lama-online.html"><img src="/files/image/13741-slide-a-lama-online.jpg" class="gm-thumb" alt="Slide a Lama Online" itemprop="image" /><div class="gm-title" itemprop="name">Slide a Lama Online</div></a>
+			</div>
+			<div class="gm-box hid-box-0" itemscope itemtype="https://schema.org/Game">
+				<a href="juegos/13374-teen-titans-go-power-tower.html"><img src="/files/image/13374-teen-titans-go-power-tower.jpg" class="gm-thumb" alt="Teen Titans Go Power Tower" itemprop="image" /><div class="gm-title" itemprop="name">Teen Titans Go Power Tower</div></a>
+			</div>
+			<div class="gm-box hid-box-1" itemscope itemtype="https://schema.org/Game">
+				<a href="juegos/7156-snail-bob-5-love-story.html"><img src="/files/image/7156-snail-bob-5-love-story.jpg" class="gm-thumb" alt="Snail Bob 5 Love Story" itemprop="image" /><div class="gm-title" itemprop="name">Snail Bob 5 Love Story</div><div class="game-ribbon ratings-game-ribbon" title="Highscore juego"></div></a>
+			</div>
+			<div class="cl"></div>
+		</div>									
+		<div class="related" id="relfiles2">	
+						<div class="gm-box" itemscope itemtype="https://schema.org/Game">
+				<a href="juegos/15041-10x10-fill-the-grid.html"><img src="/files/image/15041-10x10-fill-the-grid.jpg" class="gm-thumb" alt="10x10 Fill the Grid" itemprop="image" /><div class="gm-title" itemprop="name">10x10 Fill the Grid</div><div class="game-ribbon ratings-game-ribbon" title="Highscore juego"></div></a>
+			</div>
+			<div class="gm-box" itemscope itemtype="https://schema.org/Game">
+				<a href="juegos/14387-momo-pop.html"><img src="/files/image/14387-momo-pop.jpg" class="gm-thumb" alt="Momo Pop" itemprop="image" /><div class="gm-title" itemprop="name">Momo Pop</div><div class="game-ribbon ratings-game-ribbon" title="Highscore juego"></div></a>
+			</div>
+			<div class="gm-box" itemscope itemtype="https://schema.org/Game">
+				<a href="juegos/12293-henry-danger-crime-travelers.html"><img src="/files/image/12293-henry-danger-crime-travelers.jpg" class="gm-thumb" alt="Henry Danger Crime Travelers" itemprop="image" /><div class="gm-title" itemprop="name">Henry Danger Crime Travelers</div><div class="game-ribbon hot-game-ribbon" title="Juego seleccionado"></div></a>
+			</div>
+			<div class="gm-box hid-box-x" itemscope itemtype="https://schema.org/Game">
+				<a href="juegos/10043-wheely-8-aliens.html"><img src="/files/image/10043-wheely-8-aliens.jpg" class="gm-thumb" alt="Wheely 8 Aliens" itemprop="image" /><div class="gm-title" itemprop="name">Wheely 8 Aliens</div><div class="game-ribbon hot-game-ribbon" title="Juego seleccionado"></div></a>
+			</div>
+			<div class="gm-box hid-box-0" itemscope itemtype="https://schema.org/Game">
+				<a href="juegos/8654-bloons-junior.html"><img src="/files/image/8654-bloons-junior.jpg" class="gm-thumb" alt="Bloons Junior" itemprop="image" /><div class="gm-title" itemprop="name">Bloons Junior</div><div class="game-ribbon ratings-game-ribbon" title="Highscore juego"></div></a>
+			</div>
+			<div class="gm-box hid-box-1" itemscope itemtype="https://schema.org/Game">
+				<a href="juegos/15192-supermarket-sort-and-match.html"><img src="/files/image/15192-supermarket-sort-and-match.jpg" class="gm-thumb" alt="Supermarket Sort and Match" itemprop="image" /><div class="gm-title" itemprop="name">Supermarket Sort and Match</div><div class="game-ribbon ratings-game-ribbon" title="Highscore juego"></div></a>
+			</div>
+			<div class="cl"></div>
+		</div>									
+						<div id="gbox2"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2272400294676046"
+     crossorigin="anonymous"></script>
+<!-- Responsive -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2272400294676046"
+     data-ad-slot="7709198158"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+			
+		<div class="padded" id="tpd1">
+			<div class="h10"></div>
+			<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2272400294676046"
+     crossorigin="anonymous"></script>
+<!-- Responsive -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2272400294676046"
+     data-ad-slot="7709198158"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+			<div class="h5"></div>
+		</div>
+				
+		<div class="h5"></div>
+		<div id="game-info-box">
+						<div class="padded">
+						<div class="sc-title">
+				<h2>Ed, Edd n Eddy Candy Machine Deluxe</h2>
+			</div>					
+						<div class="sc-description">
+								<img src="files/image/12084-ed-edd-n-eddy-candy-machine-deluxe.jpg" alt="Ed, Edd n Eddy Candy Machine Deluxe" class="gm-bigger-thumb fl" itemprop="image" />				Juega con Ed, Edd y Eddy y conecta la fuente con una tubería al objetivo para hacer una máquina de caramelos. Termina la tubería con varios elementos en cada nivel del juego.												<p />
+				<div class="fl key_pack"><div class="key_transp ac fl"><div class="key mouse"></div></div><div class="key_controls fl"> - usa el mouse para jugar</div></div>								<img src="/templates/responsive/images/video_walkthrough_small_button.png" id="video_walkthrough_button_small" class="sm-icon cp ovo" title="Video tutorial" alt="Video tutorial" onclick="window.location='juegos/12084-ed-edd-n-eddy-candy-machine-deluxe.html#video_walkthrough'" />
+								<p />
+								<div class="h10"></div>
+						<div class="sp5"></div>
+		<div class="cont-white-r" id="tags">
+						<a href="juegos/ed-edd-y-eddy.html" title="Juegos de Ed Edd y Eddy" class="tag">ed edd y eddy</a>					<a href="juegos/juegos-de-logica.html" title="Juegos de l&#243;gica" class="tag">juegos de l&#243;gica</a>
+				</div>
+				<div class="h10"></div>
+			</div>
+					
+		</div>
+								<div class="pad-box">
+								</div>
+								<div class="pad-box">
+			<div id="gamewalkthrough" style="display: none;">	
+				<div class="sc-title">
+					<a name="video_walkthrough"></a><h2>Tutorial para Ed, Edd n Eddy Candy Machine Deluxe</h2>
+					<a href="video.html" class="more-link fr">Más</a>
+				</div>					
+				<div class="h5"></div>
+							</div>
+		
+					<div id="sc-info">
+						<div class="sc-title">
+							<h2>Ed, Edd n Eddy Candy Machine Deluxe</h2>
+						</div>					
+						<div class="h5"></div>
+					Juega en linea <strong>Ed, Edd n Eddy Candy Machine Deluxe</strong> en 7juegos.es - sitio web de juegos en linea. 
+					<p/>
+										<strong>Ed, Edd n Eddy Candy Machine Deluxe</strong> es un juego en linea con <strong>ed edd y eddy</strong>, en la categoría Juegos de l&#243;gica.
+					<p/>
+					Puedes jugar al juego <strong>Ed, Edd n Eddy Candy Machine Deluxe</strong> en modo pantalla completa usando el boton de pantalla completa ubicado en la parte superior derecha de la pantalla del juego. Si te gusta este juego puedes calificarlo con una calificacion de uno a cinco usando las estrellas en la descripcion. 				
+					<p/>
+										Registrarse gratis para conectarse para que pueda agregar el juego Ed, Edd n Eddy Candy Machine Deluxe en su Juegos favoritos, utilizando el botón "Hacer favorito",  asi que usted puede encontrarlo mas rapido en su pagina privada de Juegos favoritos.
+																				<p/>Si el juego <strong>Ed, Edd n Eddy Candy Machine Deluxe</strong> no funciona, asegurate de  tener uno de los navegadores Firefox, Chrome, Opera o Edge.  Vuelva a cargar la pagina y espere a que se cargue el juego. Si el juego aun no funciona, puedes notificarnoslo usando el enlace <a href="contactos.html?fid=12084" rel="nofollow">informe juego roto</a> para que podamos intentar arreglarlo.
+										<p/>
+					El juego ha sido jugado 13K veces.
+										</div>
+				</div>
+				<div class="padded">
+					<div id="gbox3"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2272400294676046"
+     crossorigin="anonymous"></script>
+<!-- Responsive -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2272400294676046"
+     data-ad-slot="7709198158"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+					<div class="sc-title">
+						<h2>Últimos eventos de juegos</h2>
+					</div>					
+					<div class="h5"></div>
+								<script language="javascript">		
+				var wall_pn = 1;
+				var wp = 0;
+				var httprh = new Array();	
+
+				function wallPage(p){
+					var curDateTime1 = new Date();									
+					var wh = document.getElementById('wallhistory');
+					var fid = 12084;
+
+					if (p == 0)
+						wall_pn = 1;
+					else
+						wall_pn += p;
+
+					if (p >= 0) {
+						httprh[curDateTime1] = ajaxConstructor();
+
+						httprh[curDateTime1].open("get", "wallpage.php?u=-1&p=" + wall_pn + "&lang=es&wp=" + wp + "&m=" + fid);
+
+						httprh[curDateTime1].onreadystatechange = function()
+						{ 
+							if (httprh[curDateTime1].readyState == 4)
+							{
+								if (httprh[curDateTime1].status == 200 || httprh[curDateTime1].status == 304)
+								{ 
+									var response = httprh[curDateTime1].responseText;
+									if (p == 0)
+										wh.innerHTML = response;
+									else
+										wh.innerHTML += response;
+									if (response == "")
+										document.getElementById('wallmorebut').style.display = "none";
+								}
+							}
+						}
+
+						httprh[curDateTime1].send(null);
+					}
+				}
+			</script>
+			<script type="text/javascript" src="/templates/responsive/js/like.js"></script>
+			<div id="wallhistory">
+			<div class='wall-box'>
+				<div class='wall-left'>
+					<a href='/perfil/12627/Brodes96.html' class="relat" rel='nofollow'><img src='images/noavatar.gif' class='avatar wallavatar posabs' alt='No hay avatar' /></a>
+				</div>
+				<div class='wall-right'>
+					<a href='/perfil/12627/Brodes96.html' class='pu gl1' rel='nofollow'>Brodes96</a> votó con 5 puntos 					<div class='h1'></div>
+					<a class='combox cp mr5 fr' onclick='like(348710, 3);'><img src='templates/responsive/images/like.png' class='wallreply' alt='Me gusta' title='Me gusta' />Me gusta</a><div id='likebox348710' class='like-box hidden'><div class='like-right'></div><div class='like-cont' id='likecont348710'>0</div></div><img src='templates/responsive/images/votfiles_b.png' class='menic' alt='Votación' />  hace 1 año										<div class="cl"></div>
+				</div>
+				<div class="cl"></div>
+			</div>
+			<div class='wall-box'>
+				<div class='wall-left'>
+					<a href='/perfil/12236/Littlekathy.html' class="relat" rel='nofollow'><img src='images/noavatar.gif' class='avatar wallavatar posabs' alt='No hay avatar' /></a>
+				</div>
+				<div class='wall-right'>
+					<a href='/perfil/12236/Littlekathy.html' class='pu gl2' rel='nofollow'>Littlekathy</a> agregó el juego en Juegos favoritos  					<div class='h1'></div>
+					<a class='combox cp mr5 fr' onclick='like(339755, 4);'><img src='templates/responsive/images/like.png' class='wallreply' alt='Me gusta' title='Me gusta' />Me gusta</a><div id='likebox339755' class='like-box'><div class='like-right'></div><div class='like-cont' id='likecont339755'>1</div></div><img src='templates/responsive/images/favfiles_b.png' class='menic' alt='' />  hace 1 año										<div class="cl"></div>
+				</div>
+				<div class="cl"></div>
+			</div>
+			<div class='wall-box'>
+				<div class='wall-left'>
+					<a href='/perfil/12236/Littlekathy.html' class="relat" rel='nofollow'><img src='images/noavatar.gif' class='avatar wallavatar posabs' alt='No hay avatar' /></a>
+				</div>
+				<div class='wall-right'>
+					<a href='/perfil/12236/Littlekathy.html' class='pu gl2' rel='nofollow'>Littlekathy</a> votó con 5 puntos 					<div class='h1'></div>
+					<a class='combox cp mr5 fr' onclick='like(339754, 3);'><img src='templates/responsive/images/like.png' class='wallreply' alt='Me gusta' title='Me gusta' />Me gusta</a><div id='likebox339754' class='like-box hidden'><div class='like-right'></div><div class='like-cont' id='likecont339754'>0</div></div><img src='templates/responsive/images/votfiles_b.png' class='menic' alt='Votación' />  hace 1 año										<div class="cl"></div>
+				</div>
+				<div class="cl"></div>
+			</div>
+			</div>
+					<div class="cl"></div>
+					<div class="sc-title">
+						<h2>Comentarios</h2>					</div>					
+					<div class="h5"></div>
+						<div class="comarea">
+		<script type="text/javascript" src="templates/responsive/js/like.js"></script>
+	<div class="h10"></div>
+	Usted debe se <a href="registrar.html" class="reportbutton">registrar</a> para enviar comentarios.	<div class="h20"></div>
+	</div>
+	<div id="coms">
+													
+	</div>
+					<div class="cl"></div>
+				</div>
+					</div>
+				</div>
+		</div>
+				<div class="padded">
+					<div class="sc-title">
+						<h2>Juegos seleccionados</h2>
+					</div>					
+		</div>
+				<div id="relfiles3">	
+								<div itemscope itemtype="https://schema.org/Game" class="gm-box">
+				<a href="juegos/10078-snow-brawl-fight.html" itemprop="url"><img src="/files/imagelarge/large-10078-snow-brawl-fight.jpg" class="gm-thumb" alt="Snow Brawl Fight" itemprop="image" /><div class="gm-title" itemprop="name">Snow Brawl Fight</div><div class="game-ribbon ratings-game-ribbon" title="Highscore juego"></div></a>
+			</div>
+			<div itemscope itemtype="https://schema.org/Game" class="gm-box">
+				<a href="juegos/13136-winx-club-bloomix-battle.html" itemprop="url"><img src="/files/imagelarge/large-13136-winx-club-bloomix-battle.jpg" class="gm-thumb" alt="Winx Club Bloomix Battle" itemprop="image" /><div class="gm-title" itemprop="name">Winx Club Bloomix Battle</div><div class="game-ribbon hot-game-ribbon" title="Juego seleccionado"></div></a>
+			</div>
+			<div itemscope itemtype="https://schema.org/Game" class="gm-box">
+				<a href="juegos/13018-gumball-bro-squad-2.html" itemprop="url"><img src="/files/imagelarge/large-13018-gumball-bro-squad-2.jpg" class="gm-thumb" alt="Gumball Bro Squad 2" itemprop="image" /><div class="gm-title" itemprop="name">Gumball Bro Squad 2</div><div class="game-ribbon hot-game-ribbon" title="Juego seleccionado"></div></a>
+			</div>
+			<div itemscope itemtype="https://schema.org/Game" class="gm-box hid-box-x">
+				<a href="juegos/15334-football-stars.html" itemprop="url"><img src="/files/imagelarge/large-15334-football-stars.jpg" class="gm-thumb" alt="Football Stars" itemprop="image" /><div class="gm-title" itemprop="name">Football Stars</div><div class="game-ribbon hot-game-ribbon" title="Juego seleccionado"></div></a>
+			</div>
+			<div itemscope itemtype="https://schema.org/Game" class="gm-box hid-box-0">
+				<a href="juegos/15306-vega-mix-3-sea-adventures.html" itemprop="url"><img src="/files/imagelarge/large-15306-vega-mix-3-sea-adventures.jpg" class="gm-thumb" alt="Vega Mix 3 Sea Adventures" itemprop="image" /><div class="gm-title" itemprop="name">Vega Mix 3 Sea Adventures</div><div class="game-ribbon hot-game-ribbon" title="Juego seleccionado"></div></a>
+			</div>
+			<div itemscope itemtype="https://schema.org/Game" class="gm-box hid-box-1">
+				<a href="juegos/12264-gumball-the-remote-fu.html" itemprop="url"><img src="/files/imagelarge/large-12264-gumball-the-remote-fu.jpg" class="gm-thumb" alt="Gumball The Remote Fu" itemprop="image" /><div class="gm-title" itemprop="name">Gumball The Remote Fu</div><div class="game-ribbon hot-game-ribbon" title="Juego seleccionado"></div></a>
+			</div>
+			<div itemscope itemtype="https://schema.org/Game" class="gm-box hid-box-2">
+				<a href="juegos/14968-find-the-nightingale.html" itemprop="url"><img src="/files/imagelarge/large-14968-find-the-nightingale.jpg" class="gm-thumb" alt="Find the Nightingale" itemprop="image" /><div class="gm-title" itemprop="name">Find the Nightingale</div><div class="game-ribbon ratings-game-ribbon" title="Highscore juego"></div></a>
+			</div>
+			<div itemscope itemtype="https://schema.org/Game" class="gm-box hid-box-3">
+				<a href="juegos/15267-bonanza-shooter.html" itemprop="url"><img src="/files/imagelarge/large-15267-bonanza-shooter.jpg" class="gm-thumb" alt="Bonanza Shooter" itemprop="image" /><div class="gm-title" itemprop="name">Bonanza Shooter</div><div class="game-ribbon ratings-game-ribbon" title="Highscore juego"></div></a>
+			</div>
+			<div itemscope itemtype="https://schema.org/Game" class="gm-box hid-box-4">
+				<a href="juegos/11076-back-to-candyland-5-choco-mountain.html" itemprop="url"><img src="/files/imagelarge/large-11076-back-to-candyland-5-choco-mountain.jpg" class="gm-thumb" alt="Back to Candyland 5 Choco Mountain" itemprop="image" /><div class="gm-title" itemprop="name">Back to Candyland 5 Choco Mountain</div><div class="game-ribbon ratings-game-ribbon" title="Highscore juego"></div></a>
+			</div>
+					<div class="cl"></div>
+				</div>
+	</div>
+	<div class="h10"></div>
+	<div id="bottom-box">
+		<nav class="bottom_text">
+			<h3 class="section-heading">Menú breve de juegos</h3>
+			<ul>
+				<li><a href="." class="fl">Inicio</a></li>
+				<a href="presentar.html" class="fl">Anadir juego</a></li>
+				<li><a href="acerca.html" class="fl">Acerca</a></li>
+				<li><a href="contactos.html" class="fl">Contactos</a></li>
+				<li><a href="best-games-ever.html" class="fl" id="bge" rel="nofollow">Best games</a></li>
+			</ul>
+		</nav>
+		<span class="fr">
+                        <small>Juegos en línea - Todos los derechos reservados &copy; 2008 - 2025 <a href="https://7juegos.es" class="bottom-link" title="Juegos en línea">7juegos.es</a></small>
+				
+		</span>
+	</div>
+	<div id="footer">
+	        7juegos.es es un sitio web de internet para los juegos en línea. Aquí se puede jugar muchos juegos gratis en varias categorías, incluyendo juegos de acción, juegos de logica, juegos de torre de defensa, juegos de combate, carreras, juegos de niña, el deporte.<br /><br /><span id="foot-hid">Encuentra los mejores juegos en línea. Nuevos juegos en línea se presentan todos los días. Encontrar juegos sencillos que le gusten. Buscar en las categorías de juegos en línea para sus juegos favoritos.<br /><br />Aquí también se puede encontrar juegos de estrategia, juegos infantiles, juegos de vestir, maquillaje, llevará a hermosos lugares y otros juegos de internet. Jugar juegos en línea con varios héroes, juegos de pelota, juegos de coches, juegos de motos, camiones, juegos de Super Mario, vampiros, robots.<br /><br />Jugar muchos juegos gratis en línea. Juegos en línea son una gran manera para el entretenimiento y el desarrollo de diversas habilidades. Divertirse con nuestros niños seguros y juegos para la familia. Hacemos todo lo posible para mantener el sitio limpio.<br /><br /></span>Todos los logotipos e imágenes utilizadas en este sitio web son marcas comerciales registradas de sus respectivas compañías.		<div class="h20"></div>
+									<div class="fl">
+								<div class="sp3"></div>
+																	<a href="https://6igri.bg/igri/12084-ed-edd-i-eddi-mashina-za-bonboni.html" hreflang="bg"><img src="templates/responsive/images/bgflag.png" alt="bg" class="mr5" /></a> <a href="https://7igri.ru/igri/12084-ed-edd-i-eddi-konfetnaya-mashina.html" hreflang="ru"><img src="templates/responsive/images/ruflag.png" alt="ru" class="mr5" /></a> <a href="https://6games.eu/games/12084-ed-edd-n-eddy-candy-machine-deluxe.html" hreflang="en"><img src="templates/responsive/images/ukflag.png" alt="en" class="mr5" /></a> <a href="https://6spiele.de/spiele/12084-ed-edd-n-eddy-candy-machine-deluxe.html" hreflang="de"><img src="templates/responsive/images/deflag.png" alt="de" class="mr5" /></a> <a href="https://6jeux.fr/jeux/12084-ed-edd-n-eddy-candy-machine-deluxe.html" hreflang="fr"><img src="templates/responsive/images/frflag.png" alt="fr" class="mr5" /></a> <a href="https://7juegos.es/juegos/12084-ed-edd-n-eddy-candy-machine-deluxe.html" hreflang="es"><img src="templates/responsive/images/esflag.png" alt="es" class="mr5" /></a>
+															</div>
+		<a href="https://youtube.com/c/6games"><img src="images/youtube_page.png" class="soclink fr" alt="youtube" /></a>
+		<a href="https://blog.7juegos.es"><img src="images/blog_page.png" class="soclink fr" alt="blog" /></a>
+		<div class="cl"></div>
+	</div>
+</div>
+<script type="text/javascript" cookie-consent="tracking">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-1733652-17', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<script type="text/javascript" src="templates/responsive/js/cookie-consent.js"></script>
+<script type="text/javascript">
+document.addEventListener('DOMContentLoaded', function () {
+	consent();
+});
+function consent() {
+	cookieconsent.run({"notice_banner_type":"simple","consent_type":"implied","palette":"light","language":"es","change_preferences_selector":"changePreferences","cookies_policy_url":"cookies-policy.html"});
+}
+</script>
+<script language="javascript">
+        var httpclc1 = new Array();
+	function update_stat(stat) {
+                var curDT = new Date();   
+		var gW = document.getElementById('gw').style;
+		var aW = document.getElementById('awrapper').style;
+		var t1 = document.getElementById('gbox1');
+		if(stat != 0 && t1.offsetHeight == 0 && stat != 3)
+		{
+			gW.display = 'none';
+			aW.display = 'block';
+		}
+		if (stat == 3 || stat == 4 || stat == 5)
+		{
+               	    httpclc1[curDT] = ajaxConstructor();
+		    httpclc1[curDT].open("get", "upstat.php?f=12084&a=" + stat + "&b=0&c=" + t1.offsetHeight); 
+               	    httpclc1[curDT].onreadystatechange = function()
+               	    { 
+               	            if (httpclc1[curDT].readyState == 4)
+               	            {
+               	                    if (httpclc1[curDT].status == 200 || httpclc1[curDT].status == 304)
+               	                    {               
+               	                    }
+               	            }
+               	    }
+               	    httpclc1[curDT].send(null);     
+		}
+	}
+	var oL = 0;
+	if (window.adSiteLine === undefined) {
+		oL = 1;	
+	} else {
+		if (window.adSiteLine == true)
+			oL = 2;	
+	}	
+	window.addEventListener('load', update_stat(oL));
+</script>
+</body>
+</html>
